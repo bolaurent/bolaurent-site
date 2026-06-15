@@ -21,7 +21,7 @@ jobs:
       - name: Render
         uses: quarto-dev/quarto-actions/render@v2
 
-- name: Commit and push docs
+      - name: Commit and push docs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
