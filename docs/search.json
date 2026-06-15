@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "blog/posts/my-first-post/index.html",
+    "href": "blog/posts/my-first-post/index.html",
+    "title": "My First Post",
+    "section": "",
+    "text": "Hello, world! This is my first post."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bo Laurent",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "My First Post\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\n\n\n\nNo matching items"
+  }
+]

@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Bo Laurent"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: blog/index.qmd
+        text: Blog
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
