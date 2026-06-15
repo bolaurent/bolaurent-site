@@ -11,9 +11,17 @@ website:
       - href: about.qmd
         text: About
       - href: blog/index.qmd
-        text: Blog
+        text: Writing
+      - href: blog/news/index.qmd
+        text: News
+      - href: blog/japanese/index.qmd
+        text: Japanese
+      - href: blog/komonjo/index.qmd
+        text: 古文書
+      - href: blog/intersex/index.qmd
+        text: Intersex
 
 format:
   html:
-    theme: cosmo
+    theme: litera
     css: styles.css

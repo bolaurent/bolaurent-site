@@ -1,7 +1,11 @@
 ---
-title: "Blog"
+title: "Writing"
 listing:
-  contents: posts
+  contents:
+    - news/posts
+    - japanese/posts
+    - komonjo/posts
+    - intersex/posts
   sort: "date desc"
   type: default
 ---
