@@ -4,13 +4,11 @@ date: 2026-06-15
 ---
 
 Emi Koyama [passed away](https://www.facebook.com/paulineparknewyork/posts/im-sorry-to-hear-of-emis-death-from-cancer-heres-what-eli-erlick-wroterest-in-po/10165279496464859/) recently. Emi worked at ISNA from 2001–2002, first as an intern and then as a staff activist. Her output during that period is among the most practically useful and intellectually rigorous content in the ISNA archive.
-Emi Koyama [passed away](https://www.facebook.com/paulineparknewyork/posts/im-sorry-to-hear-of-emis-death-from-cancer-heres-what-eli-erlick-wroterest-in-po/10165279496464859/) recently. Emi worked at ISNA from 2001–2002, first as an intern and then as a staff activist. Her output during that period is among the most practically useful and intellectually rigorous content in the ISNA archive.
 
 ---
 
 ## ★ Primary Work: *Teaching Intersex Issues* (with Lisa Weasel, PhD)
 
-**Links:**
 **Links:**
 - PDF: <https://isna.org/pdf/teaching-intersex-web.pdf>
 
@@ -25,7 +23,7 @@ The PDF is the real gem: it includes an annotated bibliography compiled entirely
 3. Treat intersex people as present in your classrooms rather than hypothetical.
 
 ---
-Koyama, Emi, and Lisa Weasel. “From Social Construction to Social Justice: Transforming How We Teach about Intersexuality.” Women’s Studies Quarterly, vol. 30, no. 3/4, 2002, pp. 169–78. JSTOR, http://www.jstor.org/stable/40003252. Accessed 16 June 2026.
+Koyama, Emi, and Lisa Weasel. "From Social Construction to Social Justice: Transforming How We Teach about Intersexuality." Women's Studies Quarterly, vol. 30, no. 3/4, 2002, pp. 169–78. JSTOR, http://www.jstor.org/stable/40003252. Accessed 16 June 2026.
 
 ---
 
@@ -65,28 +63,13 @@ Even setting aside the curriculum unit, the annotated bibliography Koyama compil
 
 ---
 
-## Notes on the GitHub Repo
-
-The [`thinktandem/isna-vuepress`](https://github.com/thinktandem/isna-vuepress) repo mirrors the full Drupal node structure of isna.org, with 536 numbered node directories under `src/node/` plus named content directories including `src/teaching_kit/`, `src/articles/`, `src/faq/`, etc.
-
-Koyama's content lives primarily in:
-
-| Path | Content |
-|------|---------|
-| `src/teaching_kit/` | Teaching Intersex Issues landing page |
-| `src/node/4/` | "Intersexions" lecture announcement |
-| `src/node/37/` | V-Day endorsement press release |
-| `src/node/53/` | PSU course announcement and syllabus |
-| `src/node/96/` | Teaching kit release announcement |
-| `src/node/152/` | V-Day / Vagina Monologues campaign response |
-
-The site is preserved by [interACT: Advocates for Intersex Youth](https://interactadvocates.org/) as a historical archive. The isna.org URLs above are stable.
+Emi's website [Intersex Initiative](http://www.intersexinitiative.org) remains a valuable historical resource.
 
 ---
-Emi's website [Intersex Initiative](http://www.intersexinitiative.org) remains a valueable historical resource.
----
-
 
 ## About Emi Koyama
 
-Emi Koyama (1975-2026) was a Japanese-American activist, artist, and scholar. After her time at ISNA, she founded and directed **Intersex Initiative (IPDX)** in Portland, Oregon. With fellow activist Betsy Driver, she co-founded **Intersex Awareness Day** in 2003, commemorating the first official demonstration by intersex activists in North America. She is best known outside intersex activism for **"The Transfeminist Manifesto"** (2000), reprinted in multiple transgender studies anthologies. Her personal website and archive is at <https://eminism.org/>.
+Emi Koyama (1975-2026) was a Japanese-American activist, artist, and scholar. After her time at ISNA, she founded and directed **Intersex Initiative (IPDX)** in Portland, Oregon. With fellow activist Betsy Driver, she co-founded **Intersex Awareness Day** in 2003, commemorating the first official demonstration by intersex activists in North America. She is best known outside intersex activism for **"The Transfeminist Manifesto"** (2000), reprinted in multiple transgender studies studies anthologies. Her personal website and archive is at <https://eminism.org/>.
+
+Emi's internship with ISNA was enabled by Robin Mathias, who planned, fundraised, and administered the program.
+

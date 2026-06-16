@@ -22,6 +22,10 @@ website:
         text: 古文書
       - href: blog/intersex/index.qmd
         text: Intersex
+    right:
+      - href: contact.qmd
+        text: Contact
+
 
 format:
   html:
