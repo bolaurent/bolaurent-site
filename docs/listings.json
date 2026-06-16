@@ -9,7 +9,9 @@
   },
   {
     "listing": "/blog/intersex/index.html",
-    "items": []
+    "items": [
+      "/blog/intersex/posts/emi_koyama.html"
+    ]
   },
   {
     "listing": "/blog/komonjo/index.html",
@@ -17,6 +19,8 @@
   },
   {
     "listing": "/blog/index.html",
-    "items": []
+    "items": [
+      "/blog/intersex/posts/emi_koyama.html"
+    ]
   }
 ]
