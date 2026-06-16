@@ -1,0 +1,82 @@
+# Emi Koyama at ISNA — Best Material
+
+Emi Koyama worked at ISNA from 2001–2002, first as an intern and then as a staff activist. Her output during that period is among the most practically useful and intellectually rigorous content in the ISNA archive.
+
+---
+
+## ★ Primary Work: *Teaching Intersex Issues* (with Dr. Lisa Weasel)
+
+**URLs:**
+- Landing page: <https://isna.org/pdf/teaching-intersex-web.pdf>
+- PDF: <https://isna.org/pdf/teaching-intersex-web.pdf>
+
+This is her most substantial ISNA contribution — a full teaching kit created with PSU biologist Lisa Weasel. It contains two one-week units with class plans, readings, discussion questions and activities; a Speakers Handbook with photos and stories from ISNA speakers and advice for fielding student questions; and helpful suggestions for writing about intersex issues usable by instructors and students alike.
+
+The kit was presented by Koyama and Weasel in a workshop titled **"Beyond 'Five Sexes': Centering Voices and Lives of Intersex People in Feminist Classrooms"** at the annual National Women's Studies Association conference.
+
+The PDF is the real gem: it includes an annotated bibliography compiled entirely by Koyama, a classroom survey she conducted with Weasel, and her essay **"From Social Construction to Social Justice: Transforming How We Teach About Intersexuality"** — which includes her guidelines for instructors:
+
+1. Center intersex people's own voices; use first-person narratives as well as academic writings by intersex authors.
+2. Don't exploit intersex existence merely for gender/sex deconstruction — address real-life issues faced by intersex people.
+3. Treat intersex people as present in your classrooms rather than hypothetical.
+
+---
+
+## ★ Lecture: "Intersexions: Mapping Intersex Activism within Progressive Social-Change Movements"
+
+**URL:** <https://isna.org/node/4/>
+
+Koyama presented this lecture at Washington State University as part of their GLBT History Month. The title frames her central theoretical project: how intersex activism connects to and maps onto disability, queer, and feminist movements — a framework she developed throughout her ISNA years.
+
+---
+
+## ★ Press Release & Organizing: V-Day / *Vagina Monologues* Campaign
+
+**URLs:**
+- Campaign response: <https://isna.org/node/152/>
+- V-Day endorsement press release: <https://isna.org/node/37/>
+
+Koyama spearheaded ISNA's response to *The Vagina Monologues*, arguing that V-Day as a global movement against violence against women needed to hold itself accountable for the harms its "fairy tale" segment caused to intersex people. She also authored the joint press release announcing V-Day's formal endorsement of ISNA's mission to end shame, secrecy, and unwanted genital surgeries on intersex children.
+
+This is strong organizing writing — clear, coalition-minded, and exemplary of her ability to bridge feminist anti-violence and intersex advocacy frames.
+
+---
+
+## ★ Curriculum: "Intersexuality: An Interdisciplinary Exploration" (Portland State)
+
+**URL:** <https://isna.org/node/53/>
+
+Koyama taught this course at Portland State University through its student-run Chiron program, believed to be the first college course on intersexuality. The syllabus was made available through ISNA. Worth examining for its pedagogical framework — it predates most academic intersex curricula.
+
+---
+
+## ★ Annotated Bibliography (standalone resource within the Teaching Kit PDF)
+
+**URL:** <https://isna.org/pdf/teaching-intersex-web.pdf>
+
+Even setting aside the curriculum unit, the annotated bibliography Koyama compiled is a standalone resource — a critical survey of the intersex literature as of 2002–2003, with her editorial voice throughout. Compiled and annotated by Koyama; survey data collected with Weasel.
+
+---
+
+## Notes on the GitHub Repo
+
+The [`thinktandem/isna-vuepress`](https://github.com/thinktandem/isna-vuepress) repo mirrors the full Drupal node structure of isna.org, with 536 numbered node directories under `src/node/` plus named content directories including `src/teaching_kit/`, `src/articles/`, `src/faq/`, etc.
+
+Koyama's content lives primarily in:
+
+| Path | Content |
+|------|---------|
+| `src/teaching_kit/` | Teaching Intersex Issues landing page |
+| `src/node/4/` | "Intersexions" lecture announcement |
+| `src/node/37/` | V-Day endorsement press release |
+| `src/node/53/` | PSU course announcement and syllabus |
+| `src/node/96/` | Teaching kit release announcement |
+| `src/node/152/` | V-Day / Vagina Monologues campaign response |
+
+The site is preserved by [interACT: Advocates for Intersex Youth](https://interactadvocates.org/) as a historical archive. The isna.org URLs above are stable.
+
+---
+
+## About Emi Koyama
+
+Emi Koyama (born 1975) is a Japanese-American activist, artist, and scholar. After her time at ISNA, she founded and directed **Intersex Initiative (IPDX)** in Portland, Oregon. With fellow activist Betsy Driver, she co-founded **Intersex Awareness Day** in 2003, commemorating the first official demonstration by intersex activists in North America. She is best known outside intersex activism for **"The Transfeminist Manifesto"** (2000), reprinted in multiple transgender studies anthologies. Her personal website and archive is at <https://eminism.org/>.
