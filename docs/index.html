@@ -194,14 +194,14 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -210,7 +210,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -222,13 +222,133 @@ window.Quarto = {
 </header>
 
 
-<p>Writer and researcher working at the intersection of intersex advocacy, Japanese history, and historical manuscripts.</p>
-<p>I’ve spent decades in the intersex rights movement, and I’m also drawn to the quiet work of reading old Japanese documents — 古文書 — that most people will never see. This site is where those threads live alongside each other.</p>
-<section id="recent-posts" class="level2">
-<h2 class="anchored" data-anchor-id="recent-posts">Recent Posts</h2>
-<div id="listing-recent-posts" class="quarto-listing quarto-listing-container-default">
+<style>
+  .profile-layout {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+
+  .profile-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .profile-sidebar img {
+    width: 220px;
+    height: 280px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 4px;
+  }
+
+  .profile-name {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-top: 0.25rem;
+  }
+
+  .profile-links a {
+    font-size: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 2px 10px;
+    color: inherit;
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+
+  .profile-links a:hover {
+    background: #f0f0f0;
+  }
+
+  .profile-main h2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 0.25rem;
+  }
+
+  .profile-main h2:first-child {
+    margin-top: 0;
+  }
+
+  .profile-main p {
+    line-height: 1.7;
+    margin-bottom: 0.75rem;
+  }
+
+  .edu-entry {
+    margin-bottom: 1rem;
+  }
+
+  .edu-entry strong {
+    display: block;
+    font-weight: 500;
+  }
+
+  .edu-entry .edu-location {
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .edu-entry .edu-degree {
+    font-size: 0.9rem;
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  @media (max-width: 700px) {
+    .profile-layout {
+      grid-template-columns: 1fr;
+    }
+    .profile-sidebar img {
+      width: 180px;
+      height: 220px;
+    }
+  }
+</style>
+
+<div class="profile-layout">
+
+  <div class="profile-sidebar">
+    <img src="photos/bo_laurent_aisdsd_burlingame.jpeg" alt="Bo Laurent speaking at a conference">
+    <p class="profile-name">Bo Laurent</p>
+    <div class="profile-links">
+      <a href="https://www.linkedin.com/in/bolaurent/" target="_blank">LinkedIn</a>
+      <a href="https://x.com/bolaurent" target="_blank">Twitter</a>
+      <a href="./contact.html">Email</a>
+    </div>
+  </div>
+
+  <div class="profile-main">
+
+    <h2 class="anchored">Bio</h2>
+
+    <p>Writer and researcher working at the intersection of intersex advocacy, Japanese history, and historical manuscripts.</p>
+
+    <p>I've spent decades in the intersex rights movement, and I'm also drawn to the quiet work of reading old Japanese documents — 古文書 — that most people will never see. This site is where those threads live alongside each other.</p>
+
+    <h2 class="anchored">Recent Posts</h2>
+
+    <div id="listing-recent-posts" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1781481600000" data-listing-file-modified-sort="1781647650436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="604">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1781481600000" data-listing-file-modified-sort="1781654271272" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="604">
 <div class="thumbnail"><a href="./blog/intersex/posts/emi_koyama.html" class="no-external">
 
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -257,9 +377,12 @@ Jun 15, 2026
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 
+  </div>
+
+</div>
 
 
-</section>
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
