@@ -1,0 +1,32 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/blog/intersex/posts/emi_koyama.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/intersex/posts/emi_koyama.html"
+    ]
+  },
+  {
+    "listing": "/blog/komonjo/index.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/intersex/index.html",
+    "items": [
+      "/blog/intersex/posts/emi_koyama.html"
+    ]
+  },
+  {
+    "listing": "/blog/news/index.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/japanese/index.html",
+    "items": []
+  }
+]
