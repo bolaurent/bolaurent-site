@@ -6,13 +6,11 @@
     ]
   },
   {
-    "listing": "/blog/index.html",
-    "items": [
-      "/blog/intersex/posts/emi_koyama.html"
-    ]
+    "listing": "/blog/japanese/index.html",
+    "items": []
   },
   {
-    "listing": "/blog/komonjo/index.html",
+    "listing": "/blog/news/index.html",
     "items": []
   },
   {
@@ -22,11 +20,13 @@
     ]
   },
   {
-    "listing": "/blog/news/index.html",
+    "listing": "/blog/komonjo/index.html",
     "items": []
   },
   {
-    "listing": "/blog/japanese/index.html",
-    "items": []
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/intersex/posts/emi_koyama.html"
+    ]
   }
 ]

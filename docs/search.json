@@ -42,32 +42,25 @@
     "text": "Community Grazing Cooperative for Wildfire Mitigation\nI’m proud of the neighborhood grazing cooperative that I helped found, to mitigate wildfire danger. You can read about it at A Community Approach to Natural, Sustainable Wildfire Mitigation\n\n\n\nSarah Keiser helps care for one of our lambs\n\n\nThis site holds my writing across those worlds: intersex news and commentary, notes on Japanese language and culture, and explorations of old manuscripts. You can reach me via the contact page."
   },
   {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Writing",
-    "section": "",
-    "text": "Emi Koyama at ISNA — her legacy\n\n\nEmi passed away in June 2026\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "blog/komonjo/index.html",
-    "href": "blog/komonjo/index.html",
-    "title": "古文書",
+    "objectID": "blog/japanese/index.html",
+    "href": "blog/japanese/index.html",
+    "title": "Japanese",
     "section": "",
     "text": "No matching items"
   },
   {
-    "objectID": "blog/intersex/index.html",
-    "href": "blog/intersex/index.html",
-    "title": "Intersex",
+    "objectID": "blog/news/index.html",
+    "href": "blog/news/index.html",
+    "title": "News",
     "section": "",
-    "text": "Emi Koyama at ISNA — her legacy\n\n\nEmi passed away in June 2026\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\n\n\n\nNo matching items"
+    "text": "No matching items"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Bo",
+    "objectID": "blog/posts/my-first-post/index.html",
+    "href": "blog/posts/my-first-post/index.html",
+    "title": "My First Post",
     "section": "",
-    "text": "Your name\n    \n  \n  \n    Your email\n    \n  \n  \n    Message\n    \n  \n\n  \n  \n\n  Send message"
+    "text": "Hello, world! This is my first post."
   },
   {
     "objectID": "blog/intersex/posts/emi_koyama.html",
@@ -119,32 +112,32 @@
     "text": "About Emi Koyama\nEmi Koyama (1975-2026) was a Japanese-American activist, artist, and scholar. After her time at ISNA, she founded and directed Intersex Initiative (IPDX) in Portland, Oregon. With fellow activist Betsy Driver, she co-founded Intersex Awareness Day in 2003, commemorating the first official demonstration by intersex activists in North America. She is best known outside intersex activism for “The Transfeminist Manifesto” (2000), reprinted in multiple transgender studies studies anthologies. Her personal website and archive is at https://eminism.org/.\nEmi’s internship with ISNA was enabled by Robin Mathias, who planned, fundraised, and administered the program."
   },
   {
-    "objectID": "blog/posts/my-first-post/index.html",
-    "href": "blog/posts/my-first-post/index.html",
-    "title": "My First Post",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Bo",
     "section": "",
-    "text": "Hello, world! This is my first post."
+    "text": "Your name\n    \n  \n  \n    Your email\n    \n  \n  \n    Message\n    \n  \n\n  \n  \n\n  Send message"
   },
   {
-    "objectID": "blog/news/index.html",
-    "href": "blog/news/index.html",
-    "title": "News",
+    "objectID": "blog/intersex/index.html",
+    "href": "blog/intersex/index.html",
+    "title": "Intersex",
+    "section": "",
+    "text": "Emi Koyama at ISNA — her legacy\n\n\nEmi passed away in June 2026\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/komonjo/index.html",
+    "href": "blog/komonjo/index.html",
+    "title": "古文書",
     "section": "",
     "text": "No matching items"
   },
   {
-    "objectID": "blog/japanese/index.html",
-    "href": "blog/japanese/index.html",
-    "title": "Japanese",
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Writing",
     "section": "",
-    "text": "No matching items"
-  },
-  {
-    "objectID": "contact-thanks.html",
-    "href": "contact-thanks.html",
-    "title": "Message Sent",
-    "section": "",
-    "text": "Thank you for getting in touch! I’ll get back to you soon.\n← Back to home"
+    "text": "Emi Koyama at ISNA — her legacy\n\n\nEmi passed away in June 2026\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "colophon.html",
@@ -152,5 +145,12 @@
     "title": "Colophon",
     "section": "",
     "text": "This page documents the tools used to build and publish this site.\n\n\n\nTool\nRole\nDetails\n\n\n\n\nQuarto\nStatic site\nSource files are .qmd — markdown + code chunks rendered to HTML via quarto render\n\n\nGitHub Pages\nHosting / CI/CD\nDeployed from the gh-pages branch via GitHub Actions on every commit to main\n\n\nVS Code\nEditor\nQuarto extension provides live preview, chunk execution, and YAML frontmatter validation"
+  },
+  {
+    "objectID": "contact-thanks.html",
+    "href": "contact-thanks.html",
+    "title": "Message Sent",
+    "section": "",
+    "text": "Thank you for getting in touch! I’ll get back to you soon.\n← Back to home"
   }
 ]
