@@ -2,12 +2,15 @@
   {
     "listing": "/index.html",
     "items": [
-      "/blog/intersex/posts/emi_koyama.html"
+      "/blog/posts/learning_kuzushiji.html",
+      "/blog/posts/emi_koyama.html"
     ]
   },
   {
     "listing": "/blog/japanese/index.html",
-    "items": []
+    "items": [
+      "/blog/japanese/posts/learning_kuzushiji.html"
+    ]
   },
   {
     "listing": "/blog/index.html",
@@ -22,11 +25,25 @@
   {
     "listing": "/blog/intersex/index.html",
     "items": [
+      "/blog/japanese/posts/learning_kuzushiji.html",
       "/blog/intersex/posts/emi_koyama.html"
     ]
   },
   {
+<<<<<<< HEAD
     "listing": "/blog/news/index.html",
     "items": []
+=======
+    "listing": "/blog/japanese.html",
+    "items": [
+      "/blog/posts/learning_kuzushiji.html"
+    ]
+  },
+  {
+    "listing": "/blog/intersex.html",
+    "items": [
+      "/blog/posts/emi_koyama.html"
+    ]
+>>>>>>> 5bea1ff (r/photos/images/)
   }
 ]

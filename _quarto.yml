@@ -17,15 +17,9 @@ website:
             text: About Bo
           - href: colophon.qmd
             text: Colophon
-      - href: blog/index.qmd
-        text: Writing
-      - href: blog/news/index.qmd
-        text: News
-      - href: blog/japanese/index.qmd
+      - href: blog/japanese.qmd
         text: Japanese
-      - href: blog/komonjo/index.qmd
-        text: 古文書
-      - href: blog/intersex/index.qmd
+      - href: blog/intersex.qmd
         text: Intersex
     right:
       - href: contact.qmd

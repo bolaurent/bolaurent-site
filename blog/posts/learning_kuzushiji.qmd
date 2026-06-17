@@ -1,6 +1,7 @@
 ---
 title: "Learning to read くずし字 (kuzushiji)"
 date: 2026-06-17
+categories: [japanese, komonjo]
 ---
 
 I'm frustrated when I encounter bits of Japanese written in older orthography
@@ -18,12 +19,16 @@ who can read the older characters has transcribed them into modern
 standard hiragana), because there is a 現代訳 (translation into modern
 Japanese) and even, perhaps, an English version.
 
-I've found a book that satisfies most of these desiderata (no English).
+![Caption text](/images/牛屋雑談.png){.float-end width="250px"}
+
+I've found a book that satisfies all but one of these desiderata (no English).
 牛店雑談・安愚楽鍋 (Gyūten Zōdan: Aguranabe, "Beef-Shop Gossip: The Easygoing Hot-Pot") is a satirical comic fiction (gesaku) by Kanagaki Robun, published in three volumes between 1871 and 1872 — making it one of the earliest works of the Meiji period. Set in a Tokyo beef-hot-pot restaurant, it strings together the overheard conversations of a rotating cast of customers: merchants, former samurai, Buddhist priests, and other social types all awkwardly negotiating the new Westernizing Japan over bowls of gyūnabe.
 
 The genius of the work is its form: there is almost no plot, just dialogue — vivid, funny, and sharply observed. Robun uses each character's speech to skewer the social absurdities of bunmei kaika (civilization and enlightenment), the Meiji slogan that urged Japan to wholesale adopt Western ways. Eating beef, long taboo under Buddhist prohibition, had become a symbol of modernity, and the beef-pot shop was the perfect democratic setting where all ranks had to rub shoulders.
 
 Written in colloquial Edo-Meiji vernacular with heavy use of phonetic kana, the text is a rich document of the language in transition — and a genuinely entertaining read.
+
+![Caption text](/images/牛屋雑談ーbook.jpg){.float-end width="250px"}
 
 Here are some of the tools that will help me (and my tutor Tomoko Aizawa, 
 of the [Nihongo Picnic](https://www.nihongopicnic.com/) online Japanese school) read it.

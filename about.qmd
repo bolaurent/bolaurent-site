@@ -8,7 +8,7 @@ I'm Bo Laurent, based in Northern California.
 
 My most sustained work has been in intersex advocacy. I've been part of this movement since its early days, focused on the rights of people born with intersex variations — particularly around medical decision-making, bodily autonomy, and the harm done by shame, secrecy, and nonconsensual sexual surgeries on children. I founded the Intersex Society of North America in 1993. You can see its archived website at <https://isna.org>. Or visit [InterACT Advocates for Intersex Youth](https://interactadvocates.org) to learn what's happening in that world today.
 
-![AIS Support Group](/photos/AISSG_Group.jpeg){fig-align="center" style="width:100%; border-radius:6px; margin: 1em 0;"}
+![AIS Support Group](/images/AISSG_Group.jpeg){fig-align="center" style="width:100%; border-radius:6px; margin: 1em 0;"}
 
 
 ## Japan and 古文書
@@ -17,7 +17,7 @@ Alongside that, I've developed a deep interest in Japan — its language, its cu
 
 I'm particularly fascinated by the experiences of Japanese who came of age in a feudal society and helped Japan transform itself into a modern nation state in the late 1800s.
 
-![風流てらこ 吉書はじめ けいこの図](/photos/風流てらこ 吉書はじめ けいこの図.jpeg){fig-align="center" style="width:100%; border-radius:6px; margin: 1em 0;"}
+![風流てらこ 吉書はじめ けいこの図](/images/風流てらこ 吉書はじめ けいこの図.jpeg){fig-align="center" style="width:100%; border-radius:6px; margin: 1em 0;"}
 
 
 ## Sonoma County Matsuri Japanese Festival
@@ -25,7 +25,7 @@ I'm particularly fascinated by the experiences of Japanese who came of age in a 
 
 I'm a member of the board of the [Sonoma County Matsuri Japanese Festival](https://www.sonomamatsuri.org/). We hold a fabulous festival in Santa Rosa's Juilliard Park every year on a Sunday in May.
 
-![[Sonoma County Taiko](https://www.sonomacountytaiko.org) perform with fans and taiko drums at the Sonoma County Matsuri Japanese Festival](/photos/festival.jpeg){fig-align="center" style="width:100%; border-radius:6px; margin: 1em 0;"}
+![[Sonoma County Taiko](https://www.sonomacountytaiko.org) perform with fans and taiko drums at the Sonoma County Matsuri Japanese Festival](/images/festival.jpeg){fig-align="center" style="width:100%; border-radius:6px; margin: 1em 0;"}
 
 You can join our (very low volume) [email list](https://sonomamatsuri.us13.list-manage.com/subscribe?u=f5dfcc472f502b24d1d5a2a85&id=4dc6bdd727) to receive notification before our next festival.
 
@@ -33,7 +33,7 @@ You can join our (very low volume) [email list](https://sonomamatsuri.us13.list-
 
 I'm proud of the neighborhood grazing cooperative that I helped found, to mitigate wildfire danger. You can read about it at [A Community Approach to Natural, Sustainable Wildfire Mitigation](https://www.firesafesonoma.org/grazing/)
 
-![[Sarah Keiser](https://www.wildoathollow.com/communitygrazingcooperatives) helps care for one of our lambs](/photos/grazing_husbandry.jpeg){fig-align="center" style="width:100%; border-radius:6px; margin: 1em 0;"}
+![[Sarah Keiser](https://www.wildoathollow.com/communitygrazingcooperatives) helps care for one of our lambs](/images/grazing_husbandry.jpeg){fig-align="center" style="width:100%; border-radius:6px; margin: 1em 0;"}
 
 
 This site holds my writing across those worlds: intersex news and commentary, notes on Japanese language and culture, and explorations of old manuscripts.

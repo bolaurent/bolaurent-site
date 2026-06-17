@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Bo Laurent",
     "section": "",
-    "text": "Bo Laurent\n    \n      LinkedIn\n      Twitter\n      Email\n    \n  \n\n  \n\n    Bio\n\n    Writer and researcher working at the intersection of intersex advocacy, Japanese history, and historical manuscripts.\n\n    I've spent decades in the intersex rights movement, and I'm also drawn to the quiet work of reading old Japanese documents — 古文書 — that most people will never see. This site is where those threads live alongside each other.\n\n    Recent Posts\n\n    \n\n\n\n\n\n\n\n\n\nEmi Koyama at ISNA — her legacy\n\n\nEmi passed away in June 2026\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Bo Laurent\n    \n      LinkedIn\n      Twitter\n      Email\n    \n  \n\n  \n\n    Bio\n\n    Writer and researcher working at the intersection of intersex advocacy, Japanese history, and historical manuscripts.\n\n    I've spent decades in the intersex rights movement, and I'm also drawn to the quiet work of reading old Japanese documents — 古文書 — that most people will never see. This site is where those threads live alongside each other.\n\n    Recent Posts\n\n    \n\n\n\n\n\n\n\n\n\nLearning to read くずし字 (kuzushiji)\n\n\n\n\n\n\njapanese\n\nkomonjo\n\n\n\n\n\n\n\n\n\nJun 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nEmi Koyama at ISNA — her legacy\n\n\nEmi passed away in June 2026\n\n\n\nintersex\n\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -46,7 +46,7 @@
     "href": "blog/japanese/index.html",
     "title": "Japanese",
     "section": "",
-    "text": "No matching items"
+    "text": "Learning to read くずし字 (kuzushiji)\n\n\n\n\n\n\n\n\nJun 17, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/index.html",
@@ -144,7 +144,11 @@
     "href": "blog/japanese/learning_kuzushiji.html",
     "title": "Learning to read くずし字 (kuzushiji)",
     "section": "",
+<<<<<<< HEAD
     "text": "I’m frustrated when I encounter bits of Japanese written in older orthography and cannot read them. Store signs, stone monuments, the text in ukiyo-e. In particular, I’m interested in Meiji history (late 19th century), and I want to be able to read those texts.\nAt first I thought I could use a flash card approach with anki, but I didn’t make much progress with that.\nMy next idea is to find a book that is relatively easier to read. Easier because the text is less elaborately brushed, because the characters are less overlapping, because there is a 翻刻 version available (someone who can read the older characters has transcribed them into modern standard hiragana), because there is a 現代訳 (translation into modern Japanese) and even, perhaps, an English version.\nI’ve found a book that satisfies most of these desiderata (no English). 牛店雑談・安愚楽鍋 (Gyūten Zōdan: Aguranabe, “Beef-Shop Gossip: The Easygoing Hot-Pot”) is a satirical comic fiction (gesaku) by Kanagaki Robun, published in three volumes between 1871 and 1872 — making it one of the earliest works of the Meiji period. Set in a Tokyo beef-hot-pot restaurant, it strings together the overheard conversations of a rotating cast of customers: merchants, former samurai, Buddhist priests, and other social types all awkwardly negotiating the new Westernizing Japan over bowls of gyūnabe.\nThe genius of the work is its form: there is almost no plot, just dialogue — vivid, funny, and sharply observed. Robun uses each character’s speech to skewer the social absurdities of bunmei kaika (civilization and enlightenment), the Meiji slogan that urged Japan to wholesale adopt Western ways. Eating beef, long taboo under Buddhist prohibition, had become a symbol of modernity, and the beef-pot shop was the perfect democratic setting where all ranks had to rub shoulders.\nWritten in colloquial Edo-Meiji vernacular with heavy use of phonetic kana, the text is a rich document of the language in transition — and a genuinely entertaining read.\nHere are some of the tools that will help me (and my tutor Tomoko Aizawa, of the Nihongo Picnic online Japanese school) read it.\n\n\n\nFunction\nAsset\n\n\n\n\nscans of book\nhttps://dglb01.ninjal.ac.jp/ninjaldl/bunken.php?title=aguranabe\n\n\n現代訳\n牛鍋屋で酔っ払いの盗み聞き『牛店雑談　安愚楽鍋』現代語訳\n\n\n現代訳\n仮名垣魯文「安愚楽鍋」現代語訳\n\n\n翻刻\nhttp://hanaha-hannari.jp/emag/data/kanagaki-robun01.html\n\n\nくずし字解読講座（静岡県歴史文化情報センター）\nhttps://www.tosyokan.pref.shizuoka.jp/contents/history/kuzushi.html\n\n\nglossary for 牛屋雑談\n牛店雑談安愚楽鍋用語索引(search used books at &lt;kosho.or.jp&gt;)"
+=======
+    "text": "Learning to read くずし字 (kuzushiji)\n\n\n\n\n\n\n\n\n\n\n\nJun 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nEmi Koyama at ISNA — her legacy\n\n\nEmi passed away in June 2026\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\n\n\n\nNo matching items"
+>>>>>>> 5bea1ff (r/photos/images/)
   },
   {
     "objectID": "colophon.html",
@@ -159,5 +163,92 @@
     "title": "Message Sent",
     "section": "",
     "text": "Thank you for getting in touch! I’ll get back to you soon.\n← Back to home"
+<<<<<<< HEAD
+=======
+  },
+  {
+    "objectID": "blog/japanese/learning_kuzushiji.html",
+    "href": "blog/japanese/learning_kuzushiji.html",
+    "title": "Learning to read くずし字 (kuzushiji)",
+    "section": "",
+    "text": "I’m frustrated when I encounter bits of Japanese written in older orthography and cannot read them. Store signs, stone monuments, the text in ukiyo-e. In particular, I’m interested in Meiji history (late 19th century), and I want to be able to read those texts.\nAt first I thought I could use a flash card approach with anki, but I didn’t make much progress with that.\nMy next idea is to find a book that is relatively easier to read. Easier because the text is less elaborately brushed, because the characters are less overlapping, because there is a 翻刻 version available (someone who can read the older characters has transcribed them into modern standard hiragana), because there is a 現代訳 (translation into modern Japanese) and even, perhaps, an English version.\nI’ve found a book that satisfies all but one of these desiderata (no English). 牛店雑談・安愚楽鍋 (Gyūten Zōdan: Aguranabe, “Beef-Shop Gossip: The Easygoing Hot-Pot”) is a satirical comic fiction (gesaku) by Kanagaki Robun, published in three volumes between 1871 and 1872 — making it one of the earliest works of the Meiji period. Set in a Tokyo beef-hot-pot restaurant, it strings together the overheard conversations of a rotating cast of customers: merchants, former samurai, Buddhist priests, and other social types all awkwardly negotiating the new Westernizing Japan over bowls of gyūnabe.\nThe genius of the work is its form: there is almost no plot, just dialogue — vivid, funny, and sharply observed. Robun uses each character’s speech to skewer the social absurdities of bunmei kaika (civilization and enlightenment), the Meiji slogan that urged Japan to wholesale adopt Western ways. Eating beef, long taboo under Buddhist prohibition, had become a symbol of modernity, and the beef-pot shop was the perfect democratic setting where all ranks had to rub shoulders.\nWritten in colloquial Edo-Meiji vernacular with heavy use of phonetic kana, the text is a rich document of the language in transition — and a genuinely entertaining read.\nHere are some of the tools that will help me (and my tutor Tomoko Aizawa, of the Nihongo Picnic online Japanese school) read it.\n\n\n\nFunction\nAsset\n\n\n\n\nscans of book\nhttps://dglb01.ninjal.ac.jp/ninjaldl/bunken.php?title=aguranabe\n\n\n現代訳\n牛鍋屋で酔っ払いの盗み聞き『牛店雑談　安愚楽鍋』現代語訳\n\n\n現代訳\n仮名垣魯文「安愚楽鍋」現代語訳\n\n\n翻刻\nhttp://hanaha-hannari.jp/emag/data/kanagaki-robun01.html\n\n\nくずし字解読講座（静岡県歴史文化情報センター）\nhttps://www.tosyokan.pref.shizuoka.jp/contents/history/kuzushi.html\n\n\nglossary for 牛屋雑談\n牛店雑談安愚楽鍋用語索引(search used books at &lt;kosho.or.jp&gt;)"
+  },
+  {
+    "objectID": "blog/posts/learning_kuzushiji.html",
+    "href": "blog/posts/learning_kuzushiji.html",
+    "title": "Learning to read くずし字 (kuzushiji)",
+    "section": "",
+    "text": "I’m frustrated when I encounter bits of Japanese written in older orthography and cannot read them. Store signs, stone monuments, the text in ukiyo-e. In particular, I’m interested in Meiji history (late 19th century), and I want to be able to read those texts.\nAt first I thought I could use a flash card approach with anki, but I didn’t make much progress with that.\nMy next idea is to find a book that is relatively easier to read. Easier because the text is less elaborately brushed, because the characters are less overlapping, because there is a 翻刻 version available (someone who can read the older characters has transcribed them into modern standard hiragana), because there is a 現代訳 (translation into modern Japanese) and even, perhaps, an English version.\n\n\n\nCaption text\n\n\nI’ve found a book that satisfies all but one of these desiderata (no English). 牛店雑談・安愚楽鍋 (Gyūten Zōdan: Aguranabe, “Beef-Shop Gossip: The Easygoing Hot-Pot”) is a satirical comic fiction (gesaku) by Kanagaki Robun, published in three volumes between 1871 and 1872 — making it one of the earliest works of the Meiji period. Set in a Tokyo beef-hot-pot restaurant, it strings together the overheard conversations of a rotating cast of customers: merchants, former samurai, Buddhist priests, and other social types all awkwardly negotiating the new Westernizing Japan over bowls of gyūnabe.\nThe genius of the work is its form: there is almost no plot, just dialogue — vivid, funny, and sharply observed. Robun uses each character’s speech to skewer the social absurdities of bunmei kaika (civilization and enlightenment), the Meiji slogan that urged Japan to wholesale adopt Western ways. Eating beef, long taboo under Buddhist prohibition, had become a symbol of modernity, and the beef-pot shop was the perfect democratic setting where all ranks had to rub shoulders.\nWritten in colloquial Edo-Meiji vernacular with heavy use of phonetic kana, the text is a rich document of the language in transition — and a genuinely entertaining read.\n\n\n\nCaption text\n\n\nHere are some of the tools that will help me (and my tutor Tomoko Aizawa, of the Nihongo Picnic online Japanese school) read it.\n\n\n\nFunction\nAsset\n\n\n\n\nscans of book\nhttps://dglb01.ninjal.ac.jp/ninjaldl/bunken.php?title=aguranabe\n\n\n現代訳\n牛鍋屋で酔っ払いの盗み聞き『牛店雑談　安愚楽鍋』現代語訳\n\n\n現代訳\n仮名垣魯文「安愚楽鍋」現代語訳\n\n\n翻刻\nhttp://hanaha-hannari.jp/emag/data/kanagaki-robun01.html\n\n\nくずし字解読講座（静岡県歴史文化情報センター）\nhttps://www.tosyokan.pref.shizuoka.jp/contents/history/kuzushi.html\n\n\nglossary for 牛屋雑談\n牛店雑談安愚楽鍋用語索引(search used books at &lt;kosho.or.jp&gt;)"
+  },
+  {
+    "objectID": "blog/japanese/posts/learning_kuzushiji.html",
+    "href": "blog/japanese/posts/learning_kuzushiji.html",
+    "title": "Learning to read くずし字 (kuzushiji)",
+    "section": "",
+    "text": "I’m frustrated when I encounter bits of Japanese written in older orthography and cannot read them. Store signs, stone monuments, the text in ukiyo-e. In particular, I’m interested in Meiji history (late 19th century), and I want to be able to read those texts.\nAt first I thought I could use a flash card approach with anki, but I didn’t make much progress with that.\nMy next idea is to find a book that is relatively easier to read. Easier because the text is less elaborately brushed, because the characters are less overlapping, because there is a 翻刻 version available (someone who can read the older characters has transcribed them into modern standard hiragana), because there is a 現代訳 (translation into modern Japanese) and even, perhaps, an English version.\nI’ve found a book that satisfies all but one of these desiderata (no English). 牛店雑談・安愚楽鍋 (Gyūten Zōdan: Aguranabe, “Beef-Shop Gossip: The Easygoing Hot-Pot”) is a satirical comic fiction (gesaku) by Kanagaki Robun, published in three volumes between 1871 and 1872 — making it one of the earliest works of the Meiji period. Set in a Tokyo beef-hot-pot restaurant, it strings together the overheard conversations of a rotating cast of customers: merchants, former samurai, Buddhist priests, and other social types all awkwardly negotiating the new Westernizing Japan over bowls of gyūnabe.\nThe genius of the work is its form: there is almost no plot, just dialogue — vivid, funny, and sharply observed. Robun uses each character’s speech to skewer the social absurdities of bunmei kaika (civilization and enlightenment), the Meiji slogan that urged Japan to wholesale adopt Western ways. Eating beef, long taboo under Buddhist prohibition, had become a symbol of modernity, and the beef-pot shop was the perfect democratic setting where all ranks had to rub shoulders.\nWritten in colloquial Edo-Meiji vernacular with heavy use of phonetic kana, the text is a rich document of the language in transition — and a genuinely entertaining read.\nHere are some of the tools that will help me (and my tutor Tomoko Aizawa, of the Nihongo Picnic online Japanese school) read it.\n\n\n\nFunction\nAsset\n\n\n\n\nscans of book\nhttps://dglb01.ninjal.ac.jp/ninjaldl/bunken.php?title=aguranabe\n\n\n現代訳\n牛鍋屋で酔っ払いの盗み聞き『牛店雑談　安愚楽鍋』現代語訳\n\n\n現代訳\n仮名垣魯文「安愚楽鍋」現代語訳\n\n\n翻刻\nhttp://hanaha-hannari.jp/emag/data/kanagaki-robun01.html\n\n\nくずし字解読講座（静岡県歴史文化情報センター）\nhttps://www.tosyokan.pref.shizuoka.jp/contents/history/kuzushi.html\n\n\nglossary for 牛屋雑談\n牛店雑談安愚楽鍋用語索引(search used books at &lt;kosho.or.jp&gt;)"
+  },
+  {
+    "objectID": "blog/japanese.html",
+    "href": "blog/japanese.html",
+    "title": "Japanese",
+    "section": "",
+    "text": "Learning to read くずし字 (kuzushiji)\n\n\n\n\n\n\n\n\nJun 17, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog/posts/emi_koyama.html",
+    "href": "blog/posts/emi_koyama.html",
+    "title": "Emi Koyama at ISNA — her legacy",
+    "section": "",
+    "text": "Emi Koyama passed away recently. Emi worked at ISNA from 2001–2002, first as an intern and then as a staff activist. Her output during that period is among the most practically useful and intellectually rigorous content in the ISNA archive."
+  },
+  {
+    "objectID": "blog/posts/emi_koyama.html#primary-work-teaching-intersex-issues-with-lisa-weasel-phd",
+    "href": "blog/posts/emi_koyama.html#primary-work-teaching-intersex-issues-with-lisa-weasel-phd",
+    "title": "Emi Koyama at ISNA — her legacy",
+    "section": "★ Primary Work: Teaching Intersex Issues (with Lisa Weasel, PhD)",
+    "text": "★ Primary Work: Teaching Intersex Issues (with Lisa Weasel, PhD)\nLinks: - PDF: https://isna.org/pdf/teaching-intersex-web.pdf\nThis is her most substantial ISNA contribution — a full teaching kit created with PSU biologist Lisa Weasel. It contains two one-week units with class plans, readings, discussion questions and activities; a Speakers Handbook with photos and stories from ISNA speakers and advice for fielding student questions; and helpful suggestions for writing about intersex issues usable by instructors and students alike.\nThe kit was presented by Koyama and Weasel in a workshop titled “Beyond ‘Five Sexes’: Centering Voices and Lives of Intersex People in Feminist Classrooms” at the annual National Women’s Studies Association conference.\nThe PDF is the real gem: it includes an annotated bibliography compiled entirely by Koyama, a classroom survey she conducted with Weasel, and her essay From Social Construction to Social Justice: Transforming How We Teach About Intersexuality — which includes her guidelines for instructors:\n\nCenter intersex people’s own voices; use first-person narratives as well as academic writings by intersex authors.\nDon’t exploit intersex existence merely for gender/sex deconstruction — address real-life issues faced by intersex people.\nTreat intersex people as present in your classrooms rather than hypothetical."
+  },
+  {
+    "objectID": "blog/posts/emi_koyama.html#lecture-intersexions-mapping-intersex-activism-within-progressive-social-change-movements",
+    "href": "blog/posts/emi_koyama.html#lecture-intersexions-mapping-intersex-activism-within-progressive-social-change-movements",
+    "title": "Emi Koyama at ISNA — her legacy",
+    "section": "★ Lecture: “Intersexions: Mapping Intersex Activism within Progressive Social-Change Movements”",
+    "text": "★ Lecture: “Intersexions: Mapping Intersex Activism within Progressive Social-Change Movements”\nURL: https://isna.org/node/4/\nKoyama presented this lecture at Washington State University as part of their GLBT History Month. The title frames her central theoretical project: how intersex activism connects to and maps onto disability, queer, and feminist movements — a framework she developed throughout her ISNA years."
+  },
+  {
+    "objectID": "blog/posts/emi_koyama.html#press-release-organizing-v-day-vagina-monologues-campaign",
+    "href": "blog/posts/emi_koyama.html#press-release-organizing-v-day-vagina-monologues-campaign",
+    "title": "Emi Koyama at ISNA — her legacy",
+    "section": "★ Press Release & Organizing: V-Day / Vagina Monologues Campaign",
+    "text": "★ Press Release & Organizing: V-Day / Vagina Monologues Campaign\nURLs: - Campaign response: https://isna.org/node/152/ - V-Day endorsement press release: https://isna.org/node/37/\nKoyama spearheaded ISNA’s response to The Vagina Monologues, arguing that V-Day as a global movement against violence against women needed to hold itself accountable for the harms its “fairy tale” segment caused to intersex people. She also authored the joint press release announcing V-Day’s formal endorsement of ISNA’s mission to end shame, secrecy, and unwanted genital surgeries on intersex children.\nThis is strong organizing writing — clear, coalition-minded, and exemplary of her ability to bridge feminist anti-violence and intersex advocacy frames."
+  },
+  {
+    "objectID": "blog/posts/emi_koyama.html#curriculum-intersexuality-an-interdisciplinary-exploration-portland-state",
+    "href": "blog/posts/emi_koyama.html#curriculum-intersexuality-an-interdisciplinary-exploration-portland-state",
+    "title": "Emi Koyama at ISNA — her legacy",
+    "section": "★ Curriculum: “Intersexuality: An Interdisciplinary Exploration” (Portland State)",
+    "text": "★ Curriculum: “Intersexuality: An Interdisciplinary Exploration” (Portland State)\nURL: https://isna.org/node/53/\nKoyama taught this course at Portland State University through its student-run Chiron program, believed to be the first college course on intersexuality. The syllabus was made available through ISNA. Worth examining for its pedagogical framework — it predates most academic intersex curricula."
+  },
+  {
+    "objectID": "blog/posts/emi_koyama.html#annotated-bibliography-standalone-resource-within-the-teaching-kit-pdf",
+    "href": "blog/posts/emi_koyama.html#annotated-bibliography-standalone-resource-within-the-teaching-kit-pdf",
+    "title": "Emi Koyama at ISNA — her legacy",
+    "section": "★ Annotated Bibliography (standalone resource within the Teaching Kit PDF)",
+    "text": "★ Annotated Bibliography (standalone resource within the Teaching Kit PDF)\nURL: https://isna.org/pdf/teaching-intersex-web.pdf\nEven setting aside the curriculum unit, the annotated bibliography Koyama compiled is a standalone resource — a critical survey of the intersex literature as of 2002–2003, with her editorial voice throughout. Compiled and annotated by Koyama; survey data collected with Weasel.\n\nEmi’s website Intersex Initiative remains a valuable historical resource."
+  },
+  {
+    "objectID": "blog/posts/emi_koyama.html#about-emi-koyama",
+    "href": "blog/posts/emi_koyama.html#about-emi-koyama",
+    "title": "Emi Koyama at ISNA — her legacy",
+    "section": "About Emi Koyama",
+    "text": "About Emi Koyama\nEmi Koyama (1975-2026) was a Japanese-American activist, artist, and scholar. After her time at ISNA, she founded and directed Intersex Initiative (IPDX) in Portland, Oregon. With fellow activist Betsy Driver, she co-founded Intersex Awareness Day in 2003, commemorating the first official demonstration by intersex activists in North America. She is best known outside intersex activism for “The Transfeminist Manifesto” (2000), reprinted in multiple transgender studies studies anthologies. Her personal website and archive is at https://eminism.org/.\nEmi’s internship with ISNA was enabled by Robin Mathias, who planned, fundraised, and administered the program."
+  },
+  {
+    "objectID": "blog/intersex.html",
+    "href": "blog/intersex.html",
+    "title": "Intersex",
+    "section": "",
+    "text": "Emi Koyama at ISNA — her legacy\n\n\nEmi passed away in June 2026\n\n\n\n\n\n\n\n\nJun 15, 2026\n\n\n\n\n\nNo matching items"
+>>>>>>> 5bea1ff (r/photos/images/)
   }
 ]

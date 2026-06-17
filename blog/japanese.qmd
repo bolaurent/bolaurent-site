@@ -3,5 +3,6 @@ title: "Japanese"
 listing:
   contents: posts
   sort: "date desc"
-  type: default
+  include:
+    categories: [japanese]
 ---
