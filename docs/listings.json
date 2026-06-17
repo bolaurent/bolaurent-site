@@ -10,11 +10,7 @@
     "items": []
   },
   {
-    "listing": "/blog/news/index.html",
-    "items": []
-  },
-  {
-    "listing": "/blog/intersex/index.html",
+    "listing": "/blog/index.html",
     "items": [
       "/blog/intersex/posts/emi_koyama.html"
     ]
@@ -24,9 +20,13 @@
     "items": []
   },
   {
-    "listing": "/blog/index.html",
+    "listing": "/blog/intersex/index.html",
     "items": [
       "/blog/intersex/posts/emi_koyama.html"
     ]
+  },
+  {
+    "listing": "/blog/news/index.html",
+    "items": []
   }
 ]
