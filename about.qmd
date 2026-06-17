@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About Bo"
 ---
 
 I'm Bo Laurent, based in Northern California.

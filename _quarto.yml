@@ -10,8 +10,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
+      - text: About
+        menu:
+          - href: about.qmd
+            text: About Bo
+          - href: colophon.qmd
+            text: Colophon
       - href: blog/index.qmd
         text: Writing
       - href: blog/news/index.qmd

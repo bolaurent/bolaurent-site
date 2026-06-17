@@ -9,35 +9,35 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Bo",
     "section": "",
     "text": "I’m Bo Laurent, based in Northern California."
   },
   {
     "objectID": "about.html#intersex-advocacy",
     "href": "about.html#intersex-advocacy",
-    "title": "About",
+    "title": "About Bo",
     "section": "Intersex Advocacy",
     "text": "Intersex Advocacy\nMy most sustained work has been in intersex advocacy. I’ve been part of this movement since its early days, focused on the rights of people born with intersex variations — particularly around medical decision-making, bodily autonomy, and the harm done by shame, secrecy, and nonconsensual sexual surgeries on children. I founded the Intersex Society of North America in 1993. You can see its archived website at https://isna.org. Or visit InterACT Advocates for Intersex Youth to learn what’s happening in that world today.\n\n\n\nAIS Support Group"
   },
   {
     "objectID": "about.html#japan-and-古文書",
     "href": "about.html#japan-and-古文書",
-    "title": "About",
+    "title": "About Bo",
     "section": "Japan and 古文書",
     "text": "Japan and 古文書\nAlongside that, I’ve developed a deep interest in Japan — its language, its culture, and especially its historical documents. 古文書 (komonjo) are old manuscripts, often handwritten in classical scripts that even native Japanese speakers can’t easily read today. I’m learning how to read them.\nI’m particularly fascinated by the experiences of Japanese who came of age in a feudal society and helped Japan transform itself into a modern nation state in the late 1800s.\n\n\n\n風流てらこ 吉書はじめ けいこの図"
   },
   {
     "objectID": "about.html#sonoma-county-matsuri-japanese-festival",
     "href": "about.html#sonoma-county-matsuri-japanese-festival",
-    "title": "About",
+    "title": "About Bo",
     "section": "Sonoma County Matsuri Japanese Festival",
     "text": "Sonoma County Matsuri Japanese Festival\nI’m a member of the board of the Sonoma County Matsuri Japanese Festival. We hold a fabulous festival in Santa Rosa’s Juilliard Park every year on a Sunday in May.\n\n\n\nSonoma County Taiko perform with fans and taiko drums at the Sonoma County Matsuri Japanese Festival\n\n\nYou can join our (very low volume) email list to receive notification before our next festival."
   },
   {
     "objectID": "about.html#community-grazing-cooperative-for-wildfire-mitigation",
     "href": "about.html#community-grazing-cooperative-for-wildfire-mitigation",
-    "title": "About",
+    "title": "About Bo",
     "section": "Community Grazing Cooperative for Wildfire Mitigation",
     "text": "Community Grazing Cooperative for Wildfire Mitigation\nI’m proud of the neighborhood grazing cooperative that I helped found, to mitigate wildfire danger. You can read about it at A Community Approach to Natural, Sustainable Wildfire Mitigation\n\n\n\nSarah Keiser helps care for one of our lambs\n\n\nThis site holds my writing across those worlds: intersex news and commentary, notes on Japanese language and culture, and explorations of old manuscripts. You can reach me via the contact page."
   },
@@ -145,5 +145,12 @@
     "title": "Message Sent",
     "section": "",
     "text": "Thank you for getting in touch! I’ll get back to you soon.\n← Back to home"
+  },
+  {
+    "objectID": "colophon.html",
+    "href": "colophon.html",
+    "title": "Colophon",
+    "section": "",
+    "text": "This page documents the tools used to build and publish this site.\n\n\n\nTool\nRole\nDetails\n\n\n\n\nQuarto\nStatic site\nSource files are .qmd — markdown + code chunks rendered to HTML via quarto render\n\n\nGitHub Pages\nHosting / CI/CD\nDeployed from the gh-pages branch via GitHub Actions on every commit to main\n\n\nVS Code\nEditor\nQuarto extension provides live preview, chunk execution, and YAML frontmatter validation"
   }
 ]

@@ -1,0 +1,11 @@
+---
+title: "Colophon"
+---
+
+This page documents the tools used to build and publish this site.
+
+| Tool | Role | Details |
+|------|------|---------|
+| [Quarto](https://quarto.org) | Static site | Source files are `.qmd` — markdown + code chunks rendered to HTML via `quarto render` |
+| [GitHub Pages](https://pages.github.com) | Hosting / CI/CD | Deployed from the `gh-pages` branch via GitHub Actions on every commit to `main` |
+| [VS Code](https://code.visualstudio.com) | Editor | Quarto extension provides live preview, chunk execution, and YAML frontmatter validation |
