@@ -6,6 +6,7 @@ project:
 
 website:
   title: "Bo Laurent"
+  google-analytics: "G-GSLYJ6M3RE"
   navbar:
     left:
       - href: index.qmd
