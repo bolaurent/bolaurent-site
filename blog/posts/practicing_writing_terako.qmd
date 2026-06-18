@@ -1,0 +1,18 @@
+---
+title: "風流てらこ 吉書はじめ けいこの図"
+date: 2026-06-18
+description: "Edo commoners practicing writing in a terako"
+categories: [japanese, komonjo]
+---
+
+
+![風流てらこ 吉書はじめ けいこの図](/images/風流てらこ吉書はじめ けいこの図.jpeg){fig-align="center" style="width:100%; border-radius:6px; margin: 1em 0;"}
+
+I found this lovely image of Edo commoners practicing writing in a terako, in this case auspicious writing done at the New Year. It was published as an Ukiyo-e (mass produced from wood block color separations) in 1804. The artist is Utagawa Toyokuni I. See [First Calligraphy Class of the New Year at a Fashionable School (Fûryû terako kissho hajime keiko no zu)](https://collections.mfa.org/objects/215638/first-calligraphy-class-of-the-new-year-at-a-fashionable-sch?ctx=b8302d58-71dc-477d-82e3-67b93e44625d&idx=0) at Boston Museum of Fine Arts 
+
+I customized a version of the image for printing (modified contrast and scaled). I got a very nice result by printing this onto matte poster 17x11 at Fedex, for $17.00.
+
+<a href="/files/fuuryu-terakoya.png" download>Download printable image (PNG, 30MB)</a>
+
+The source file I used for the full triptych is at Boston MFA's [Ukiyo-e.org](https://data.ukiyo-e.org/mfa/images/sc215328.jpg). 
+
