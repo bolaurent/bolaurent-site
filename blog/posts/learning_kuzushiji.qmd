@@ -1,6 +1,7 @@
 ---
 title: "Learning to read くずし字 (kuzushiji)"
 date: 2026-06-17
+description: "Sharing my process of learning to read old Japanese"
 categories: [japanese, komonjo]
 ---
 
@@ -36,9 +37,9 @@ of the [Nihongo Picnic](https://www.nihongopicnic.com/) online Japanese school) 
 | Function | Asset |
 | ---------- | ---------- |
 |scans of book|<https://dglb01.ninjal.ac.jp/ninjaldl/bunken.php?title=aguranabe>|
+|scan cleaned up for easier printing|[pdf](/files/牛屋雑談_初編_processed.pdf)|
 |現代訳|[牛鍋屋で酔っ払いの盗み聞き『牛店雑談　安愚楽鍋』現代語訳](https://www.amazon.co.jp/牛鍋屋で酔っ払いの盗み聞き『牛店雑談-安愚楽鍋』現代語訳-仮名垣魯文/dp/B0FD9Q3N28)|
 |現代訳|[仮名垣魯文「安愚楽鍋」現代語訳](https://note.com/kamikochi_takeo/n/n1fe02fcd2ec1)|
 |翻刻|<http://hanaha-hannari.jp/emag/data/kanagaki-robun01.html>|
 |くずし字解読講座（静岡県歴史文化情報センター）|<https://www.tosyokan.pref.shizuoka.jp/contents/history/kuzushi.html>|
-|glossary for 牛屋雑談|牛店雑談安愚楽鍋用語索引(search used books at <kosho.or.jp>)|
-
+|牛店雑談安愚楽鍋用語索引 (glossary for 牛屋雑談)|search used books at [kosho.or.jp](https://www.kosho.or.jp/products/list.php?mode=search&search_only_has_stock=1&search_word=牛店雑談安愚楽鍋用語索引)|

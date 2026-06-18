@@ -1,6 +1,7 @@
 ---
 title: "Emi Koyama at ISNA — her legacy"
 subtitle: "Emi passed away in June 2026"
+description: "Emi Koyama was one of the movement's most distinctive voices. A remembrance of her work and what she meant to intersex advocacy."
 date: 2026-06-15
 categories: [intersex]
 aliases:

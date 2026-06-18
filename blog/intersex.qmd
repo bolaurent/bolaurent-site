@@ -2,7 +2,8 @@
 title: "Intersex"
 listing:
   contents: posts
-  sort: "date desc"
+  type: default
   include:
-      categories: [intersex]
+    categories: [intersex]
+  fields: [image, date, title, description]
 ---
