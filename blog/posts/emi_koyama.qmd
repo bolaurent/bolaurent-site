@@ -5,6 +5,8 @@ date: 2026-06-15
 categories: [intersex]
 aliases:
   - /blog/intersex/posts/emi_koyama.html
+  - /blog/posts/emi_koyama.html
+
 ---
 
 
