@@ -12,6 +12,9 @@ I found this lovely image of Edo commoners practicing writing in a terako, in th
 
 I customized a version of the image for printing (modified contrast and scaled). I got a very nice result by printing this onto matte poster 17x11 at Fedex, for $17.00.
 
+[How to prepare file and print a ukiyo-e at FedEx](/blog/posts/printing-ukiyoe-at-fedex.html)
+
+
 <a href="/files/fuuryu-terakoya.png" download>Download printable image (PNG, 30MB)</a>
 
 The source file I used for the full triptych is at Boston MFA's [Ukiyo-e.org](https://data.ukiyo-e.org/mfa/images/sc215328.jpg). 
