@@ -1,0 +1,28 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/blog/posts/practicing_writing_terako.html",
+      "/blog/posts/learning_kuzushiji.html",
+      "/blog/posts/emi_koyama.html",
+      "/blog/posts/local_paper_covers_grazing.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/intersex.html",
+    "items": [
+      "/blog/posts/emi_koyama.html"
+    ]
+  },
+  {
+    "listing": "/blog/japanese.html",
+    "items": [
+      "/blog/posts/learning_kuzushiji.html",
+      "/blog/posts/practicing_writing_terako.html"
+    ]
+  }
+]
