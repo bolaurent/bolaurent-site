@@ -26,6 +26,8 @@ website:
       - href: blog/intersex.qmd
         text: Intersex
     right:
+      - text: Subscribe
+        href: subscribe.qmd
       - href: contact.qmd
         text: Contact
 

@@ -1,0 +1,62 @@
+---
+title: "Subscribe"
+---
+
+Stay updated on new posts.
+
+
+<style>
+.embeddable-buttondown-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  max-width: 400px;
+}
+
+.embeddable-buttondown-form label {
+  font-weight: 500;
+}
+
+.embeddable-buttondown-form input[type="email"] {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.embeddable-buttondown-form input[type="submit"] {
+  padding: 0.5rem 1.25rem;
+  background: #2c3e50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.embeddable-buttondown-form input[type="submit"]:hover {
+  opacity: 0.85;
+}
+
+.embeddable-buttondown-form p {
+  font-size: 0.8rem;
+  color: #888;
+}
+</style>
+
+```{=html}
+<form
+  action="https://buttondown.com/api/emails/embed-subscribe/bolaurent"
+  method="post"
+  class="embeddable-buttondown-form"
+>
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email" />
+  <input type="submit" value="Subscribe" />
+  <p>
+    <a href="https://buttondown.com/refer/bolaurent" target="_blank">Powered by Buttondown.</a>
+  </p>
+</form>
+```
