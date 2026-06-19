@@ -1,0 +1,8 @@
+---
+title: "Intersex"
+listing:
+  contents: posts
+  sort: "date desc"
+  include:
+      categories: [intersex]
+---

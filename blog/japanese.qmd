@@ -1,0 +1,8 @@
+---
+title: "Japanese"
+listing:
+  contents: posts
+  sort: "date desc"
+  include:
+    categories: [japanese]
+---
