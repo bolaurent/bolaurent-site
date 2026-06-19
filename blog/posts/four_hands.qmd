@@ -1,24 +1,28 @@
 ---
 title: "Four Hands: Between us, a whole reader"
-description: "A meditation on Idle Chatter at the Beef Shop (牛屋雑談)"
+description: "The year Tokyo discovered beef, captured in a bestseller written in cursive almost no one can read now. Two friends decode it across an ocean."
 author: "Bo Laurent"
 date: 2026-06-18
+image: /images/beef_shop_card_trimmed.png
 categories: [japanese, writing, Idle Chatter at the Beef Shop]
 ---
 
 
-In 1871, in a narrow shop near the foreign quarter, a man sits cross-legged on a worn cushion and waits for his beef. An iron pot sweats over a small clay brazier. Inside it the miso broth has begun to tremble; he lays in the thin red slices himself, and the sliced green onions after, and watches the surface go cloudy and fragrant. The smell is new. Only a few years earlier beef was unclean, unthinkable, though birds and fish and for some reason rabbits were fine to eat. Rabbits, now there’s a story. Monks used a bit of linguistic sophistry to claim that rabbits were fowl, and thus ok to eat. Now the whole country was being told that eating beef is the way for Japan, and each Japanese, to grow strong and powerful, to grow Western. Fukuzawa Yukichi, the most-read champion of “civilization and enlightenment” had written a pamphlet arguing that Japanese were unhealthy and listless because they didn’t eat meat, and that this was a national loss. (The pamphlet was underwritten by the beef industry.)
+::: {.column-page}
+[![](/images/beef_shop_wide.png){width="100%"}](/images/beef_shop_wide.png)
+:::
 
-::: {style="float:right; width:300px; margin-left:1em;"}
-[![](/images/beef_shop.png){width="300px"}](/images/beef_shop.png)
-
-<p style="font-size:0.75em; text-align:right;">from the original text 牛屋雑談, 1851</p>
+::: {style="font-size:0.75em; text-align:right;"}
+from 牛店雑談 安愚楽鍋, 1871[^src]
 :::
 
 
-By 1872, even the Emperor will have eaten it. After the Emperor’s beef dinner, the shops will multiply like the rickshaws crowding the new roads. The newly invented rickshaw, was written jin-riki-sha "human-powered car," the same character still used for automobiles today. And that’s exactly what it was: no motor, just legs. By 1877 Tokyo would reportedly have over 550 of these beef shops.
 
-Speaking of the Emperor, even he is new. Not only Emperor Meiji the person, but also the ruling Emperor as institution. Until four years previous, the Emperor stayed cloistered in Kyoto while the Shogun, in Edo had all the worldly power. Even Edo had been renamed; now it was Tokyo.
+In 1871, in a narrow shop near the foreign quarter, a man sits cross-legged on a worn cushion and waits for his beef. An iron pot sweats over a small clay brazier. Inside it the miso broth has begun to tremble; he lays in the thin red slices himself, and the sliced green onions after, and watches the surface go cloudy and fragrant. The smell is new. Only a few years earlier beef was unclean, unthinkable, though birds and fish and for some reason rabbits were fine to eat. Rabbits, now there’s a story. Monks used a bit of linguistic sophistry to claim that rabbits were fowl, and thus ok to eat. Now the whole country was being told that eating beef is the way for Japan, and each Japanese, to grow strong and powerful, to grow Western. Fukuzawa Yukichi, the most-read champion of “civilization and enlightenment” had written a pamphlet arguing that Japanese were unhealthy and listless because they didn’t eat meat, and that this was a national loss. (The pamphlet was underwritten by the beef industry.)
+
+By 1872, even the Emperor will have eaten it, and after that imperial dinner beef shops will multiply like the rickshaws already crowding the new roads. The rickshaw, newly invented, is written *jin-riki-sha*, "human-powered car." That same character, sha, will still be used to write automobile in the 21st century. But for now that's all it is: no motor, just legs. By 1877, Tokyo will reportedly have over 550 beef shops.
+
+Speaking of the Emperor, even he is new. Not only Emperor Meiji the person, but also the ruling Emperor as institution. Until four years previous, the Emperor stayed cloistered in Kyoto while the Shogun, in Edo, had all the worldly power. Even Edo has been renamed; now it is Tokyo.
 
 They sat in the oldest possible way, folded cross-legged on the floor, the way their fathers and grandfathers had sat. But they ate the most modern, scandalous, future-tasting thing on offer. Chairs hadn’t yet arrived.
 
@@ -26,12 +30,14 @@ The shop is loud. On the menu board is imported French champagne (“san-pan”)
 
 I know all this because Tomoko and I are reading the book these very people might have been quoted in. *Idle Chatter at the Beef Shop* was a runaway bestseller from that exact year, built out of nothing but this chatter. The trouble is that, on my own, I cannot read a single line of it.
 
-The characters are written in a flowing cursive hand, in shapes that fell out of use just over one hundred years ago. Japan’s intense drive to modernize came even for their writing system. Very few Japanese today can read this book, though it was a hit only 155 years ago. A character I think I recognize melts halfway down the column into something else entirely. A *no* becomes a smear; the smear becomes, on closer look, three words I didn't know were hiding there. We move one phrase at a time, sometimes one stroke at a time. Together we guess, backtrack, read aloud, sounding like two amateurs trying to figure out how to assemble IKEA furniture.
+The characters are written in a flowing cursive hand whose shapes would fall out of use by 1900, as Japan’s drive to modernize reached even its writing system. Very few Japanese today can read this book, though it was a hit only 155 years ago. A character I think I recognize melts halfway down the column into something else entirely. A *no* becomes a smear; the smear becomes, on closer look, three words I didn't know were hiding there. We move one phrase at a time, sometimes one stroke at a time. Together we guess, backtrack, read aloud, sounding like two amateurs trying to figure out how to assemble IKEA furniture.
 
 And it is the most fun I have had all week.
 
-I sit at my desk in Sonoma County; she sits at hers in Germany; between us hangs a pattern of brushstrokes from 1871 that neither of us can quite make out. She offers a reading, I offer a worse one, then the right one comes to her in a flash and we both start laughing. For an hour this morning we laughed almost the whole way through. At the dandy in the book, at the irony that I sometimes could read what she, Japanese, could not. At the pun in the author’s name on the cover. It is written with some characters that don’t make any sense to either of us. Then it hits her. She sounds it out, “doh-rone-ken”. The cover claims the author was “some drunk”, but using the *English* word pronounced with a heavy Japanese accent. 
+I sit at my desk in Sonoma County; she sits at hers in Germany; between us hangs a pattern of brushstrokes from 1871 that neither of us can quite make out. She offers a reading, I offer a worse one, then the right one comes to her in a flash and we both start laughing. For an hour this morning we laughed almost the whole way through. At the dandy in the book, at the irony that I sometimes could read what she, Japanese, could not. At the pun in the author’s name on the cover. It is written with three characters that don’t make any sense to either of us. Then she sounds it out — “doh-ron-ken” — and it hits her. The cover credits the book to “some drunk,” the *English* word drunken spelled out as though it were Japanese. 
 
-We are decoding a vanished world together, badly and joyfully, and I leave each session lighter than I arrived.
+We are decoding a vanished world together, haltingly, joyfully. I leave each session lighter than I arrived.
 
 The men in that shop wanted to taste the future. I only want to read about them — and to keep laughing with Tomoko as we make our slow way toward them.
+
+[^src]: [Image](https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/katei/document/8567865d-b045-43f6-a61e-1ec06ca79449) courtesy of the University of Tokyo General Library (霞亭文庫), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).

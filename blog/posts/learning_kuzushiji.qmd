@@ -36,7 +36,7 @@ of the [Nihongo Picnic](https://www.nihongopicnic.com/) online Japanese school) 
 
 | Function | Asset |
 | ---------- | ---------- |
-|scans of book|<https://dglb01.ninjal.ac.jp/ninjaldl/bunken.php?title=aguranabe>|
+|scans of book|[University of Tokyo General Library (霞亭文庫)](https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/katei/document/8567865d-b045-43f6-a61e-1ec06ca79449)|
 |scan cleaned up for easier printing|[pdf](/files/牛屋雑談_初編_processed.pdf)|
 |現代訳|[牛鍋屋で酔っ払いの盗み聞き『牛店雑談　安愚楽鍋』現代語訳](https://www.amazon.co.jp/牛鍋屋で酔っ払いの盗み聞き『牛店雑談-安愚楽鍋』現代語訳-仮名垣魯文/dp/B0FD9Q3N28)|
 |現代訳|[仮名垣魯文「安愚楽鍋」現代語訳](https://note.com/kamikochi_takeo/n/n1fe02fcd2ec1)|
