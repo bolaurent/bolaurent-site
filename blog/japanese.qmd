@@ -1,9 +1,0 @@
----
-title: "Japanese"
-listing:
-  contents: posts
-  type: default
-  include:
-    categories: [japanese]
-  fields: [image, date, title, description]
----

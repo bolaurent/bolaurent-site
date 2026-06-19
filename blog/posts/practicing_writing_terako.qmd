@@ -10,12 +10,45 @@ categories: [japanese, komonjo]
 
 I found this lovely image of Edo commoners practicing writing in a terako, in this case auspicious writing done at the New Year. It was published as an Ukiyo-e (mass produced from wood block color separations) in 1804. The artist is Utagawa Toyokuni I. See [First Calligraphy Class of the New Year at a Fashionable School (Fûryû terako kissho hajime keiko no zu)](https://collections.mfa.org/objects/215638/first-calligraphy-class-of-the-new-year-at-a-fashionable-sch?ctx=b8302d58-71dc-477d-82e3-67b93e44625d&idx=0) at Boston Museum of Fine Arts 
 
-I customized a version of the image for printing (modified contrast and scaled). I got a very nice result by printing this onto matte poster 17x11 at Fedex, for $17.00.
 
-[How to prepare file and print a ukiyo-e at FedEx](/blog/posts/printing-ukiyoe-at-fedex.html)
+::: {style="float:right; width:250px; margin-left:1em;"}
+[![](/images/yamamoto-kuzushiji-book.png){width="250px"}](https://www.amazon.co.jp/-/en/古文書を楽しく読む-よくわかる「くずし字」-見分け方のポイント-新版-コツがわかる本/dp/4780422620/ref=sr_1_1?crid=MZK88RTS6L13&dib=eyJ2IjoiMSJ9.r1BOq2bLT1zEtfeORjSfNjLawxlcNp2PCVI8aYXuiGAnq_cUpW6taajyHqZrqJNrhCqFsJj5rbXaumx6VAgQfyaK7UQChoTe2zGW2Xn8CBbZluNxQfTKcaMI3SoPGRpLkmwx2zYtabvrqjz9FIoeHbarIOEfsoEIGittBfELJXqmQqXFw3Oyp1I2xVnSBiZfMavEII5WPegBFqn083_qNMBys_g1R_lJ-n6-jtzi7TQ.1KLYb3nkv83b3C15X4UKjVg8_j4lakOYXNEcMhs31LE&dib_tag=se&keywords=よくわかるくずし字&qid=1781807346&sprefix=よくわかるくずし字%2Caps%2C152&sr=8-1)
+:::
 
 
-<a href="/files/fuuryu-terakoya.png" download>Download printable image (PNG, 30MB)</a>
+I first saw just one panel of this art in the book 古文書を楽しく読む! よくわかる「くずし字」 見分け方のポイント 新版 (コツがわかる本!).
+
+I customized a version of the image for printing (modified contrast and scaled). I got a very nice result by printing this onto matte poster 17x11 at Fedex, for $17.00. If you want to do this too, read [How to prepare file and print a ukiyo-e at FedEx](/blog/posts/printing-ukiyoe-at-fedex.html)
+
+
+If you would like to print the file I prepared, <a href="/files/fuuryu-terakoya.png" download>Download the printable image file (PNG, 30MB)</a>
 
 The source file I used for the full triptych is at Boston MFA's [Ukiyo-e.org](https://data.ukiyo-e.org/mfa/images/sc215328.jpg). 
+
+
+## About the ukiyo-e original
+
+
+Claude looked at the image and said it identified these colors:
+
+Here's your color list as bullets:
+
+- Black (outlines, hair, inkstones, text boxes) — keyblock
+- Gray-blue (many kimono, the dominant cool tone)
+- Purple-gray (several kimono, distinct from the blue-gray)
+- Green (multiple kimono, fairly saturated)
+- Red/coral (collar linings, accents — very consistent)
+- Orange (the woven hat, some accents)
+- Yellow/ochre (the yellow-green kimono lower right, wood tones)
+- Tan/flesh (skin tones)
+- Pink (hair ornaments, scattered floral accents)
+- Dark navy/black-blue (the black kimono with white pattern, lower right — distinct from pure black)
+- Brown (wooden desks, boxes)
+- Blue-gray for text area background (the pale ground of the title cartouche at top)
+
+That's roughly 12 distinct ink colors, which means approximately 12 blocks per sheet × 3 sheets = ~36 blocks for the triptych — plus the keyblock, so ~39 total.
+
+That said, a skilled printer could achieve some of these (the browns, the wood tones) by overprinting yellow over red, or blue over yellow for green. So the actual block count may be closer to 10 blocks per sheet, or ~33 total.
+
+Claude's best estimate: 30–39 woodblocks for the complete triptych.
 

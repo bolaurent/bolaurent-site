@@ -43,3 +43,4 @@ of the [Nihongo Picnic](https://www.nihongopicnic.com/) online Japanese school) 
 |翻刻|<http://hanaha-hannari.jp/emag/data/kanagaki-robun01.html>|
 |くずし字解読講座（静岡県歴史文化情報センター）|<https://www.tosyokan.pref.shizuoka.jp/contents/history/kuzushi.html>|
 |牛店雑談安愚楽鍋用語索引 (glossary for 牛屋雑談)|search used books at [kosho.or.jp](https://www.kosho.or.jp/products/list.php?mode=search&search_only_has_stock=1&search_word=牛店雑談安愚楽鍋用語索引)|
+

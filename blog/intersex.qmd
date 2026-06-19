@@ -1,9 +1,0 @@
----
-title: "Intersex"
-listing:
-  contents: posts
-  type: default
-  include:
-    categories: [intersex]
-  fields: [image, date, title, description]
----
