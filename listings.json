@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/blog/posts/chris_north_wellcome.html",
       "/blog/posts/four_hands.html",
       "/blog/posts/practicing_writing_terako.html",
       "/blog/posts/learning_kuzushiji.html",
@@ -13,5 +14,21 @@
   {
     "listing": "/blog/index.html",
     "items": []
+  },
+  {
+    "listing": "/blog/intersex.html",
+    "items": [
+      "/blog/posts/chris_north_wellcome.html",
+      "/blog/posts/emi_koyama.html"
+    ]
+  },
+  {
+    "listing": "/blog/japanese.html",
+    "items": [
+      "/blog/posts/four_hands.html",
+      "/blog/posts/practicing_writing_terako.html",
+      "/blog/posts/learning_kuzushiji.html",
+      "/blog/posts/printing-ukiyoe-at-fedex.html"
+    ]
   }
 ]
