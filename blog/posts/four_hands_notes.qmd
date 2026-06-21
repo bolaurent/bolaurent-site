@@ -13,7 +13,7 @@ I wrote a meditation on studying the kuzushiji text of 牛屋雑談: [Four Hands
 woodblock-printed fascicles through moveable type, pocket editions, 
 and eventually electronic text.
 ^[Wetherall, William. "Kanagaki Robun's Aguranabe." *Yosha Bunko*, 
-2008. https://www.yoshabunko.com/nishikie/articles/Aguranabe.html]
+2008. <https://www.yoshabunko.com/nishikie/articles/Aguranabe.html>. Accessed June 21, 2026.]
 
 Donald Keene translated parts of 牛屋雑談. 
 ^[Kanagaki Robun. "The Beefeater." Trans. Donald Keene. In 
@@ -23,48 +23,50 @@ New York: Grove Press, 1956, pp. 31–33.] I found a scan at <https://www1.udel.
 Customers at early Meiji beef shops sat on tatami, not chairs.
 ^[Interior scene depicted in Kanagaki Robun, *Aguranabe*, vol. 1 
 (Seishidō, 1871). Reproduced in Nippon.com, 
-https://www.nippon.com/en/features/c03911/]
+<https://www.nippon.com/en/features/c03911/>. Accessed June 21, 2026.]
 
 Fukuzawa Yukichi's 1870 pamphlet *Nikushoku no setsu* urged Japanese readers 
 to eat beef on grounds of health and national strength. 
 ^[Fukuzawa Yukichi. "On Eating Meat." 1870. Trans. Michael Bourdaghs. 
-https://www.bourdaghs.com/fukuzawa.htm]
+<https://www.bourdaghs.com/fukuzawa.htm>. Accessed June 21, 2026.]
 
-Fukuzawa Yukichi's 1870 pamphlet *Nikushoku no setsu* was commissioned 
-by the Tsukiji Gyūba Company, a beef and dairy concern.^[Synapse: 
-Medical Humanities at Yale. "Transformed Food and Dietary Style in 
-Modern Japan (1870s)." February 2023. 
-https://medicalhealthhumanities.com/2023/02/13/transformed-food-and-dietary-style-in-modern-japan-1870s/]
+Fukuzawa Yukichi's 1870 pamphlet *Nikushoku no setsu* urged Japanese readers 
+to eat beef on grounds of health and national strength. 
+^[福沢諭吉。「肉食之説」1870年。青空文庫。
+<https://www.aozora.gr.jp/cards/000296/files/47343_42900.html>. 
+2026年6月21日閲覧。Trans. Michael Bourdaghs as "On Eating Meat." 
+<https://www.bourdaghs.com/fukuzawa.htm>. Accessed June 21, 2026.]
 
 In Japan, beef was not widely eaten before the Meiji period.^[Wikipedia contributors. 
 "History of Meat Consumption in Japan." *Wikipedia*, April 2026. 
-https://en.wikipedia.org/wiki/History_of_meat_consumption_in_Japan]
+<https://en.wikipedia.org/wiki/History_of_meat_consumption_in_Japan>. Accessed June 21, 2026.]
 
 Before 1872, ice in Japan was imported from Boston, a journey of some 
 six months. Domestic ice first came to market in 1872, when Nakagawa Kahei 
 began shipping ice from Hokkaido to Yokohama.^[Sakuraco. "Kakigori: Unlocking 
-the Secrets of the Shaved Ice Delight." *Sakuraco Blog*, 
-https://sakura.co/blog/kakigori-unlocking-the-secrets-of-the-shaved-ice-delight]
+the Secrets of the Shaved Ice Delight." *Sakuraco Blog*. 
+<https://sakura.co/blog/kakigori-unlocking-the-secrets-of-the-shaved-ice-delight>. Accessed June 21, 2026.]
 
 In January 1872, the emperor ate beef publicly, effectively ending 
 a twelve-century imperial prohibition on consuming meat.^[Wikipedia 
 contributors. "History of Meat Consumption in Japan." *Wikipedia*, 
-April 2026. https://en.wikipedia.org/wiki/History_of_meat_consumption_in_Japan]
+April 2026. <https://en.wikipedia.org/wiki/History_of_meat_consumption_in_Japan>. Accessed June 21, 2026.]
 
 By 1877, Tokyo reportedly had over 550 beef shops.^[Nippon.com. 
 "Human-Animal Ties: Japanese Takes in Both Life and Death." 
-January 2026. https://www.nippon.com/en/features/c03911/]
+January 2026. <https://www.nippon.com/en/features/c03911/>. Accessed June 21, 2026.]
 
 The rickshaw was invented in 1869 and had only just entered production 
 when *Aguranabe* was published. It was possible only after the Meiji 
 government lifted the Tokugawa-era ban on wheeled vehicles.^[Wikipedia 
 contributors. "Rickshaw." *Wikipedia*, 2026. 
-https://en.wikipedia.org/wiki/Rickshaw]
+<https://en.wikipedia.org/wiki/Rickshaw#Japan>. Accessed June 21, 2026.]
 
 Very few Japanese today can read this book, though it was a hit 
-only 155 years ago.^[The Center for Open Data in the Humanities 
-(CODH) estimates that fewer than 0.01% of Japanese people can 
-read kuzushiji. See: Center for Open Data in the Humanities. 
-"KuroNet Kuzushiji Recognition Service." 
-http://codh.rois.ac.jp/kuronet/]
-
+only 155 years ago.^[Kuzushiji was removed from the Japanese 
+elementary school curriculum in 1900. Lamb, Alex. "How Machine 
+Learning Can Help Unlock the World of Ancient Japan." *The Gradient*, 
+November 17, 2019. <https://thegradient.pub/machine-learning-ancient-japan/>. 
+Accessed June 21, 2026. See also: Center for Open Data in the Humanities 
+(CODH). "KuroNet Kuzushiji Recognition Service." 
+<https://codh.rois.ac.jp/kuronet/>. Accessed June 21, 2026.]
