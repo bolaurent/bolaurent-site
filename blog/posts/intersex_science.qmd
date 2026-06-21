@@ -1,0 +1,135 @@
+---
+title: "Reading the Surgeons' Own Numbers"
+subtitle: "Methodological naïveté in the intersex genitoplasty outcomes literature"
+date: 2026-06-21
+categories: [intersex]
+draft: true
+format:
+  html:
+    toc: true
+    toc-depth: 2
+---
+
+A useful way to assess a clinical specialty is not to ask what it claims but to read its
+own outcome papers and notice what they count as success, who does the counting, and when.
+On that test, the surgical literature on feminizing genitoplasty for intersex / DSD
+conditions—published overwhelmingly in urology journals—does not read as the work of
+authors fluent in research design or statistics. The problem is not a scattering of weak
+papers; it is that the field's standard way of measuring "success" is built on a series of
+methodological choices that would make a first-year epidemiology student laugh.
+
+A single paper makes the point cleanly.
+
+## A representative specimen
+
+Gosalbez and colleagues, in the *Journal of Urology*, asked in their title whether an
+established surgical technique was now "obsolete."[^gosalbez] The evidence offered for that
+comparative claim was a retrospective series of **eleven children**, all operated on by a
+**single surgeon**, with follow-up running from three months to five years (mean 2.5).
+Children were operated on as young as three months of age. The headline result was that the
+cosmetic appearance was, in the authors' phrasing, "superior to that achieved with previous
+techniques"—a judgment rendered by the operating surgeon, on his own work, with no control
+group, no blinding, no validated instrument, and no patient-reported measure.
+
+Every element of that study is broken in a recognizable way:
+
+- **The outcome is mis-defined.** The endpoint is the *appearance* of the genitals, not the
+  function of the adult who will inhabit them. Sexual sensation, orgasmic capacity, comfort
+  with penetration, the need for further surgery, and—above all—the patient's own
+  retrospective judgment are the outcomes that matter, and none can be observed in a
+  three-year-old.
+- **The assessor is conflicted and unblinded.** The surgeon grades his own cosmetic result.
+  There is no independent examiner and no role for the patient.
+- **The design cannot support the claim.** A descriptive, uncontrolled, single-surgeon case
+  series of eleven is being used to make a *comparative superiority* claim against an
+  established technique. That is a category error, not a small one.
+- **The timing guarantees the wrong answer.** Follow-up ends before puberty and long before
+  sexual debut, so the study is structurally incapable of observing its own most important
+  endpoints. The authors acknowledge the need for longer follow-up in a sentence—and publish
+  the superiority claim anyway.
+
+This is not an outlier dredged up to be unfair. It ran in the flagship journal of the
+specialty, and the pattern it exemplifies persists.
+
+## The pattern persists, with statistics added
+
+A more recent, more ambitious effort—an eleven-site prospective study by Bernabé and
+colleagues, again in a urology journal—shows the same conceptual frame dressed in slightly
+more methodological apparatus.[^bernabe] Across all sites the cohort was **27 children**.
+The primary cosmetic outcome was, once again, appearance at 12 months, "as rated by surgeons
+and parents." The patient—the one person who will live in the body and is the only valid
+judge of most of what matters—does not appear as an assessor.
+
+The statistical handling is its own tell. Genital appearance was scored on a **4-point
+Likert scale**, and the investigators then applied **paired *t*-tests** to those ratings to
+show that surgeons and parents agreed. Applying an interval-scale, parametric test to a
+4-point ordinal scale, in *n* = 27, to demonstrate agreement between the two
+non-independent parties least able to assess the outcome, is a compact illustration of the
+whole problem: the wrong test, on the wrong scale, answering the wrong question.
+
+## The contrast that proves it was a choice
+
+The decisive point is that none of this was unavoidable. In the same era and the same
+patient population, a different group of investigators—largely gynecologists and the
+Creighton–Liao–Minto collaboration, with at least one urology group joining—did the
+straightforward things the surgical series omit: define a real outcome, wait until it can be
+observed, and use independent or patient-reported assessment.
+
+When they did, the picture inverted. Alizai and colleagues examined girls *after* puberty
+and found clitoral surgical outcomes unsatisfactory in a substantial fraction, including in
+cases operated by named specialist pediatric urologists, with most patients needing further
+vaginal surgery for comfortable intercourse.[^alizai] Creighton, Minto, and Steele, using
+objective anatomical and cosmetic assessment at adolescence, found cosmetic results poor in
+roughly two-fifths of patients and a near-universal requirement for further
+treatment.[^creighton2001] Minto and colleagues went further still, running a cross-sectional
+study *with a comparison group* and validated sexual-function measures, and found that
+clitoral surgery was associated with worse sexual outcomes.[^minto2003] Crouch and colleagues
+documented reduced genital sensation on objective testing.[^crouch2008]
+
+Same operations, same diagnoses, same decades. The only variable that changed was the
+quality of the method—and with it, the conclusion. That is what makes the naïveté
+diagnosable rather than merely unfortunate: the tools to do it properly existed and were in
+use down the hall. The surgical-outcomes literature largely did not reach for them.
+
+## The strongest defense—and why it falls short
+
+The fair counterargument is that 12-month cosmesis is a legitimate *early* safety and
+feasibility endpoint; that long-term follow-up in rare, geographically scattered conditions
+is genuinely hard; and that authors label these reports "preliminary." All true. But a
+preliminary safety report does not license a title asking whether a rival technique is
+"obsolete," nor a literature that has, for decades, allowed infant cosmetic appearance to
+stand in for the success of an irreversible operation whose stakes are adult sexual function
+and bodily self-determination. The difficulty of long-term follow-up is an argument for
+*caution about operating*, not for measuring the easy thing and calling it an outcome.
+
+## Why the method is not separable from the ethics
+
+The recurring choice—surgeon-judged appearance, in childhood, without the patient—encodes an
+assumption about what the surgery is *for*: making genitals look acceptable to adults, rather
+than serving the future adult's function and consent. The methodological weakness and the
+ethical objection are the same fact seen from two sides. A field that had defined its
+outcomes around the patient could not have measured success this way; a field that measures
+success this way has already decided whose judgment counts.
+
+## At a glance
+
+| Study | Journal | Design / *n* | Who judged | When | "Success" defined as | Finding |
+|---|---|---|---|---|---|---|
+| Gosalbez 2005[^gosalbez] | J Urol | Retrospective case series, single surgeon, *n* = 11 | Operating surgeon | 3 mo–5 yr (mean 2.5) | Cosmetic appearance | "Superior" to prior technique |
+| Bernabé 2018[^bernabe] | J Pediatr Urol | 11-site prospective, *n* = 27 | Surgeons + parents | 12 months | Cosmetic appearance (4-pt Likert) | Surgeons & parents "satisfied" |
+| Alizai 1999[^alizai] | J Urol | Examination under anesthesia, *n* = 14 | Multidisciplinary team | After puberty | Anatomic + functional adequacy | Frequently unsatisfactory; reoperation usual |
+| Creighton 2001[^creighton2001] | Lancet | Objective outcome study, *n* = 44 | Independent assessment | Adolescence | Objective cosmesis + anatomy | Poor in ~41%; further surgery near-universal |
+| Minto 2003[^minto2003] | Lancet | Cross-sectional, **with comparison group**, validated measures | Patient-reported | Adulthood | Sexual function | Clitoral surgery → worse outcomes |
+| Crouch 2008[^crouch2008] | J Urol | Objective sensory testing | Independent + patient | Adulthood | Genital sensation | Reduced sensitivity |
+
+[^gosalbez]: Gosalbez R, Castellan M, Ibrahim E, DiSandro M, Labbie A. New concepts in feminizing genitoplasty—is the Fortunoff flap obsolete? *J Urol.* 2005;174(6):2350–2353; discussion 2353. PMID 16280841. doi:10.1097/01.ju.0000180419.62193.78
+
+[^bernabe]: Bernabé KJ, Nokoff NJ, Galan D, Felsen D, Aston CE, Austin P, Baskin L, Chan YM, Cheng EY, Diamond DA, et al. Preliminary report: surgical outcomes following genitoplasty in children with moderate to severe genital atypia. *J Pediatr Urol.* 2018;14(2):157.e1–157.e8. PMID 29398588. doi:10.1016/j.jpurol.2017.11.019
+
+[^alizai]: Alizai NK, Thomas DF, Lilford RJ, Batchelor AG, Johnson N. Feminizing genitoplasty for congenital adrenal hyperplasia: what happens at puberty? *J Urol.* 1999;161(5):1588–1591. PMID 10210421
+
+[^creighton2001]: Creighton SM, Minto CL, Steele SJ. Objective cosmetic and anatomical outcomes at adolescence of feminising surgery for ambiguous genitalia done in childhood. *Lancet.* 2001;358(9276):124–125. doi:10.1016/S0140-6736(01)05343-0
+
+[^minto2003]: Minto CL, Liao LM, Woodhouse CRJ, Ransley PG, Creighton SM. The effect of clitoral surgery on sexual outcome in individuals who have intersex conditions with ambiguous genitalia: a cross-sectional study. *Lancet.* 2003;361(9365):1252–1257
+
+[^crouch2008]: Crouch NS, Liao LM, Woodhouse CRJ, Conway GS, Creighton SM. Sexual function and genital sensitivity following feminizing genitoplasty for congenital adrenal hyperplasia. *J Urol.* 2008;179(2):634–638

@@ -1,0 +1,213 @@
+---
+title: "Changelog entry generator"
+description: "Tool for generating changelog post files."
+toc: false
+---
+
+```{=html}
+<style>
+  .cg-wrap { padding: 1rem 0; }
+  .cg-section { margin-bottom: 1.5rem; }
+  label { font-size: 13px; color: #666; display: block; margin-bottom: 6px; }
+  textarea, input[type=text] { width: 100%; box-sizing: border-box; font-family: inherit; font-size: 14px; padding: 8px 10px; border: 1px solid #ddd; border-radius: 6px; }
+  textarea { resize: vertical; min-height: 100px; }
+  .row { display: flex; gap: 12px; }
+  .row > div { flex: 1; }
+  .tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px; }
+  .tag { font-size: 12px; padding: 4px 10px; border-radius: 6px; border: 1px solid #ddd; cursor: pointer; background: #fff; color: #666; user-select: none; }
+  .tag.selected { background: #e8f0fe; color: #1a56db; border-color: #a4bffa; }
+  .output-box { background: #f8f8f6; border-radius: 8px; border: 1px solid #e0e0e0; padding: 1rem 1.25rem; position: relative; margin-top: 0.5rem; }
+  .output-box pre { margin: 0; font-family: monospace; font-size: 12px; white-space: pre-wrap; color: #222; line-height: 1.6; }
+  .filename { font-size: 12px; color: #888; margin-bottom: 6px; font-family: monospace; }
+  .btn-row { display: flex; gap: 8px; margin-top: 1rem; }
+  .btn-primary { padding: 8px 18px; font-size: 13px; border-radius: 6px; border: 1px solid #ccc; cursor: pointer; background: #fff; color: #222; }
+  .btn-primary:hover { background: #f5f5f5; }
+  .btn-copy { padding: 5px 12px; font-size: 12px; border-radius: 6px; border: 1px solid #ccc; cursor: pointer; background: #fff; color: #666; position: absolute; top: 10px; right: 10px; }
+  .btn-copy:hover { background: #f5f5f5; }
+  .mode-toggle { display: flex; border: 1px solid #ddd; border-radius: 6px; overflow: hidden; margin-bottom: 1.5rem; width: fit-content; }
+  .mode-btn { padding: 6px 16px; font-size: 13px; border: none; cursor: pointer; background: #fff; color: #666; }
+  .mode-btn.active { background: #e8f0fe; color: #1a56db; }
+  .hidden { display: none; }
+  .hint { font-size: 12px; color: #999; margin-top: 4px; }
+  .generated { margin-top: 1.5rem; }
+</style>
+
+<div class="cg-wrap">
+  <div class="mode-toggle">
+    <button class="mode-btn active" id="btn-describe" onclick="setMode('describe')">Describe changes</button>
+    <button class="mode-btn" id="btn-gitlog" onclick="setMode('gitlog')">Paste git log</button>
+  </div>
+
+  <div id="mode-describe">
+    <div class="cg-section">
+      <div class="row">
+        <div>
+          <label>Date</label>
+          <input type="text" id="entry-date" placeholder="YYYY-MM-DD" />
+        </div>
+        <div>
+          <label>Slug (short, hyphenated)</label>
+          <input type="text" id="entry-slug" placeholder="e.g. four-hands-essay" />
+        </div>
+      </div>
+    </div>
+
+    <div class="cg-section">
+      <label>Category</label>
+      <div class="tags" id="cat-tags">
+        <span class="tag selected" onclick="toggleTag(this)">content</span>
+        <span class="tag" onclick="toggleTag(this)">design</span>
+        <span class="tag" onclick="toggleTag(this)">infrastructure</span>
+        <span class="tag" onclick="toggleTag(this)">fix</span>
+        <span class="tag" onclick="toggleTag(this)">Japanese</span>
+        <span class="tag" onclick="toggleTag(this)">intersex</span>
+      </div>
+    </div>
+
+    <div class="cg-section">
+      <label>What changed?</label>
+      <textarea id="entry-desc" placeholder="e.g. Published 'Four Hands' essay about reading Aguranabe with Tomoko. Added contact form. Fixed broken link in colophon."></textarea>
+      <div class="hint">One change or several — plain language is fine.</div>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn-primary" onclick="generate()">Generate entry</button>
+    </div>
+  </div>
+
+  <div id="mode-gitlog" class="hidden">
+    <div class="cg-section">
+      <label>Paste git log output</label>
+      <textarea id="gitlog-input" style="min-height: 140px; font-family: monospace; font-size: 12px;" placeholder="e.g.
+abc1234 Add Four Hands essay
+def5678 Fix broken changelog link
+ghi9012 Update subscribe page copy"></textarea>
+      <div class="hint">Any format works — <code>git log --oneline</code>, full log, or copied commit messages.</div>
+    </div>
+    <div class="cg-section">
+      <div class="row">
+        <div>
+          <label>Date for this entry</label>
+          <input type="text" id="gitlog-date" placeholder="YYYY-MM-DD" />
+        </div>
+        <div>
+          <label>Slug</label>
+          <input type="text" id="gitlog-slug" placeholder="e.g. june-updates" />
+        </div>
+      </div>
+    </div>
+    <div class="cg-section">
+      <label>Category</label>
+      <div class="tags" id="cat-tags-git">
+        <span class="tag selected" onclick="toggleTag(this)">content</span>
+        <span class="tag" onclick="toggleTag(this)">design</span>
+        <span class="tag" onclick="toggleTag(this)">infrastructure</span>
+        <span class="tag" onclick="toggleTag(this)">fix</span>
+        <span class="tag" onclick="toggleTag(this)">Japanese</span>
+        <span class="tag" onclick="toggleTag(this)">intersex</span>
+      </div>
+    </div>
+    <div class="btn-row">
+      <button class="btn-primary" onclick="generateFromGit()">Generate entry</button>
+    </div>
+  </div>
+
+  <div class="generated hidden" id="output-area">
+    <div class="filename" id="output-filename"></div>
+    <div class="output-box">
+      <button class="btn-copy" onclick="copyOutput()">Copy</button>
+      <pre id="output-content"></pre>
+    </div>
+    <div class="btn-row">
+      <button class="btn-primary" id="btn-download">Download .qmd</button>
+    </div>
+    <div class="hint" style="margin-top: 8px;">Move the downloaded file to <code>changelog/posts/</code> in your repo.</div>
+  </div>
+</div>
+
+<script>
+  let currentMode = 'describe';
+
+  function setMode(m) {
+    currentMode = m;
+    document.getElementById('mode-describe').classList.toggle('hidden', m !== 'describe');
+    document.getElementById('mode-gitlog').classList.toggle('hidden', m !== 'gitlog');
+    document.getElementById('btn-describe').classList.toggle('active', m === 'describe');
+    document.getElementById('btn-gitlog').classList.toggle('active', m === 'gitlog');
+    document.getElementById('output-area').classList.add('hidden');
+  }
+
+  function toggleTag(el) { el.classList.toggle('selected'); }
+
+  function getSelectedTags(id) {
+    return Array.from(document.querySelectorAll('#' + id + ' .tag.selected')).map(t => t.textContent.trim());
+  }
+
+  function todayStr() { return new Date().toISOString().slice(0, 10); }
+
+  function autoSlug(text) {
+    return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40);
+  }
+
+  function buildQmd(date, slug, cats, title, body) {
+    const catYaml = cats.length ? '\ncategories:\n' + cats.map(c => '  - ' + c).join('\n') : '';
+    return `---\ntitle: "${title}"\ndate: ${date}${catYaml}\n---\n\n${body}`;
+  }
+
+  function generate() {
+    const date = document.getElementById('entry-date').value.trim() || todayStr();
+    const rawSlug = document.getElementById('entry-slug').value.trim();
+    const desc = document.getElementById('entry-desc').value.trim();
+    const cats = getSelectedTags('cat-tags');
+    if (!desc) { alert('Please describe what changed.'); return; }
+    const slug = rawSlug || autoSlug(desc.split(/[.!\n]/)[0]);
+    const filename = date + '-' + slug + '.qmd';
+    const lines = desc.split(/\n|\.(?=\s|$)/).map(l => l.trim()).filter(Boolean);
+    const title = lines[0].length > 60 ? lines[0].slice(0, 57) + '…' : lines[0];
+    const body = lines.length === 1
+      ? lines[0] + '.'
+      : lines.map(l => '- ' + l.replace(/\.$/, '') + '.').join('\n');
+    showOutput(filename, buildQmd(date, slug, cats, title, body));
+  }
+
+  function generateFromGit() {
+    const raw = document.getElementById('gitlog-input').value.trim();
+    const date = document.getElementById('gitlog-date').value.trim() || todayStr();
+    const rawSlug = document.getElementById('gitlog-slug').value.trim();
+    const cats = getSelectedTags('cat-tags-git');
+    if (!raw) { alert('Please paste your git log.'); return; }
+    const lines = raw.split('\n')
+      .map(l => l.replace(/^[a-f0-9]{4,40}\s+/i, '').replace(/^\*\s+/, '').trim())
+      .filter(l => l.length > 2 && !/^(merge|Merge)/i.test(l));
+    const title = lines[0].length > 60 ? lines[0].slice(0, 57) + '…' : lines[0];
+    const slug = rawSlug || (date + '-updates');
+    const filename = date + '-' + slug + '.qmd';
+    const body = lines.map(l => '- ' + l.charAt(0).toUpperCase() + l.slice(1).replace(/\.$/, '') + '.').join('\n');
+    showOutput(filename, buildQmd(date, slug, cats, title, body));
+  }
+
+  function showOutput(filename, content) {
+    document.getElementById('output-filename').textContent = 'changelog/posts/' + filename;
+    document.getElementById('output-content').textContent = content;
+    document.getElementById('output-area').classList.remove('hidden');
+    const btn = document.getElementById('btn-download');
+    btn.onclick = () => {
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(new Blob([content], { type: 'text/plain' }));
+      a.download = filename;
+      a.click();
+    };
+  }
+
+  function copyOutput() {
+    navigator.clipboard.writeText(document.getElementById('output-content').textContent).then(() => {
+      const btn = document.querySelector('.btn-copy');
+      btn.textContent = 'Copied!';
+      setTimeout(() => { btn.textContent = 'Copy'; }, 1500);
+    });
+  }
+
+  document.getElementById('entry-date').value = todayStr();
+  document.getElementById('gitlog-date').value = todayStr();
+</script>
+```
