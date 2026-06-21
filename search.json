@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Bo Laurent",
     "section": "",
-    "text": "Bo Laurent\n    \n      LinkedIn\n      Twitter\n      Email\n    \n  \n\n  \n\n    Bio\n\n    Writer and researcher working at the intersection of intersex advocacy, Japanese history, and historical manuscripts.\n\n    I've spent decades in the intersex rights movement, and I'm also drawn to the quiet work of reading old Japanese documents — 古文書 — that most people will never see. This site is where those threads live alongside each other.\n\n    Recent Posts\n\n    \n\n\n\n\n\n\n\n\n\nChris North: Coming home to myself\n\n\n\n\n\n\nintersex\n\n\n\nWellcome Trust has published some wonderful graphic stories by Chris North about his life as an intersex man\n\n\n\n\n\nJun 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nFour Hands: Between us, a whole reader\n\n\n\n\n\n\njapanese\n\nwriting\n\nIdle Chatter at the Beef Shop\n\n\n\nThe year Tokyo discovered beef, in a bestseller almost no one can read now. Two friends decode it across an ocean.\n\n\n\n\n\nJun 18, 2026\n\n\nBo Laurent\n\n\n\n\n\n\n\n\n\n\n\n\n風流てらこ 吉書はじめ けいこの図\n\n\n\n\n\n\njapanese\n\nkomonjo\n\n\n\nEdo commoners practicing writing in a terako\n\n\n\n\n\nJun 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nLearning to read くずし字 (kuzushiji)\n\n\n\n\n\n\njapanese\n\nkomonjo\n\n\n\nSharing my process of learning to read old Japanese\n\n\n\n\n\nJun 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nEmi Koyama at ISNA — her legacy\n\n\nEmi passed away in June 2026\n\n\n\nintersex\n\n\n\nEmi Koyama was one of the movement’s most distinctive voices. A remembrance of her work and what she meant to intersex advocacy.\n\n\n\n\n\nJun 15, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Bo Laurent\n    \n      LinkedIn\n      Twitter\n      Email\n    \n  \n\n  \n\n    Bio\n\n    Writer and researcher working at the intersection of intersex advocacy, Japanese history, and historical manuscripts.\n\n    I've spent decades in the intersex rights movement, and I'm also drawn to the quiet work of reading old Japanese documents — 古文書 — that most people will never see. This site is where those threads live alongside each other.\n\n    Recent Posts\n\n    \n\n\n\n\n\n\n\n\n\nFour Hands: Historical notes\n\n\n\n\n\n\njapanese\n\nwriting\n\nIdle Chatter at the Beef Shop\n\n\n\nI wrote a meditation on studying the kuzushiji text of 牛屋雑談. These are the citations that support the historical facts in that essay.\n\n\n\n\n\nJun 20, 2026\n\n\nBo Laurent\n\n\n\n\n\n\n\n\n\n\n\n\nChris North: Coming home to myself\n\n\n\n\n\n\nintersex\n\n\n\nWellcome Trust has published some wonderful graphic stories by Chris North about his life as an intersex man\n\n\n\n\n\nJun 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nFour Hands: Between us, a whole reader\n\n\n\n\n\n\njapanese\n\nwriting\n\nIdle Chatter at the Beef Shop\n\n\n\nThe year Tokyo discovered beef, in a bestseller almost no one can read now. Two friends decode it across an ocean.\n\n\n\n\n\nJun 18, 2026\n\n\nBo Laurent\n\n\n\n\n\n\n\n\n\n\n\n\n風流てらこ 吉書はじめ けいこの図\n\n\n\n\n\n\njapanese\n\nkomonjo\n\n\n\nEdo commoners practicing writing in a terako\n\n\n\n\n\nJun 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nLearning to read くずし字 (kuzushiji)\n\n\n\n\n\n\njapanese\n\nkomonjo\n\n\n\nSharing my process of learning to read old Japanese\n\n\n\n\n\nJun 17, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "subscribe.html",
@@ -21,11 +21,18 @@
     "text": "This page documents the tools used to build and publish this site.\n\n\n\nTool\nRole\nDetails\n\n\n\n\nQuarto\nStatic site\nSource files are .qmd — markdown + code chunks rendered to HTML via quarto render\n\n\nGitHub Pages\nHosting / CI/CD\nDeployed from the gh-pages branch via GitHub Actions on every commit to main\n\n\nVS Code\nEditor\nQuarto extension provides live preview, chunk execution, and YAML frontmatter validation"
   },
   {
+    "objectID": "changelog/posts/2026-06-20-changelog.html",
+    "href": "changelog/posts/2026-06-20-changelog.html",
+    "title": "Launched changelog",
+    "section": "",
+    "text": "Added a changelog page with RSS feed to track site updates."
+  },
+  {
     "objectID": "blog/japanese.html",
     "href": "blog/japanese.html",
     "title": "Japanese",
     "section": "",
-    "text": "Four Hands: Between us, a whole reader\n\n\nThe year Tokyo discovered beef, in a bestseller almost no one can read now. Two friends decode it across an ocean.\n\n\n\n\n\nJun 18, 2026\n\n\nBo Laurent\n\n\n\n\n\n\n\n\n\n\n\n\n風流てらこ 吉書はじめ けいこの図\n\n\nEdo commoners practicing writing in a terako\n\n\n\n\n\nJun 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nLearning to read くずし字 (kuzushiji)\n\n\nSharing my process of learning to read old Japanese\n\n\n\n\n\nJun 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nPrint a Ukiyo-e at FedEx\n\n\nHow to Find, Prepare, and Print a Ukiyo-e at FedEx\n\n\n\n\n\nJun 5, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Four Hands: Historical notes\n\n\nI wrote a meditation on studying the kuzushiji text of 牛屋雑談. These are the citations that support the historical facts in that essay.\n\n\n\n\n\nJun 20, 2026\n\n\nBo Laurent\n\n\n\n\n\n\n\n\n\n\n\n\nFour Hands: Between us, a whole reader\n\n\nThe year Tokyo discovered beef, in a bestseller almost no one can read now. Two friends decode it across an ocean.\n\n\n\n\n\nJun 18, 2026\n\n\nBo Laurent\n\n\n\n\n\n\n\n\n\n\n\n\n風流てらこ 吉書はじめ けいこの図\n\n\nEdo commoners practicing writing in a terako\n\n\n\n\n\nJun 18, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nLearning to read くずし字 (kuzushiji)\n\n\nSharing my process of learning to read old Japanese\n\n\n\n\n\nJun 17, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nPrint a Ukiyo-e at FedEx\n\n\nHow to Find, Prepare, and Print a Ukiyo-e at FedEx\n\n\n\n\n\nJun 5, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/posts/emi_koyama.html",
@@ -77,53 +84,11 @@
     "text": "About Emi Koyama\nEmi Koyama (1975-2026) was a Japanese-American activist, artist, and scholar. After her time at ISNA, she founded and directed Intersex Initiative (IPDX) in Portland, Oregon. With fellow activist Betsy Driver, she co-founded Intersex Awareness Day in 2003, commemorating the first official demonstration by intersex activists in North America. She is best known outside intersex activism for “The Transfeminist Manifesto” (2000), reprinted in multiple transgender studies studies anthologies. Her personal website and archive is at https://eminism.org/.\nEmi’s internship with ISNA was enabled by Robin Mathias, who planned, fundraised, and administered the program."
   },
   {
-    "objectID": "blog/posts/learning_kuzushiji.html",
-    "href": "blog/posts/learning_kuzushiji.html",
-    "title": "Learning to read くずし字 (kuzushiji)",
+    "objectID": "blog/posts/chris_north_wellcome.html",
+    "href": "blog/posts/chris_north_wellcome.html",
+    "title": "Chris North: Coming home to myself",
     "section": "",
-    "text": "I’m frustrated when I encounter bits of Japanese written in older orthography and cannot read them. Store signs, stone monuments, the text in ukiyo-e. In particular, I’m interested in Meiji history (late 19th century), and I want to be able to read those texts.\nAt first I thought I could use a flash card approach with anki, but I didn’t make much progress with that.\nMy next idea is to find a book that is relatively easier to read. Easier because the text is less elaborately brushed, because the characters are less overlapping, because there is a 翻刻 version available (someone who can read the older characters has transcribed them into modern standard hiragana), because there is a 現代訳 (translation into modern Japanese) and even, perhaps, an English version.\n\n\n\nCaption text\n\n\nI’ve found a book that satisfies all but one of these desiderata (no English). 牛店雑談・安愚楽鍋 (Gyūten Zōdan: Aguranabe, “Beef-Shop Gossip: The Easygoing Hot-Pot”) is a satirical comic fiction (gesaku) by Kanagaki Robun, published in three volumes between 1871 and 1872 — making it one of the earliest works of the Meiji period. Set in a Tokyo beef-hot-pot restaurant, it strings together the overheard conversations of a rotating cast of customers: merchants, former samurai, Buddhist priests, and other social types all awkwardly negotiating the new Westernizing Japan over bowls of gyūnabe.\nThe genius of the work is its form: there is almost no plot, just dialogue — vivid, funny, and sharply observed. Robun uses each character’s speech to skewer the social absurdities of bunmei kaika (civilization and enlightenment), the Meiji slogan that urged Japan to wholesale adopt Western ways. Eating beef, long taboo under Buddhist prohibition, had become a symbol of modernity, and the beef-pot shop was the perfect democratic setting where all ranks had to rub shoulders.\nWritten in colloquial Edo-Meiji vernacular with heavy use of phonetic kana, the text is a rich document of the language in transition — and a genuinely entertaining read.\n\n\n\nCaption text\n\n\nHere are some of the tools that will help me (and my tutor Tomoko Aizawa, of the Nihongo Picnic online Japanese school) read it.\n\n\n\nFunction\nAsset\n\n\n\n\nscans of book\nUniversity of Tokyo General Library (霞亭文庫)\n\n\nscan cleaned up for easier printing\npdf\n\n\n現代訳\n牛鍋屋で酔っ払いの盗み聞き『牛店雑談　安愚楽鍋』現代語訳\n\n\n現代訳\n仮名垣魯文「安愚楽鍋」現代語訳\n\n\n翻刻\nhttp://hanaha-hannari.jp/emag/data/kanagaki-robun01.html\n\n\nくずし字解読講座（静岡県歴史文化情報センター）\nhttps://www.tosyokan.pref.shizuoka.jp/contents/history/kuzushi.html\n\n\n牛店雑談安愚楽鍋用語索引 (glossary for 牛屋雑談)\nsearch used books at kosho.or.jp"
-  },
-  {
-    "objectID": "blog/posts/local_paper_covers_grazing.html",
-    "href": "blog/posts/local_paper_covers_grazing.html",
-    "title": "Press Democrat features grazing on front page",
-    "section": "",
-    "text": "Download pdf"
-  },
-  {
-    "objectID": "blog/posts/four_hands.html",
-    "href": "blog/posts/four_hands.html",
-    "title": "Four Hands: Between us, a whole reader",
-    "section": "",
-    "text": "In 1871, in a narrow shop near the foreign quarter, a man sits cross-legged on a worn cushion and waits for his beef. An iron pot sweats over a small clay brazier. Inside it the miso broth has begun to tremble; he lays in the thin red slices himself, and the sliced green onions after, and watches the surface go cloudy and fragrant. The smell is new. Only a few years earlier beef was unclean, unthinkable, though birds and fish and for some reason rabbits were fine to eat. Rabbits, now there’s a story. Monks used a bit of linguistic sophistry to claim that rabbits were fowl, and thus ok to eat. Now the whole country was being told that eating beef is the way for Japan, and each Japanese, to grow strong and powerful, to grow Western. Fukuzawa Yukichi, the most-read champion of “civilization and enlightenment” had written a pamphlet arguing that Japanese were unhealthy and listless because they didn’t eat meat, and that this was a national loss. (The pamphlet was underwritten by the beef industry.)\nBy 1872, even the Emperor will have eaten it, and after that imperial dinner beef shops will multiply like the rickshaws already crowding the new roads. The rickshaw, newly invented, is written jin-riki-sha, “human-powered car.” That same character, sha, will still be used to write automobile in the 21st century. But for now that’s all it is: no motor, just legs. By 1877, Tokyo will reportedly have over 550 beef shops.\nSpeaking of the Emperor, even he is new. Not only Emperor Meiji the person, but also the ruling Emperor as institution. Until four years previous, the Emperor stayed cloistered in Kyoto while the Shogun, in Edo, had all the worldly power. Even Edo has been renamed; now it is Tokyo.\nThey sat in the oldest possible way, folded cross-legged on the floor, the way their fathers and grandfathers had sat. But they ate the most modern, scandalous, future-tasting thing on offer. Chairs hadn’t yet arrived.\nThe shop is loud. On the menu board is imported French champagne (“san-pan”) and sake. Sake goes around and around. The champagne is not chilled; the only ice available to buy in 1871 had been shipped from Boston, spending six months in transit; by the time it was sold in Tokyo, ice was ruinously expensive. Ice cut and shipped from the Japanese north would not begin to arrive on the market until the following year. The sake, on the other hand, is nicely warmed and served from ceramic tokkuri. At the next table a young man wears his hair cropped short in the Western style, a bowler hat balanced beside him, a pocket watch he keeps checking though he has nowhere to be. Beside him an older man in a plain kimono says nothing and drinks steadily. They argue about the new calendar, the new ships, the price of everything. Somebody laughs too hard. The pot bubbles. This is what civilization tastes like in 1871: cheap cuts, strong broth, and talk, talk, talk.\nI know all this because Tomoko and I are reading the book these very people might have been quoted in. Idle Chatter at the Beef Shop was a runaway bestseller from that exact year, built out of nothing but this chatter. The trouble is that, on my own, I cannot read a single line of it.\nThe characters are written in a flowing cursive hand whose shapes would fall out of use by 1900, as Japan’s drive to modernize reached even its writing system. Very few Japanese today can read this book, though it was a hit only 155 years ago. A character I think I recognize melts halfway down the column into something else entirely. A no becomes a smear; the smear becomes, on closer look, three words I didn’t know were hiding there. We move one phrase at a time, sometimes one stroke at a time. Together we guess, backtrack, read aloud, sounding like two amateurs trying to figure out how to assemble IKEA furniture.\nAnd it is the most fun I have had all week.\nI sit at my desk in Sonoma County; she sits at hers in Germany; between us hangs a pattern of brushstrokes from 1871 that neither of us can quite make out. She offers a reading, I offer a worse one, then the right one comes to her in a flash and we both start laughing. For an hour this morning we laughed almost the whole way through. At the dandy in the book, at the irony that I sometimes could read what she, Japanese, could not. At the pun in the author’s name on the cover. It is written with three characters that don’t make any sense to either of us. Then she sounds it out — “doh-ron-ken” — and it hits her. The cover credits the book to “some drunk,” the English word drunken spelled out as though it were Japanese.\nWe are decoding a vanished world together, haltingly, joyfully. I leave each session lighter than I arrived.\nThe men in that shop wanted to taste the future. I only want to read about them — and to keep laughing with Tomoko as we make our slow way toward them."
-  },
-  {
-    "objectID": "blog/posts/four_hands.html#footnotes",
-    "href": "blog/posts/four_hands.html#footnotes",
-    "title": "Four Hands: Between us, a whole reader",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nImage courtesy of the University of Tokyo General Library (霞亭文庫), CC BY 4.0.↩︎"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Bo",
-    "section": "",
-    "text": "Your name\n    \n  \n  \n    Your email\n    \n  \n  \n    Message\n    \n  \n\n  \n  \n\n  Send message"
-  },
-  {
-    "objectID": "blog/posts/practicing_writing_terako.html",
-    "href": "blog/posts/practicing_writing_terako.html",
-    "title": "風流てらこ 吉書はじめ けいこの図",
-    "section": "",
-    "text": "風流てらこ 吉書はじめ けいこの図\nI found this lovely image of Edo commoners practicing writing in a terako, in this case auspicious writing done at the New Year. It was published as an Ukiyo-e (mass produced from wood block color separations) in 1804. The artist is Utagawa Toyokuni I. See First Calligraphy Class of the New Year at a Fashionable School (Fûryû terako kissho hajime keiko no zu) at Boston Museum of Fine Arts\nI first saw just one panel of this art in the book 古文書を楽しく読む! よくわかる「くずし字」 見分け方のポイント 新版 (コツがわかる本!).\nI customized a version of the image for printing (modified contrast and scaled). I got a very nice result by printing this onto matte poster 17x11 at Fedex, for $17.00. If you want to do this too, read How to prepare file and print a ukiyo-e at FedEx\nIf you would like to print the file I prepared, Download the printable image file (PNG, 30MB)\nThe source file I used for the full triptych is at Boston MFA’s Ukiyo-e.org."
-  },
-  {
-    "objectID": "blog/posts/practicing_writing_terako.html#about-the-ukiyo-e-original",
-    "href": "blog/posts/practicing_writing_terako.html#about-the-ukiyo-e-original",
-    "title": "風流てらこ 吉書はじめ けいこの図",
-    "section": "About the ukiyo-e original",
-    "text": "About the ukiyo-e original\nClaude looked at the image and said it identified these colors:\nHere’s your color list as bullets:\n\nBlack (outlines, hair, inkstones, text boxes) — keyblock\nGray-blue (many kimono, the dominant cool tone)\nPurple-gray (several kimono, distinct from the blue-gray)\nGreen (multiple kimono, fairly saturated)\nRed/coral (collar linings, accents — very consistent)\nOrange (the woven hat, some accents)\nYellow/ochre (the yellow-green kimono lower right, wood tones)\nTan/flesh (skin tones)\nPink (hair ornaments, scattered floral accents)\nDark navy/black-blue (the black kimono with white pattern, lower right — distinct from pure black)\nBrown (wooden desks, boxes)\nBlue-gray for text area background (the pale ground of the title cartouche at top)\n\nThat’s roughly 12 distinct ink colors, which means approximately 12 blocks per sheet × 3 sheets = ~36 blocks for the triptych — plus the keyblock, so ~39 total.\nThat said, a skilled printer could achieve some of these (the browns, the wood tones) by overprinting yellow over red, or blue over yellow for green. So the actual block count may be closer to 10 blocks per sheet, or ~33 total.\nClaude’s best estimate: 30–39 woodblocks for the complete triptych."
+    "text": "For Chris North, being born intersex in the 1940s (or a “true hermaphrodite” in the language of the time) meant decades of hospital visits, tests, operations and secrecy… read on"
   },
   {
     "objectID": "blog/posts/printing-ukiyoe-at-fedex.html",
@@ -196,11 +161,74 @@
     "text": "Summary\n\n\n\nStep\nAction\n\n\n\n\n1\nIdentify format (ōban, triptych, etc.) and desired print size\n\n\n2\nSearch ukiyo-e.org → follow to MFA, NDL, or other source\n\n\n3\nCheck pixel dimensions against your target print size\n\n\n4\nUpscale with Upscayl (free) or Topaz Gigapixel if needed\n\n\n5\nOr request an NDL 遠隔複写 for a true archival scan\n\n\n6\nExport as PDF or TIFF at correct dimensions\n\n\n7\nUpload to FedEx Office or bring on USB"
   },
   {
-    "objectID": "blog/posts/chris_north_wellcome.html",
-    "href": "blog/posts/chris_north_wellcome.html",
-    "title": "Chris North: Coming home to myself",
+    "objectID": "blog/posts/practicing_writing_terako.html",
+    "href": "blog/posts/practicing_writing_terako.html",
+    "title": "風流てらこ 吉書はじめ けいこの図",
     "section": "",
-    "text": "For Chris North, being born intersex in the 1940s (or a “true hermaphrodite” in the language of the time) meant decades of hospital visits, tests, operations and secrecy… read on"
+    "text": "風流てらこ 吉書はじめ けいこの図\nI found this lovely image of Edo commoners practicing writing in a terako, in this case auspicious writing done at the New Year. It was published as an Ukiyo-e (mass produced from wood block color separations) in 1804. The artist is Utagawa Toyokuni I. See First Calligraphy Class of the New Year at a Fashionable School (Fûryû terako kissho hajime keiko no zu) at Boston Museum of Fine Arts\nI first saw just one panel of this art in the book 古文書を楽しく読む! よくわかる「くずし字」 見分け方のポイント 新版 (コツがわかる本!).\nI customized a version of the image for printing (modified contrast and scaled). I got a very nice result by printing this onto matte poster 17x11 at Fedex, for $17.00. If you want to do this too, read How to prepare file and print a ukiyo-e at FedEx\nIf you would like to print the file I prepared, Download the printable image file (PNG, 30MB)\nThe source file I used for the full triptych is at Boston MFA’s Ukiyo-e.org."
+  },
+  {
+    "objectID": "blog/posts/practicing_writing_terako.html#about-the-ukiyo-e-original",
+    "href": "blog/posts/practicing_writing_terako.html#about-the-ukiyo-e-original",
+    "title": "風流てらこ 吉書はじめ けいこの図",
+    "section": "About the ukiyo-e original",
+    "text": "About the ukiyo-e original\nClaude looked at the image and said it identified these colors:\nHere’s your color list as bullets:\n\nBlack (outlines, hair, inkstones, text boxes) — keyblock\nGray-blue (many kimono, the dominant cool tone)\nPurple-gray (several kimono, distinct from the blue-gray)\nGreen (multiple kimono, fairly saturated)\nRed/coral (collar linings, accents — very consistent)\nOrange (the woven hat, some accents)\nYellow/ochre (the yellow-green kimono lower right, wood tones)\nTan/flesh (skin tones)\nPink (hair ornaments, scattered floral accents)\nDark navy/black-blue (the black kimono with white pattern, lower right — distinct from pure black)\nBrown (wooden desks, boxes)\nBlue-gray for text area background (the pale ground of the title cartouche at top)\n\nThat’s roughly 12 distinct ink colors, which means approximately 12 blocks per sheet × 3 sheets = ~36 blocks for the triptych — plus the keyblock, so ~39 total.\nThat said, a skilled printer could achieve some of these (the browns, the wood tones) by overprinting yellow over red, or blue over yellow for green. So the actual block count may be closer to 10 blocks per sheet, or ~33 total.\nClaude’s best estimate: 30–39 woodblocks for the complete triptych."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Bo",
+    "section": "",
+    "text": "Your name\n    \n  \n  \n    Your email\n    \n  \n  \n    Message\n    \n  \n\n  \n  \n\n  Send message"
+  },
+  {
+    "objectID": "blog/posts/four_hands.html",
+    "href": "blog/posts/four_hands.html",
+    "title": "Four Hands: Between us, a whole reader",
+    "section": "",
+    "text": "In 1871, in a narrow shop near the foreign quarter, a man sits cross-legged on a worn cushion and waits for his beef. An iron pot sweats over a small clay brazier. Inside it the miso broth has begun to tremble; he lays in the thin red slices himself, and the sliced green onions after, and watches the surface go cloudy and fragrant. The smell is new. Only a few years earlier beef was unclean, unthinkable, though birds and fish and for some reason rabbits were fine to eat. Rabbits, now there’s a story. Monks used a bit of linguistic sophistry to claim that rabbits were fowl, and thus ok to eat. Now the whole country was being told that eating beef is the way for Japan, and each Japanese, to grow strong and powerful, to grow Western. Fukuzawa Yukichi, the most-read champion of “civilization and enlightenment” had written a pamphlet arguing that Japanese were unhealthy and listless because they didn’t eat meat, and that this was a national loss. (The pamphlet was underwritten by the beef industry.)\nBy 1872, even the Emperor will have eaten it, and after that imperial dinner beef shops will multiply like the rickshaws already crowding the new roads. The rickshaw, newly invented, is written jin-riki-sha, “human-powered car.” That same character, sha, will still be used to write automobile in the 21st century. But for now that’s all it is: no motor, just legs. By 1877, Tokyo will reportedly have over 550 beef shops.\nSpeaking of the Emperor, even he is new. Not only Emperor Meiji the person, but also the ruling Emperor as institution. Until four years previous, the Emperor stayed cloistered in Kyoto while the Shogun, in Edo, had all the worldly power. Even Edo has been renamed; now it is Tokyo.\nThey sat in the oldest possible way, folded cross-legged on the floor, the way their fathers and grandfathers had sat. But they ate the most modern, scandalous, future-tasting thing on offer. Chairs hadn’t yet arrived.\nThe shop is loud. On the menu board is imported French champagne (“san-pan”) and sake. Sake goes around and around. The champagne is not chilled; the only ice available to buy in 1871 had been shipped from Boston, spending six months in transit; by the time it was sold in Tokyo, ice was ruinously expensive. Ice cut and shipped from the Japanese north would not begin to arrive on the market until the following year. The sake, on the other hand, is nicely warmed and served from ceramic tokkuri. At the next table a young man wears his hair cropped short in the Western style, a bowler hat balanced beside him, a pocket watch he keeps checking though he has nowhere to be. Beside him an older man in a plain kimono says nothing and drinks steadily. They argue about the new calendar, the new ships, the price of everything. Somebody laughs too hard. The pot bubbles. This is what civilization tastes like in 1871: cheap cuts, strong broth, and talk, talk, talk.\nI know all this because Tomoko and I are reading the book these very people might have been quoted in. Idle Chatter at the Beef Shop was a runaway bestseller from that exact year, built out of nothing but this chatter. The trouble is that, on my own, I cannot read a single line of it.\nThe characters are written in a flowing cursive hand whose shapes would fall out of use by 1900, as Japan’s drive to modernize reached even its writing system. Very few Japanese today can read this book, though it was a hit only 155 years ago. A character I think I recognize melts halfway down the column into something else entirely. A no becomes a smear; the smear becomes, on closer look, three words I didn’t know were hiding there. We move one phrase at a time, sometimes one stroke at a time. Together we guess, backtrack, read aloud, sounding like two amateurs trying to figure out how to assemble IKEA furniture.\nAnd it is the most fun I have had all week.\nI sit at my desk in Sonoma County; she sits at hers in Germany; between us hangs a pattern of brushstrokes from 1871 that neither of us can quite make out. She offers a reading, I offer a worse one, then the right one comes to her in a flash and we both start laughing. For an hour this morning we laughed almost the whole way through. At the dandy in the book, at the irony that I sometimes could read what she, Japanese, could not. At the pun in the author’s name on the cover. It is written with three characters that don’t make any sense to either of us. Then she sounds it out — “doh-奴ron-論ken建” — and it hits her. The cover credits the book to “some drunk,” the English word drunken spelled out as though it were Japanese.\nWe are decoding a vanished world together, haltingly, joyfully. I leave each session lighter than I arrived.\nThe men in that shop wanted to taste the future. I only want to read about them — and to keep laughing with Tomoko as we make our slow way toward them."
+  },
+  {
+    "objectID": "blog/posts/four_hands.html#historical-references",
+    "href": "blog/posts/four_hands.html#historical-references",
+    "title": "Four Hands: Between us, a whole reader",
+    "section": "Historical References",
+    "text": "Historical References\nThis is creative writing, not historical scholarship. Nonetheless, I did check the accuracy of historical facts I cited. Please see Four Hands Notes for references."
+  },
+  {
+    "objectID": "blog/posts/four_hands.html#footnotes",
+    "href": "blog/posts/four_hands.html#footnotes",
+    "title": "Four Hands: Between us, a whole reader",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nImage courtesy of the University of Tokyo General Library (霞亭文庫), CC BY 4.0.↩︎"
+  },
+  {
+    "objectID": "blog/posts/local_paper_covers_grazing.html",
+    "href": "blog/posts/local_paper_covers_grazing.html",
+    "title": "Press Democrat features grazing on front page",
+    "section": "",
+    "text": "Download pdf"
+  },
+  {
+    "objectID": "blog/posts/learning_kuzushiji.html",
+    "href": "blog/posts/learning_kuzushiji.html",
+    "title": "Learning to read くずし字 (kuzushiji)",
+    "section": "",
+    "text": "I’m frustrated when I encounter bits of Japanese written in older orthography and cannot read them. Store signs, stone monuments, the text in ukiyo-e. In particular, I’m interested in Meiji history (late 19th century), and I want to be able to read those texts.\nAt first I thought I could use a flash card approach with anki, but I didn’t make much progress with that.\nMy next idea is to find a book that is relatively easier to read. Easier because the text is less elaborately brushed, because the characters are less overlapping, because there is a 翻刻 version available (someone who can read the older characters has transcribed them into modern standard hiragana), because there is a 現代訳 (translation into modern Japanese) and even, perhaps, an English version.\n\n\n\n牛屋雑談\n\n\nI’ve found a book that satisfies all but one of these desiderata (no English). 牛店雑談・安愚楽鍋 (Gyūten Zōdan: Aguranabe, “Beef-Shop Gossip: The Easygoing Hot-Pot”) is a satirical comic fiction (gesaku) by Kanagaki Robun, published in three volumes between 1871 and 1872 — making it one of the earliest works of the Meiji period. Set in a Tokyo beef-hot-pot restaurant, it strings together the overheard conversations of a rotating cast of customers: merchants, former samurai, Buddhist priests, and other social types all awkwardly negotiating the new Westernizing Japan over bowls of gyūnabe.\nThe genius of the work is its form: there is almost no plot, just dialogue — vivid, funny, and sharply observed. Robun uses each character’s speech to skewer the social absurdities of bunmei kaika (civilization and enlightenment), the Meiji slogan that urged Japan to wholesale adopt Western ways. Eating beef, long taboo under Buddhist prohibition, had become a symbol of modernity, and the beef-pot shop was the perfect democratic setting where all ranks had to rub shoulders.\nWritten in colloquial Edo-Meiji vernacular with heavy use of phonetic kana, the text is a rich document of the language in transition — and a genuinely entertaining read.\n\n\n\n牛屋雑談　現代訳\n\n\nHere are some of the tools that will help me (and my tutor Tomoko Aizawa, of the Nihongo Picnic online Japanese school) read it.\n\n\n\nFunction\nAsset\n\n\n\n\nscans of book\nUniversity of Tokyo General Library (霞亭文庫)\n\n\nscan cleaned up for easier printing\npdf\n\n\n現代訳\n牛鍋屋で酔っ払いの盗み聞き『牛店雑談　安愚楽鍋』現代語訳\n\n\n現代訳\n仮名垣魯文「安愚楽鍋」現代語訳\n\n\n翻刻\nhttp://hanaha-hannari.jp/emag/data/kanagaki-robun01.html\n\n\nくずし字解読講座（静岡県歴史文化情報センター）\nhttps://www.tosyokan.pref.shizuoka.jp/contents/history/kuzushi.html\n\n\n牛店雑談安愚楽鍋用語索引 (glossary for 牛屋雑談)\nsearch used books at kosho.or.jp"
+  },
+  {
+    "objectID": "blog/posts/four_hands_notes.html",
+    "href": "blog/posts/four_hands_notes.html",
+    "title": "Four Hands: Historical notes",
+    "section": "",
+    "text": "I wrote a meditation on studying the kuzushiji text of 牛屋雑談: Four Hands: Between us, a whole reader. These are the citations that support the historical facts in that essay.\nAguranabe went through numerous editions — from the original woodblock-printed fascicles through moveable type, pocket editions, and eventually electronic text. 1\nDonald Keene translated parts of 牛屋雑談. 2 I found a scan at https://www1.udel.edu/History-old/figal/Hist370/text/er/beefeater.pdf\nCustomers at early Meiji beef shops sat on tatami, not chairs. 3\nFukuzawa Yukichi’s 1870 pamphlet Nikushoku no setsu urged Japanese readers to eat beef on grounds of health and national strength. 4\nFukuzawa Yukichi’s 1870 pamphlet Nikushoku no setsu urged Japanese readers to eat beef on grounds of health and national strength. 5\nIn Japan, beef was not widely eaten before the Meiji period.6\nBefore 1872, ice in Japan was imported from Boston, a journey of some six months. Domestic ice first came to market in 1872, when Nakagawa Kahei began shipping ice from Hokkaido to Yokohama.7\nIn January 1872, the emperor ate beef publicly, effectively ending a twelve-century imperial prohibition on consuming meat.8\nBy 1877, Tokyo reportedly had over 550 beef shops.9\nThe rickshaw was invented in 1869 and had only just entered production when Aguranabe was published. It was possible only after the Meiji government lifted the Tokugawa-era ban on wheeled vehicles.10\nVery few Japanese today can read this book, though it was a hit only 155 years ago.11"
+  },
+  {
+    "objectID": "blog/posts/four_hands_notes.html#footnotes",
+    "href": "blog/posts/four_hands_notes.html#footnotes",
+    "title": "Four Hands: Historical notes",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nWetherall, William. “Kanagaki Robun’s Aguranabe.” Yosha Bunko, 2008. https://www.yoshabunko.com/nishikie/articles/Aguranabe.html. Accessed June 21, 2026.↩︎\nKanagaki Robun. “The Beefeater.” Trans. Donald Keene. In Modern Japanese Literature: An Anthology. Ed. Donald Keene. New York: Grove Press, 1956, pp. 31–33.↩︎\nInterior scene depicted in Kanagaki Robun, Aguranabe, vol. 1 (Seishidō, 1871). Reproduced in Nippon.com, https://www.nippon.com/en/features/c03911/. Accessed June 21, 2026.↩︎\nFukuzawa Yukichi. “On Eating Meat.” 1870. Trans. Michael Bourdaghs. https://www.bourdaghs.com/fukuzawa.htm. Accessed June 21, 2026.↩︎\n福沢諭吉。「肉食之説」1870年。青空文庫。 https://www.aozora.gr.jp/cards/000296/files/47343_42900.html. 2026年6月21日閲覧。Trans. Michael Bourdaghs as “On Eating Meat.” https://www.bourdaghs.com/fukuzawa.htm. Accessed June 21, 2026.↩︎\nWikipedia contributors. “History of Meat Consumption in Japan.” Wikipedia, April 2026. https://en.wikipedia.org/wiki/History_of_meat_consumption_in_Japan. Accessed June 21, 2026.↩︎\nSakuraco. “Kakigori: Unlocking the Secrets of the Shaved Ice Delight.” Sakuraco Blog. https://sakura.co/blog/kakigori-unlocking-the-secrets-of-the-shaved-ice-delight. Accessed June 21, 2026.↩︎\nWikipedia contributors. “History of Meat Consumption in Japan.” Wikipedia, April 2026. https://en.wikipedia.org/wiki/History_of_meat_consumption_in_Japan. Accessed June 21, 2026.↩︎\nNippon.com. “Human-Animal Ties: Japanese Takes in Both Life and Death.” January 2026. https://www.nippon.com/en/features/c03911/. Accessed June 21, 2026.↩︎\nWikipedia contributors. “Rickshaw.” Wikipedia, 2026. https://en.wikipedia.org/wiki/Rickshaw#Japan. Accessed June 21, 2026.↩︎\nKuzushiji was removed from the Japanese elementary school curriculum in 1900. Lamb, Alex. “How Machine Learning Can Help Unlock the World of Ancient Japan.” The Gradient, November 17, 2019. https://thegradient.pub/machine-learning-ancient-japan/. Accessed June 21, 2026. See also: Center for Open Data in the Humanities (CODH). “KuroNet Kuzushiji Recognition Service.” https://codh.rois.ac.jp/kuronet/. Accessed June 21, 2026.↩︎"
   },
   {
     "objectID": "blog/intersex.html",
@@ -215,6 +243,13 @@
     "title": "Writing",
     "section": "",
     "text": "No matching items"
+  },
+  {
+    "objectID": "changelog/index.html",
+    "href": "changelog/index.html",
+    "title": "Changelog",
+    "section": "",
+    "text": "Launched changelog\n\n\nAdded this changelog page and RSS feed.\n\n\n\n\n\nJun 20, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",

@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/blog/posts/four_hands_notes.html",
       "/blog/posts/chris_north_wellcome.html",
       "/blog/posts/four_hands.html",
       "/blog/posts/practicing_writing_terako.html",
@@ -14,6 +15,7 @@
   {
     "listing": "/blog/japanese.html",
     "items": [
+      "/blog/posts/four_hands_notes.html",
       "/blog/posts/four_hands.html",
       "/blog/posts/practicing_writing_terako.html",
       "/blog/posts/learning_kuzushiji.html",
@@ -30,5 +32,11 @@
   {
     "listing": "/blog/index.html",
     "items": []
+  },
+  {
+    "listing": "/changelog/index.html",
+    "items": [
+      "/changelog/posts/2026-06-20-changelog.html"
+    ]
   }
 ]

@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-06-17">
-<meta name="description" content="Sharing my process of learning to read old Japanese">
+<meta name="description" content="Updates and changes to bolaurent.com">
 
-<title>Learning to read くずし字 (kuzushiji) – Bo Laurent</title>
+<title>Changelog – Bo Laurent</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -28,24 +27,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../images/favicon.svg" rel="icon" type="image/svg+xml">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-eb4d22d83e4ba62626cc52b5df34894d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-eb4d22d83e4ba62626cc52b5df34894d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,6 +74,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-GSLYJ6M3RE"></script>
 
 <script type="text/javascript">
@@ -83,20 +113,43 @@ gtag('js', new Date());
 gtag('config', 'G-GSLYJ6M3RE', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Learning to read くずし字 (kuzushiji) – Bo Laurent">
-<meta property="og:description" content="Sharing my process of learning to read old Japanese">
-<meta property="og:image" content="https://bolaurent.com/images/牛屋雑談.png">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<link rel="alternate" type="application/rss+xml" title="Bo Laurent" href="index.xml" data-external="1"><meta property="og:title" content="Changelog – Bo Laurent">
+<meta property="og:description" content="Updates and changes to bolaurent.com">
 <meta property="og:site_name" content="Bo Laurent">
-<meta property="og:image:height" content="1486">
-<meta property="og:image:width" content="990">
-<meta name="twitter:title" content="Learning to read くずし字 (kuzushiji) – Bo Laurent">
-<meta name="twitter:description" content="Sharing my process of learning to read old Japanese">
-<meta name="twitter:image" content="https://bolaurent.com/images/牛屋雑談.png">
-<meta name="twitter:image-height" content="1486">
-<meta name="twitter:image-width" content="990">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Changelog – Bo Laurent">
+<meta name="twitter:description" content="Updates and changes to bolaurent.com">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -106,7 +159,7 @@ gtag('config', 'G-GSLYJ6M3RE', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Bo Laurent</span>
     </a>
   </div>
@@ -117,7 +170,7 @@ gtag('config', 'G-GSLYJ6M3RE', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -126,35 +179,35 @@ gtag('config', 'G-GSLYJ6M3RE', { 'anonymize_ip': true});
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../../about.html">
+    <a class="dropdown-item" href="../about.html">
  <span class="dropdown-text">About Bo</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../colophon.html">
+    <a class="dropdown-item" href="../colophon.html">
  <span class="dropdown-text">Colophon</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../changelog/index.html">
+    <a class="dropdown-item" href="../changelog/index.html">
  <span class="dropdown-text">ChangeLog</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../blog/japanese.html"> 
+    <a class="nav-link" href="../blog/japanese.html"> 
 <span class="menu-text">Japanese</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog/intersex.html"> 
+    <a class="nav-link" href="../blog/intersex.html"> 
 <span class="menu-text">Intersex</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../subscribe.html"> 
+    <a class="nav-link" href="../subscribe.html"> 
 <span class="menu-text">Subscribe</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../contact.html"> 
+    <a class="nav-link" href="../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -174,16 +227,12 @@ gtag('config', 'G-GSLYJ6M3RE', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Learning to read くずし字 (kuzushiji)</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">japanese</div>
-    <div class="quarto-category">komonjo</div>
-  </div>
-  </div>
+<h1 class="title">Changelog</h1>
+</div>
 
 <div>
   <div class="description">
-    Sharing my process of learning to read old Japanese
+    Updates and changes to bolaurent.com
   </div>
 </div>
 
@@ -191,12 +240,6 @@ gtag('config', 'G-GSLYJ6M3RE', { 'anonymize_ip': true});
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">June 17, 2026</p>
-    </div>
-  </div>
   
     
   </div>
@@ -206,67 +249,32 @@ gtag('config', 'G-GSLYJ6M3RE', { 'anonymize_ip': true});
 </header>
 
 
-<p>I’m frustrated when I encounter bits of Japanese written in older orthography and cannot read them. Store signs, stone monuments, the text in ukiyo-e. In particular, I’m interested in Meiji history (late 19th century), and I want to be able to read those texts.</p>
-<p>At first I thought I could use a flash card approach with anki, but I didn’t make much progress with that.</p>
-<p>My next idea is to find a book that is relatively easier to read. Easier because the text is less elaborately brushed, because the characters are less overlapping, because there is a 翻刻 version available (someone who can read the older characters has transcribed them into modern standard hiragana), because there is a 現代訳 (translation into modern Japanese) and even, perhaps, an English version.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../images/牛屋雑談.png" class="float-end img-fluid figure-img" width="250"></p>
-<figcaption>牛屋雑談</figcaption>
-</figure>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="c2l0ZQ==" data-listing-date-sort="1781913600000" data-listing-file-modified-sort="1782053390709" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../changelog/posts/2026-06-20-changelog.html" class="no-external">Launched changelog</a>
+</h3>
+<div class="delink listing-description"><a href="../changelog/posts/2026-06-20-changelog.html" class="no-external">
+<p>Added this changelog page and RSS feed.</p>
+</a></div>
 </div>
-<p>I’ve found a book that satisfies all but one of these desiderata (no English). 牛店雑談・安愚楽鍋 (Gyūten Zōdan: Aguranabe, “Beef-Shop Gossip: The Easygoing Hot-Pot”) is a satirical comic fiction (gesaku) by Kanagaki Robun, published in three volumes between 1871 and 1872 — making it one of the earliest works of the Meiji period. Set in a Tokyo beef-hot-pot restaurant, it strings together the overheard conversations of a rotating cast of customers: merchants, former samurai, Buddhist priests, and other social types all awkwardly negotiating the new Westernizing Japan over bowls of gyūnabe.</p>
-<p>The genius of the work is its form: there is almost no plot, just dialogue — vivid, funny, and sharply observed. Robun uses each character’s speech to skewer the social absurdities of bunmei kaika (civilization and enlightenment), the Meiji slogan that urged Japan to wholesale adopt Western ways. Eating beef, long taboo under Buddhist prohibition, had become a symbol of modernity, and the beef-pot shop was the perfect democratic setting where all ranks had to rub shoulders.</p>
-<p>Written in colloquial Edo-Meiji vernacular with heavy use of phonetic kana, the text is a rich document of the language in transition — and a genuinely entertaining read.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../images/牛屋雑談ーbook.jpg" class="float-end img-fluid figure-img" width="250"></p>
-<figcaption>牛屋雑談　現代訳</figcaption>
-</figure>
+<div class="metadata">
+<a href="../changelog/posts/2026-06-20-changelog.html" class="no-external">
+<div class="listing-date">
+Jun 20, 2026
 </div>
-<p>Here are some of the tools that will help me (and my tutor Tomoko Aizawa, of the <a href="https://www.nihongopicnic.com/">Nihongo Picnic</a> online Japanese school) read it.</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Function</th>
-<th>Asset</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>scans of book</td>
-<td><a href="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/katei/document/8567865d-b045-43f6-a61e-1ec06ca79449">University of Tokyo General Library (霞亭文庫)</a></td>
-</tr>
-<tr class="even">
-<td>scan cleaned up for easier printing</td>
-<td><a href="../../files/牛屋雑談_初編_processed.pdf">pdf</a></td>
-</tr>
-<tr class="odd">
-<td>現代訳</td>
-<td><a href="https://www.amazon.co.jp/牛鍋屋で酔っ払いの盗み聞き『牛店雑談-安愚楽鍋』現代語訳-仮名垣魯文/dp/B0FD9Q3N28">牛鍋屋で酔っ払いの盗み聞き『牛店雑談　安愚楽鍋』現代語訳</a></td>
-</tr>
-<tr class="even">
-<td>現代訳</td>
-<td><a href="https://note.com/kamikochi_takeo/n/n1fe02fcd2ec1">仮名垣魯文「安愚楽鍋」現代語訳</a></td>
-</tr>
-<tr class="odd">
-<td>翻刻</td>
-<td><a href="http://hanaha-hannari.jp/emag/data/kanagaki-robun01.html" class="uri">http://hanaha-hannari.jp/emag/data/kanagaki-robun01.html</a></td>
-</tr>
-<tr class="even">
-<td>くずし字解読講座（静岡県歴史文化情報センター）</td>
-<td><a href="https://www.tosyokan.pref.shizuoka.jp/contents/history/kuzushi.html" class="uri">https://www.tosyokan.pref.shizuoka.jp/contents/history/kuzushi.html</a></td>
-</tr>
-<tr class="odd">
-<td>牛店雑談安愚楽鍋用語索引 (glossary for 牛屋雑談)</td>
-<td>search used books at <a href="https://www.kosho.or.jp/products/list.php?mode=search&amp;search_only_has_stock=1&amp;search_word=牛店雑談安愚楽鍋用語索引">kosho.or.jp</a></td>
-</tr>
-</tbody>
-</table>
-
-
-
-</main> <!-- /main -->
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
