@@ -42,6 +42,6 @@ The men in that shop wanted to taste the future. I only want to read about them 
 
 ## Historical References
 
-This is creative writing, not historical scholarship. Nonetheless, I did check the accuracy of historical facts I cited. Please see [Four Hands Notes](/blog/posts/four_hands_notes.html) for references.
+This is creative writing, not historical scholarship. But if you are wondering how we know all these things, or curious about how books were reproduced using woodblock, please see [Four Hands Notes](/blog/posts/four_hands_notes.html) for references.
 
 [^src]: [Image](https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/katei/document/8567865d-b045-43f6-a61e-1ec06ca79449) courtesy of the University of Tokyo General Library (霞亭文庫), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).

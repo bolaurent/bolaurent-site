@@ -7,7 +7,7 @@ categories: [japanese, writing, Idle Chatter at the Beef Shop]
 margin-footnotes: true
 ---
 
-I wrote a meditation on studying the kuzushiji text of 牛屋雑談: [Four Hands: Between us, a whole reader](/blog/posts/four_hands.html). These are the citations that support the historical facts in that essay.
+I wrote a meditation on studying the kuzushiji text of 牛屋雑談: [Four Hands: Between us, a whole reader](/blog/posts/four_hands.html). The book is also referred to as Aguranabe. These are the citations that support the historical facts in that essay.
 
 *Aguranabe* went through numerous editions — from the original 
 woodblock-printed fascicles through moveable type, pocket editions, 
@@ -16,6 +16,14 @@ and eventually electronic text.
 2008. <https://www.yoshabunko.com/nishikie/articles/Aguranabe.html>. Accessed June 21, 2026.]
 
 [Learn about how books were reproduced using woodblocks.](https://uknowledge.uky.edu/cgi/viewcontent.cgi?article=1058&context=libraries_facpub)^[Hioki, Kazuko. "Characteristics of Japanese Block Printed Books in the Edo Period: 1603–1867." *Library Faculty and Staff Publications* 58. University of Kentucky, 2009. <https://uknowledge.uky.edu/cgi/viewcontent.cgi?article=1058&context=libraries_facpub>. Accessed June 21, 2026.] 牛屋雑談 was published in chū bon size (about 5"x7").
+
+
+::: {style="float:right; width:250px; margin-left:1em;"}
+![](/images/fukuorotoji 1.jpg){width="250px"}
+
+<p style="font-size:0.75em">A similarly bound book ([Hagley Museum and Library: Traditional Japanese Bookbindings](https://www.hagley.org/librarynews/pillar-traditional-japanese-fukurotoji-bookbindings))</p>
+:::
+
 
 
 Donald Keene translated parts of 牛屋雑談. 
