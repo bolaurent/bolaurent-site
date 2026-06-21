@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-06-20">
+<meta name="description" content="Added this changelog page and RSS feed.">
 
-<title>Japanese – Bo Laurent</title>
+<title>Launched changelog – Bo Laurent</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,26 +28,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/favicon.svg" rel="icon" type="image/svg+xml">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-eb4d22d83e4ba62626cc52b5df34894d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-eb4d22d83e4ba62626cc52b5df34894d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,35 +73,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-GSLYJ6M3RE"></script>
 
 <script type="text/javascript">
@@ -112,47 +83,14 @@ gtag('js', new Date());
 gtag('config', 'G-GSLYJ6M3RE', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Japanese – Bo Laurent">
-<meta property="og:image" content="https://bolaurent.com/images/beef_shop_card_trimmed.png">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Launched changelog – Bo Laurent">
+<meta property="og:description" content="Added this changelog page and RSS feed.">
 <meta property="og:site_name" content="Bo Laurent">
-<meta property="og:image:height" content="630">
-<meta property="og:image:width" content="1200">
-<meta name="twitter:title" content="Japanese – Bo Laurent">
-<meta name="twitter:image" content="https://bolaurent.com/images/beef_shop_card_trimmed.png">
-<meta name="twitter:image-height" content="630">
-<meta name="twitter:image-width" content="1200">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Launched changelog – Bo Laurent">
+<meta name="twitter:description" content="Added this changelog page and RSS feed.">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -162,7 +100,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Bo Laurent</span>
     </a>
   </div>
@@ -173,7 +111,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -182,35 +120,35 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../about.html">
+    <a class="dropdown-item" href="../../about.html">
  <span class="dropdown-text">About Bo</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../colophon.html">
+    <a class="dropdown-item" href="../../colophon.html">
  <span class="dropdown-text">Colophon</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../changelog/index.html">
+    <a class="dropdown-item" href="../../changelog/index.html">
  <span class="dropdown-text">ChangeLog</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/japanese.html" aria-current="page"> 
+    <a class="nav-link" href="../../blog/japanese.html"> 
 <span class="menu-text">Japanese</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/intersex.html"> 
+    <a class="nav-link" href="../../blog/intersex.html"> 
 <span class="menu-text">Intersex</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../subscribe.html"> 
+    <a class="nav-link" href="../../subscribe.html"> 
 <span class="menu-text">Subscribe</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -230,14 +168,28 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Japanese</h1>
-</div>
+<h1 class="title">Launched changelog</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">site</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Added this changelog page and RSS feed.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 20, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -247,131 +199,11 @@ window.Quarto = {
 </header>
 
 
+<p>Added <a href="blog/posts/four_hands_notes.html">historical notes</a> to <a href="blog/posts/four_hands.html">Four Hands</a> essay.</p>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="amFwYW5lc2UlMkN3cml0aW5nJTJDSWRsZSUyMENoYXR0ZXIlMjBhdCUyMHRoZSUyMEJlZWYlMjBTaG9w" data-listing-date-sort="1781913600000" data-listing-file-modified-sort="1782057215171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="466">
-<div class="thumbnail"><a href="../blog/posts/four_hands_notes.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/four_hands_notes.html" class="no-external">Four Hands: Historical notes</a>
-</h3>
-<div class="delink listing-description"><a href="../blog/posts/four_hands_notes.html" class="no-external">
-<p>I wrote a meditation on studying the kuzushiji text of 牛屋雑談. These are the citations that support the historical facts in that essay.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/four_hands_notes.html" class="no-external">
-<div class="listing-date">
-Jun 20, 2026
-</div>
-<div class="listing-author">
-Bo Laurent
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="amFwYW5lc2UlMkN3cml0aW5nJTJDSWRsZSUyMENoYXR0ZXIlMjBhdCUyMHRoZSUyMEJlZWYlMjBTaG9w" data-listing-date-sort="1781740800000" data-listing-file-modified-sort="1782057215171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="913">
-<div class="thumbnail"><a href="../blog/posts/four_hands.html" class="no-external">
-
-<img loading="lazy" src="../images/beef_shop_card_trimmed.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/four_hands.html" class="no-external">Four Hands: Between us, a whole reader</a>
-</h3>
-<div class="delink listing-description"><a href="../blog/posts/four_hands.html" class="no-external">
-<p>The year Tokyo discovered beef, in a bestseller almost no one can read now. Two friends decode it across an ocean.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/four_hands.html" class="no-external">
-<div class="listing-date">
-Jun 18, 2026
-</div>
-<div class="listing-author">
-Bo Laurent
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="amFwYW5lc2UlMkNrb21vbmpv" data-listing-date-sort="1781740800000" data-listing-file-modified-sort="1782057215171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="358">
-<div class="thumbnail"><a href="../blog/posts/practicing_writing_terako.html" class="no-external">
-
-<p class="card-img-top"><img loading='lazy' src="../images/風流てらこ吉書はじめ けいこの図.jpeg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/practicing_writing_terako.html" class="no-external">風流てらこ 吉書はじめ けいこの図</a>
-</h3>
-<div class="delink listing-description"><a href="../blog/posts/practicing_writing_terako.html" class="no-external">
-<p>Edo commoners practicing writing in a terako</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/practicing_writing_terako.html" class="no-external">
-<div class="listing-date">
-Jun 18, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="amFwYW5lc2UlMkNrb21vbmpv" data-listing-date-sort="1781654400000" data-listing-file-modified-sort="1782057215171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="366">
-<div class="thumbnail"><a href="../blog/posts/learning_kuzushiji.html" class="no-external">
-
-<p class="card-img-top"><img loading='lazy' src="../images/牛屋雑談.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/learning_kuzushiji.html" class="no-external">Learning to read くずし字 (kuzushiji)</a>
-</h3>
-<div class="delink listing-description"><a href="../blog/posts/learning_kuzushiji.html" class="no-external">
-<p>Sharing my process of learning to read old Japanese</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/learning_kuzushiji.html" class="no-external">
-<div class="listing-date">
-Jun 17, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="amFwYW5lc2UlMkN1a2l5by1lJTJDcHJpbnRpbmclMkNkaWdpdGFsJTIwaHVtYW5pdGllcw==" data-listing-date-sort="1780617600000" data-listing-file-modified-sort="1782057215171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1533">
-<div class="thumbnail"><a href="../blog/posts/printing-ukiyoe-at-fedex.html" class="no-external">
-
-<p class="card-img-top"><img loading='lazy' src="../images/yamamoto-kuzushiji-book.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/printing-ukiyoe-at-fedex.html" class="no-external">Print a Ukiyo-e at FedEx</a>
-</h3>
-<div class="delink listing-description"><a href="../blog/posts/printing-ukiyoe-at-fedex.html" class="no-external">
-<p>How to Find, Prepare, and Print a Ukiyo-e at FedEx</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/printing-ukiyoe-at-fedex.html" class="no-external">
-<div class="listing-date">
-Jun 5, 2026
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

@@ -28,6 +28,13 @@
     "text": "Added a changelog page with RSS feed to track site updates."
   },
   {
+    "objectID": "changelog/generator.html",
+    "href": "changelog/generator.html",
+    "title": "Changelog entry generator",
+    "section": "",
+    "text": "Describe changes\n    Paste git log\n  \n\n  \n    \n      \n        \n          Date\n          \n        \n        \n          Slug (short, hyphenated)\n          \n        \n      \n    \n\n    \n      Category\n      \n        content\n        design\n        infrastructure\n        fix\n        Japanese\n        intersex\n      \n    \n\n    \n      What changed?\n      \n      One change or several — plain language is fine.\n    \n\n    \n      Generate entry\n    \n  \n\n  \n    \n      Paste git log output\n      \n      Any format works — git log --oneline, full log, or copied commit messages.\n    \n    \n      \n        \n          Date for this entry\n          \n        \n        \n          Slug\n          \n        \n      \n    \n    \n      Category\n      \n        content\n        design\n        infrastructure\n        fix\n        Japanese\n        intersex\n      \n    \n    \n      Generate entry\n    \n  \n\n  \n    \n    \n      Copy\n      \n    \n    \n      Download .qmd\n    \n    Move the downloaded file to changelog/posts/ in your repo."
+  },
+  {
     "objectID": "blog/japanese.html",
     "href": "blog/japanese.html",
     "title": "Japanese",
@@ -161,25 +168,11 @@
     "text": "Summary\n\n\n\nStep\nAction\n\n\n\n\n1\nIdentify format (ōban, triptych, etc.) and desired print size\n\n\n2\nSearch ukiyo-e.org → follow to MFA, NDL, or other source\n\n\n3\nCheck pixel dimensions against your target print size\n\n\n4\nUpscale with Upscayl (free) or Topaz Gigapixel if needed\n\n\n5\nOr request an NDL 遠隔複写 for a true archival scan\n\n\n6\nExport as PDF or TIFF at correct dimensions\n\n\n7\nUpload to FedEx Office or bring on USB"
   },
   {
-    "objectID": "blog/posts/practicing_writing_terako.html",
-    "href": "blog/posts/practicing_writing_terako.html",
-    "title": "風流てらこ 吉書はじめ けいこの図",
+    "objectID": "blog/posts/local_paper_covers_grazing.html",
+    "href": "blog/posts/local_paper_covers_grazing.html",
+    "title": "Press Democrat features grazing on front page",
     "section": "",
-    "text": "風流てらこ 吉書はじめ けいこの図\nI found this lovely image of Edo commoners practicing writing in a terako, in this case auspicious writing done at the New Year. It was published as an Ukiyo-e (mass produced from wood block color separations) in 1804. The artist is Utagawa Toyokuni I. See First Calligraphy Class of the New Year at a Fashionable School (Fûryû terako kissho hajime keiko no zu) at Boston Museum of Fine Arts\nI first saw just one panel of this art in the book 古文書を楽しく読む! よくわかる「くずし字」 見分け方のポイント 新版 (コツがわかる本!).\nI customized a version of the image for printing (modified contrast and scaled). I got a very nice result by printing this onto matte poster 17x11 at Fedex, for $17.00. If you want to do this too, read How to prepare file and print a ukiyo-e at FedEx\nIf you would like to print the file I prepared, Download the printable image file (PNG, 30MB)\nThe source file I used for the full triptych is at Boston MFA’s Ukiyo-e.org."
-  },
-  {
-    "objectID": "blog/posts/practicing_writing_terako.html#about-the-ukiyo-e-original",
-    "href": "blog/posts/practicing_writing_terako.html#about-the-ukiyo-e-original",
-    "title": "風流てらこ 吉書はじめ けいこの図",
-    "section": "About the ukiyo-e original",
-    "text": "About the ukiyo-e original\nClaude looked at the image and said it identified these colors:\nHere’s your color list as bullets:\n\nBlack (outlines, hair, inkstones, text boxes) — keyblock\nGray-blue (many kimono, the dominant cool tone)\nPurple-gray (several kimono, distinct from the blue-gray)\nGreen (multiple kimono, fairly saturated)\nRed/coral (collar linings, accents — very consistent)\nOrange (the woven hat, some accents)\nYellow/ochre (the yellow-green kimono lower right, wood tones)\nTan/flesh (skin tones)\nPink (hair ornaments, scattered floral accents)\nDark navy/black-blue (the black kimono with white pattern, lower right — distinct from pure black)\nBrown (wooden desks, boxes)\nBlue-gray for text area background (the pale ground of the title cartouche at top)\n\nThat’s roughly 12 distinct ink colors, which means approximately 12 blocks per sheet × 3 sheets = ~36 blocks for the triptych — plus the keyblock, so ~39 total.\nThat said, a skilled printer could achieve some of these (the browns, the wood tones) by overprinting yellow over red, or blue over yellow for green. So the actual block count may be closer to 10 blocks per sheet, or ~33 total.\nClaude’s best estimate: 30–39 woodblocks for the complete triptych."
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact Bo",
-    "section": "",
-    "text": "Your name\n    \n  \n  \n    Your email\n    \n  \n  \n    Message\n    \n  \n\n  \n  \n\n  Send message"
+    "text": "Download pdf"
   },
   {
     "objectID": "blog/posts/four_hands.html",
@@ -203,11 +196,25 @@
     "text": "Footnotes\n\n\nImage courtesy of the University of Tokyo General Library (霞亭文庫), CC BY 4.0.↩︎"
   },
   {
-    "objectID": "blog/posts/local_paper_covers_grazing.html",
-    "href": "blog/posts/local_paper_covers_grazing.html",
-    "title": "Press Democrat features grazing on front page",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact Bo",
     "section": "",
-    "text": "Download pdf"
+    "text": "Your name\n    \n  \n  \n    Your email\n    \n  \n  \n    Message\n    \n  \n\n  \n  \n\n  Send message"
+  },
+  {
+    "objectID": "blog/posts/practicing_writing_terako.html",
+    "href": "blog/posts/practicing_writing_terako.html",
+    "title": "風流てらこ 吉書はじめ けいこの図",
+    "section": "",
+    "text": "風流てらこ 吉書はじめ けいこの図\nI found this lovely image of Edo commoners practicing writing in a terako, in this case auspicious writing done at the New Year. It was published as an Ukiyo-e (mass produced from wood block color separations) in 1804. The artist is Utagawa Toyokuni I. See First Calligraphy Class of the New Year at a Fashionable School (Fûryû terako kissho hajime keiko no zu) at Boston Museum of Fine Arts\nI first saw just one panel of this art in the book 古文書を楽しく読む! よくわかる「くずし字」 見分け方のポイント 新版 (コツがわかる本!).\nI customized a version of the image for printing (modified contrast and scaled). I got a very nice result by printing this onto matte poster 17x11 at Fedex, for $17.00. If you want to do this too, read How to prepare file and print a ukiyo-e at FedEx\nIf you would like to print the file I prepared, Download the printable image file (PNG, 30MB)\nThe source file I used for the full triptych is at Boston MFA’s Ukiyo-e.org."
+  },
+  {
+    "objectID": "blog/posts/practicing_writing_terako.html#about-the-ukiyo-e-original",
+    "href": "blog/posts/practicing_writing_terako.html#about-the-ukiyo-e-original",
+    "title": "風流てらこ 吉書はじめ けいこの図",
+    "section": "About the ukiyo-e original",
+    "text": "About the ukiyo-e original\nClaude looked at the image and said it identified these colors:\nHere’s your color list as bullets:\n\nBlack (outlines, hair, inkstones, text boxes) — keyblock\nGray-blue (many kimono, the dominant cool tone)\nPurple-gray (several kimono, distinct from the blue-gray)\nGreen (multiple kimono, fairly saturated)\nRed/coral (collar linings, accents — very consistent)\nOrange (the woven hat, some accents)\nYellow/ochre (the yellow-green kimono lower right, wood tones)\nTan/flesh (skin tones)\nPink (hair ornaments, scattered floral accents)\nDark navy/black-blue (the black kimono with white pattern, lower right — distinct from pure black)\nBrown (wooden desks, boxes)\nBlue-gray for text area background (the pale ground of the title cartouche at top)\n\nThat’s roughly 12 distinct ink colors, which means approximately 12 blocks per sheet × 3 sheets = ~36 blocks for the triptych — plus the keyblock, so ~39 total.\nThat said, a skilled printer could achieve some of these (the browns, the wood tones) by overprinting yellow over red, or blue over yellow for green. So the actual block count may be closer to 10 blocks per sheet, or ~33 total.\nClaude’s best estimate: 30–39 woodblocks for the complete triptych."
   },
   {
     "objectID": "blog/posts/learning_kuzushiji.html",
@@ -221,14 +228,14 @@
     "href": "blog/posts/four_hands_notes.html",
     "title": "Four Hands: Historical notes",
     "section": "",
-    "text": "I wrote a meditation on studying the kuzushiji text of 牛屋雑談: Four Hands: Between us, a whole reader. These are the citations that support the historical facts in that essay.\nAguranabe went through numerous editions — from the original woodblock-printed fascicles through moveable type, pocket editions, and eventually electronic text. 1\nDonald Keene translated parts of 牛屋雑談. 2 I found a scan at https://www1.udel.edu/History-old/figal/Hist370/text/er/beefeater.pdf\nCustomers at early Meiji beef shops sat on tatami, not chairs. 3\nFukuzawa Yukichi’s 1870 pamphlet Nikushoku no setsu urged Japanese readers to eat beef on grounds of health and national strength. 4\nFukuzawa Yukichi’s 1870 pamphlet Nikushoku no setsu urged Japanese readers to eat beef on grounds of health and national strength. 5\nIn Japan, beef was not widely eaten before the Meiji period.6\nBefore 1872, ice in Japan was imported from Boston, a journey of some six months. Domestic ice first came to market in 1872, when Nakagawa Kahei began shipping ice from Hokkaido to Yokohama.7\nIn January 1872, the emperor ate beef publicly, effectively ending a twelve-century imperial prohibition on consuming meat.8\nBy 1877, Tokyo reportedly had over 550 beef shops.9\nThe rickshaw was invented in 1869 and had only just entered production when Aguranabe was published. It was possible only after the Meiji government lifted the Tokugawa-era ban on wheeled vehicles.10\nVery few Japanese today can read this book, though it was a hit only 155 years ago.11"
+    "text": "I wrote a meditation on studying the kuzushiji text of 牛屋雑談: Four Hands: Between us, a whole reader. These are the citations that support the historical facts in that essay.\nAguranabe went through numerous editions — from the original woodblock-printed fascicles through moveable type, pocket editions, and eventually electronic text. 1\nLearn about how books were reproduced using woodblocks.2 牛屋雑談 was published in chū bon size (about 5”x7”).\nDonald Keene translated parts of 牛屋雑談. 3 I found a scan at https://www1.udel.edu/History-old/figal/Hist370/text/er/beefeater.pdf\nCustomers at early Meiji beef shops sat on tatami, not chairs. 4\nFukuzawa Yukichi’s 1870 pamphlet Nikushoku no setsu urged Japanese readers to eat beef on grounds of health and national strength. 5\nFukuzawa Yukichi’s 1870 pamphlet Nikushoku no setsu urged Japanese readers to eat beef on grounds of health and national strength. 6\nIn Japan, beef was not widely eaten before the Meiji period.7\nBefore 1872, ice in Japan was imported from Boston, a journey of some six months. Domestic ice first came to market in 1872, when Nakagawa Kahei began shipping ice from Hokkaido to Yokohama.8\nIn January 1872, the emperor ate beef publicly, effectively ending a twelve-century imperial prohibition on consuming meat.9\nBy 1877, Tokyo reportedly had over 550 beef shops.10\nThe rickshaw was invented in 1869 and had only just entered production when Aguranabe was published. It was possible only after the Meiji government lifted the Tokugawa-era ban on wheeled vehicles.11\nVery few Japanese today can read this book, though it was a hit only 155 years ago.12"
   },
   {
     "objectID": "blog/posts/four_hands_notes.html#footnotes",
     "href": "blog/posts/four_hands_notes.html#footnotes",
     "title": "Four Hands: Historical notes",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nWetherall, William. “Kanagaki Robun’s Aguranabe.” Yosha Bunko, 2008. https://www.yoshabunko.com/nishikie/articles/Aguranabe.html. Accessed June 21, 2026.↩︎\nKanagaki Robun. “The Beefeater.” Trans. Donald Keene. In Modern Japanese Literature: An Anthology. Ed. Donald Keene. New York: Grove Press, 1956, pp. 31–33.↩︎\nInterior scene depicted in Kanagaki Robun, Aguranabe, vol. 1 (Seishidō, 1871). Reproduced in Nippon.com, https://www.nippon.com/en/features/c03911/. Accessed June 21, 2026.↩︎\nFukuzawa Yukichi. “On Eating Meat.” 1870. Trans. Michael Bourdaghs. https://www.bourdaghs.com/fukuzawa.htm. Accessed June 21, 2026.↩︎\n福沢諭吉。「肉食之説」1870年。青空文庫。 https://www.aozora.gr.jp/cards/000296/files/47343_42900.html. 2026年6月21日閲覧。Trans. Michael Bourdaghs as “On Eating Meat.” https://www.bourdaghs.com/fukuzawa.htm. Accessed June 21, 2026.↩︎\nWikipedia contributors. “History of Meat Consumption in Japan.” Wikipedia, April 2026. https://en.wikipedia.org/wiki/History_of_meat_consumption_in_Japan. Accessed June 21, 2026.↩︎\nSakuraco. “Kakigori: Unlocking the Secrets of the Shaved Ice Delight.” Sakuraco Blog. https://sakura.co/blog/kakigori-unlocking-the-secrets-of-the-shaved-ice-delight. Accessed June 21, 2026.↩︎\nWikipedia contributors. “History of Meat Consumption in Japan.” Wikipedia, April 2026. https://en.wikipedia.org/wiki/History_of_meat_consumption_in_Japan. Accessed June 21, 2026.↩︎\nNippon.com. “Human-Animal Ties: Japanese Takes in Both Life and Death.” January 2026. https://www.nippon.com/en/features/c03911/. Accessed June 21, 2026.↩︎\nWikipedia contributors. “Rickshaw.” Wikipedia, 2026. https://en.wikipedia.org/wiki/Rickshaw#Japan. Accessed June 21, 2026.↩︎\nKuzushiji was removed from the Japanese elementary school curriculum in 1900. Lamb, Alex. “How Machine Learning Can Help Unlock the World of Ancient Japan.” The Gradient, November 17, 2019. https://thegradient.pub/machine-learning-ancient-japan/. Accessed June 21, 2026. See also: Center for Open Data in the Humanities (CODH). “KuroNet Kuzushiji Recognition Service.” https://codh.rois.ac.jp/kuronet/. Accessed June 21, 2026.↩︎"
+    "text": "Footnotes\n\n\nWetherall, William. “Kanagaki Robun’s Aguranabe.” Yosha Bunko, 2008. https://www.yoshabunko.com/nishikie/articles/Aguranabe.html. Accessed June 21, 2026.↩︎\nHioki, Kazuko. “Characteristics of Japanese Block Printed Books in the Edo Period: 1603–1867.” Library Faculty and Staff Publications 58. University of Kentucky, 2009. https://uknowledge.uky.edu/cgi/viewcontent.cgi?article=1058&context=libraries_facpub. Accessed June 21, 2026.↩︎\nKanagaki Robun. “The Beefeater.” Trans. Donald Keene. In Modern Japanese Literature: An Anthology. Ed. Donald Keene. New York: Grove Press, 1956, pp. 31–33.↩︎\nInterior scene depicted in Kanagaki Robun, Aguranabe, vol. 1 (Seishidō, 1871). Reproduced in Nippon.com, https://www.nippon.com/en/features/c03911/. Accessed June 21, 2026.↩︎\nFukuzawa Yukichi. “On Eating Meat.” 1870. Trans. Michael Bourdaghs. https://www.bourdaghs.com/fukuzawa.htm. Accessed June 21, 2026.↩︎\n福沢諭吉。「肉食之説」1870年。青空文庫。 https://www.aozora.gr.jp/cards/000296/files/47343_42900.html. 2026年6月21日閲覧。Trans. Michael Bourdaghs as “On Eating Meat.” https://www.bourdaghs.com/fukuzawa.htm. Accessed June 21, 2026.↩︎\nWikipedia contributors. “History of Meat Consumption in Japan.” Wikipedia, April 2026. https://en.wikipedia.org/wiki/History_of_meat_consumption_in_Japan. Accessed June 21, 2026.↩︎\nSakuraco. “Kakigori: Unlocking the Secrets of the Shaved Ice Delight.” Sakuraco Blog. https://sakura.co/blog/kakigori-unlocking-the-secrets-of-the-shaved-ice-delight. Accessed June 21, 2026.↩︎\nWikipedia contributors. “History of Meat Consumption in Japan.” Wikipedia, April 2026. https://en.wikipedia.org/wiki/History_of_meat_consumption_in_Japan. Accessed June 21, 2026.↩︎\nNippon.com. “Human-Animal Ties: Japanese Takes in Both Life and Death.” January 2026. https://www.nippon.com/en/features/c03911/. Accessed June 21, 2026.↩︎\nWikipedia contributors. “Rickshaw.” Wikipedia, 2026. https://en.wikipedia.org/wiki/Rickshaw#Japan. Accessed June 21, 2026.↩︎\nKuzushiji was removed from the Japanese elementary school curriculum in 1900. Lamb, Alex. “How Machine Learning Can Help Unlock the World of Ancient Japan.” The Gradient, November 17, 2019. https://thegradient.pub/machine-learning-ancient-japan/. Accessed June 21, 2026. See also: Center for Open Data in the Humanities (CODH). “KuroNet Kuzushiji Recognition Service.” https://codh.rois.ac.jp/kuronet/. Accessed June 21, 2026.↩︎"
   },
   {
     "objectID": "blog/intersex.html",
@@ -245,11 +252,18 @@
     "text": "No matching items"
   },
   {
+    "objectID": "changelog/posts/2026-06-21-changelog.html",
+    "href": "changelog/posts/2026-06-21-changelog.html",
+    "title": "Launched changelog",
+    "section": "",
+    "text": "Added historical notes to Four Hands essay."
+  },
+  {
     "objectID": "changelog/index.html",
     "href": "changelog/index.html",
     "title": "Changelog",
     "section": "",
-    "text": "Launched changelog\n\n\nAdded this changelog page and RSS feed.\n\n\n\n\n\nJun 20, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Launched changelog\n\n\nAdded this changelog page and RSS feed.\n\n\n\n\n\nJun 20, 2026\n\n\n\n\n\n\n\nLaunched changelog\n\n\nAdded this changelog page and RSS feed.\n\n\n\n\n\nJun 20, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",

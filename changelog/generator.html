@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Tool for generating changelog post files.">
 
-<title>Japanese – Bo Laurent</title>
+<title>Changelog entry generator – Bo Laurent</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -34,8 +35,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../images/favicon.svg" rel="icon" type="image/svg+xml">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -73,35 +72,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-GSLYJ6M3RE"></script>
 
 <script type="text/javascript">
@@ -112,47 +82,14 @@ gtag('js', new Date());
 gtag('config', 'G-GSLYJ6M3RE', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Japanese – Bo Laurent">
-<meta property="og:image" content="https://bolaurent.com/images/beef_shop_card_trimmed.png">
+<meta property="og:title" content="Changelog entry generator – Bo Laurent">
+<meta property="og:description" content="Tool for generating changelog post files.">
 <meta property="og:site_name" content="Bo Laurent">
-<meta property="og:image:height" content="630">
-<meta property="og:image:width" content="1200">
-<meta name="twitter:title" content="Japanese – Bo Laurent">
-<meta name="twitter:image" content="https://bolaurent.com/images/beef_shop_card_trimmed.png">
-<meta name="twitter:image-height" content="630">
-<meta name="twitter:image-width" content="1200">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Changelog entry generator – Bo Laurent">
+<meta name="twitter:description" content="Tool for generating changelog post files.">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -196,7 +133,7 @@ window.Quarto = {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="../blog/japanese.html" aria-current="page"> 
+    <a class="nav-link" href="../blog/japanese.html"> 
 <span class="menu-text">Japanese</span></a>
   </li>  
   <li class="nav-item">
@@ -230,9 +167,14 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Japanese</h1>
+<h1 class="title">Changelog entry generator</h1>
 </div>
 
+<div>
+  <div class="description">
+    Tool for generating changelog post files.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -247,131 +189,215 @@ window.Quarto = {
 </header>
 
 
+<style>
+  .cg-wrap { padding: 1rem 0; }
+  .cg-section { margin-bottom: 1.5rem; }
+  label { font-size: 13px; color: #666; display: block; margin-bottom: 6px; }
+  textarea, input[type=text] { width: 100%; box-sizing: border-box; font-family: inherit; font-size: 14px; padding: 8px 10px; border: 1px solid #ddd; border-radius: 6px; }
+  textarea { resize: vertical; min-height: 100px; }
+  .row { display: flex; gap: 12px; }
+  .row > div { flex: 1; }
+  .tags { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px; }
+  .tag { font-size: 12px; padding: 4px 10px; border-radius: 6px; border: 1px solid #ddd; cursor: pointer; background: #fff; color: #666; user-select: none; }
+  .tag.selected { background: #e8f0fe; color: #1a56db; border-color: #a4bffa; }
+  .output-box { background: #f8f8f6; border-radius: 8px; border: 1px solid #e0e0e0; padding: 1rem 1.25rem; position: relative; margin-top: 0.5rem; }
+  .output-box pre { margin: 0; font-family: monospace; font-size: 12px; white-space: pre-wrap; color: #222; line-height: 1.6; }
+  .filename { font-size: 12px; color: #888; margin-bottom: 6px; font-family: monospace; }
+  .btn-row { display: flex; gap: 8px; margin-top: 1rem; }
+  .btn-primary { padding: 8px 18px; font-size: 13px; border-radius: 6px; border: 1px solid #ccc; cursor: pointer; background: #fff; color: #222; }
+  .btn-primary:hover { background: #f5f5f5; }
+  .btn-copy { padding: 5px 12px; font-size: 12px; border-radius: 6px; border: 1px solid #ccc; cursor: pointer; background: #fff; color: #666; position: absolute; top: 10px; right: 10px; }
+  .btn-copy:hover { background: #f5f5f5; }
+  .mode-toggle { display: flex; border: 1px solid #ddd; border-radius: 6px; overflow: hidden; margin-bottom: 1.5rem; width: fit-content; }
+  .mode-btn { padding: 6px 16px; font-size: 13px; border: none; cursor: pointer; background: #fff; color: #666; }
+  .mode-btn.active { background: #e8f0fe; color: #1a56db; }
+  .hidden { display: none; }
+  .hint { font-size: 12px; color: #999; margin-top: 4px; }
+  .generated { margin-top: 1.5rem; }
+</style>
+
+<div class="cg-wrap">
+  <div class="mode-toggle">
+    <button class="mode-btn active" id="btn-describe" onclick="setMode('describe')">Describe changes</button>
+    <button class="mode-btn" id="btn-gitlog" onclick="setMode('gitlog')">Paste git log</button>
+  </div>
+
+  <div id="mode-describe">
+    <div class="cg-section">
+      <div class="row">
+        <div>
+          <label>Date</label>
+          <input type="text" id="entry-date" placeholder="YYYY-MM-DD">
+        </div>
+        <div>
+          <label>Slug (short, hyphenated)</label>
+          <input type="text" id="entry-slug" placeholder="e.g. four-hands-essay">
+        </div>
+      </div>
+    </div>
+
+    <div class="cg-section">
+      <label>Category</label>
+      <div class="tags" id="cat-tags">
+        <span class="tag selected" onclick="toggleTag(this)">content</span>
+        <span class="tag" onclick="toggleTag(this)">design</span>
+        <span class="tag" onclick="toggleTag(this)">infrastructure</span>
+        <span class="tag" onclick="toggleTag(this)">fix</span>
+        <span class="tag" onclick="toggleTag(this)">Japanese</span>
+        <span class="tag" onclick="toggleTag(this)">intersex</span>
+      </div>
+    </div>
+
+    <div class="cg-section">
+      <label>What changed?</label>
+      <textarea id="entry-desc" placeholder="e.g. Published 'Four Hands' essay about reading Aguranabe with Tomoko. Added contact form. Fixed broken link in colophon."></textarea>
+      <div class="hint">One change or several — plain language is fine.</div>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn-primary" onclick="generate()">Generate entry</button>
+    </div>
+  </div>
+
+  <div id="mode-gitlog" class="hidden">
+    <div class="cg-section">
+      <label>Paste git log output</label>
+      <textarea id="gitlog-input" style="min-height: 140px; font-family: monospace; font-size: 12px;" placeholder="e.g.
+abc1234 Add Four Hands essay
+def5678 Fix broken changelog link
+ghi9012 Update subscribe page copy"></textarea>
+      <div class="hint">Any format works — <code>git log --oneline</code>, full log, or copied commit messages.</div>
+    </div>
+    <div class="cg-section">
+      <div class="row">
+        <div>
+          <label>Date for this entry</label>
+          <input type="text" id="gitlog-date" placeholder="YYYY-MM-DD">
+        </div>
+        <div>
+          <label>Slug</label>
+          <input type="text" id="gitlog-slug" placeholder="e.g. june-updates">
+        </div>
+      </div>
+    </div>
+    <div class="cg-section">
+      <label>Category</label>
+      <div class="tags" id="cat-tags-git">
+        <span class="tag selected" onclick="toggleTag(this)">content</span>
+        <span class="tag" onclick="toggleTag(this)">design</span>
+        <span class="tag" onclick="toggleTag(this)">infrastructure</span>
+        <span class="tag" onclick="toggleTag(this)">fix</span>
+        <span class="tag" onclick="toggleTag(this)">Japanese</span>
+        <span class="tag" onclick="toggleTag(this)">intersex</span>
+      </div>
+    </div>
+    <div class="btn-row">
+      <button class="btn-primary" onclick="generateFromGit()">Generate entry</button>
+    </div>
+  </div>
+
+  <div class="generated hidden" id="output-area">
+    <div class="filename" id="output-filename"></div>
+    <div class="output-box">
+      <button class="btn-copy" onclick="copyOutput()">Copy</button>
+      <pre id="output-content"></pre>
+    </div>
+    <div class="btn-row">
+      <button class="btn-primary" id="btn-download">Download .qmd</button>
+    </div>
+    <div class="hint" style="margin-top: 8px;">Move the downloaded file to <code>changelog/posts/</code> in your repo.</div>
+  </div>
+</div>
+
+<script>
+  let currentMode = 'describe';
+
+  function setMode(m) {
+    currentMode = m;
+    document.getElementById('mode-describe').classList.toggle('hidden', m !== 'describe');
+    document.getElementById('mode-gitlog').classList.toggle('hidden', m !== 'gitlog');
+    document.getElementById('btn-describe').classList.toggle('active', m === 'describe');
+    document.getElementById('btn-gitlog').classList.toggle('active', m === 'gitlog');
+    document.getElementById('output-area').classList.add('hidden');
+  }
+
+  function toggleTag(el) { el.classList.toggle('selected'); }
+
+  function getSelectedTags(id) {
+    return Array.from(document.querySelectorAll('#' + id + ' .tag.selected')).map(t => t.textContent.trim());
+  }
+
+  function todayStr() { return new Date().toISOString().slice(0, 10); }
+
+  function autoSlug(text) {
+    return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40);
+  }
+
+  function buildQmd(date, slug, cats, title, body) {
+    const catYaml = cats.length ? '\ncategories:\n' + cats.map(c => '  - ' + c).join('\n') : '';
+    return `---\ntitle: "${title}"\ndate: ${date}${catYaml}\n---\n\n${body}`;
+  }
+
+  function generate() {
+    const date = document.getElementById('entry-date').value.trim() || todayStr();
+    const rawSlug = document.getElementById('entry-slug').value.trim();
+    const desc = document.getElementById('entry-desc').value.trim();
+    const cats = getSelectedTags('cat-tags');
+    if (!desc) { alert('Please describe what changed.'); return; }
+    const slug = rawSlug || autoSlug(desc.split(/[.!\n]/)[0]);
+    const filename = date + '-' + slug + '.qmd';
+    const lines = desc.split(/\n|\.(?=\s|$)/).map(l => l.trim()).filter(Boolean);
+    const title = lines[0].length > 60 ? lines[0].slice(0, 57) + '…' : lines[0];
+    const body = lines.length === 1
+      ? lines[0] + '.'
+      : lines.map(l => '- ' + l.replace(/\.$/, '') + '.').join('\n');
+    showOutput(filename, buildQmd(date, slug, cats, title, body));
+  }
+
+  function generateFromGit() {
+    const raw = document.getElementById('gitlog-input').value.trim();
+    const date = document.getElementById('gitlog-date').value.trim() || todayStr();
+    const rawSlug = document.getElementById('gitlog-slug').value.trim();
+    const cats = getSelectedTags('cat-tags-git');
+    if (!raw) { alert('Please paste your git log.'); return; }
+    const lines = raw.split('\n')
+      .map(l => l.replace(/^[a-f0-9]{4,40}\s+/i, '').replace(/^\*\s+/, '').trim())
+      .filter(l => l.length > 2 && !/^(merge|Merge)/i.test(l));
+    const title = lines[0].length > 60 ? lines[0].slice(0, 57) + '…' : lines[0];
+    const slug = rawSlug || (date + '-updates');
+    const filename = date + '-' + slug + '.qmd';
+    const body = lines.map(l => '- ' + l.charAt(0).toUpperCase() + l.slice(1).replace(/\.$/, '') + '.').join('\n');
+    showOutput(filename, buildQmd(date, slug, cats, title, body));
+  }
+
+  function showOutput(filename, content) {
+    document.getElementById('output-filename').textContent = 'changelog/posts/' + filename;
+    document.getElementById('output-content').textContent = content;
+    document.getElementById('output-area').classList.remove('hidden');
+    const btn = document.getElementById('btn-download');
+    btn.onclick = () => {
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(new Blob([content], { type: 'text/plain' }));
+      a.download = filename;
+      a.click();
+    };
+  }
+
+  function copyOutput() {
+    navigator.clipboard.writeText(document.getElementById('output-content').textContent).then(() => {
+      const btn = document.querySelector('.btn-copy');
+      btn.textContent = 'Copied!';
+      setTimeout(() => { btn.textContent = 'Copy'; }, 1500);
+    });
+  }
+
+  document.getElementById('entry-date').value = todayStr();
+  document.getElementById('gitlog-date').value = todayStr();
+</script>
 
 
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="amFwYW5lc2UlMkN3cml0aW5nJTJDSWRsZSUyMENoYXR0ZXIlMjBhdCUyMHRoZSUyMEJlZWYlMjBTaG9w" data-listing-date-sort="1781913600000" data-listing-file-modified-sort="1782057215171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="466">
-<div class="thumbnail"><a href="../blog/posts/four_hands_notes.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/four_hands_notes.html" class="no-external">Four Hands: Historical notes</a>
-</h3>
-<div class="delink listing-description"><a href="../blog/posts/four_hands_notes.html" class="no-external">
-<p>I wrote a meditation on studying the kuzushiji text of 牛屋雑談. These are the citations that support the historical facts in that essay.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/four_hands_notes.html" class="no-external">
-<div class="listing-date">
-Jun 20, 2026
-</div>
-<div class="listing-author">
-Bo Laurent
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="amFwYW5lc2UlMkN3cml0aW5nJTJDSWRsZSUyMENoYXR0ZXIlMjBhdCUyMHRoZSUyMEJlZWYlMjBTaG9w" data-listing-date-sort="1781740800000" data-listing-file-modified-sort="1782057215171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="913">
-<div class="thumbnail"><a href="../blog/posts/four_hands.html" class="no-external">
-
-<img loading="lazy" src="../images/beef_shop_card_trimmed.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/four_hands.html" class="no-external">Four Hands: Between us, a whole reader</a>
-</h3>
-<div class="delink listing-description"><a href="../blog/posts/four_hands.html" class="no-external">
-<p>The year Tokyo discovered beef, in a bestseller almost no one can read now. Two friends decode it across an ocean.</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/four_hands.html" class="no-external">
-<div class="listing-date">
-Jun 18, 2026
-</div>
-<div class="listing-author">
-Bo Laurent
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="amFwYW5lc2UlMkNrb21vbmpv" data-listing-date-sort="1781740800000" data-listing-file-modified-sort="1782057215171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="358">
-<div class="thumbnail"><a href="../blog/posts/practicing_writing_terako.html" class="no-external">
-
-<p class="card-img-top"><img loading='lazy' src="../images/風流てらこ吉書はじめ けいこの図.jpeg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/practicing_writing_terako.html" class="no-external">風流てらこ 吉書はじめ けいこの図</a>
-</h3>
-<div class="delink listing-description"><a href="../blog/posts/practicing_writing_terako.html" class="no-external">
-<p>Edo commoners practicing writing in a terako</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/practicing_writing_terako.html" class="no-external">
-<div class="listing-date">
-Jun 18, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="amFwYW5lc2UlMkNrb21vbmpv" data-listing-date-sort="1781654400000" data-listing-file-modified-sort="1782057215171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="366">
-<div class="thumbnail"><a href="../blog/posts/learning_kuzushiji.html" class="no-external">
-
-<p class="card-img-top"><img loading='lazy' src="../images/牛屋雑談.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/learning_kuzushiji.html" class="no-external">Learning to read くずし字 (kuzushiji)</a>
-</h3>
-<div class="delink listing-description"><a href="../blog/posts/learning_kuzushiji.html" class="no-external">
-<p>Sharing my process of learning to read old Japanese</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/learning_kuzushiji.html" class="no-external">
-<div class="listing-date">
-Jun 17, 2026
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="amFwYW5lc2UlMkN1a2l5by1lJTJDcHJpbnRpbmclMkNkaWdpdGFsJTIwaHVtYW5pdGllcw==" data-listing-date-sort="1780617600000" data-listing-file-modified-sort="1782057215171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1533">
-<div class="thumbnail"><a href="../blog/posts/printing-ukiyoe-at-fedex.html" class="no-external">
-
-<p class="card-img-top"><img loading='lazy' src="../images/yamamoto-kuzushiji-book.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/posts/printing-ukiyoe-at-fedex.html" class="no-external">Print a Ukiyo-e at FedEx</a>
-</h3>
-<div class="delink listing-description"><a href="../blog/posts/printing-ukiyoe-at-fedex.html" class="no-external">
-<p>How to Find, Prepare, and Print a Ukiyo-e at FedEx</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/posts/printing-ukiyoe-at-fedex.html" class="no-external">
-<div class="listing-date">
-Jun 5, 2026
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
