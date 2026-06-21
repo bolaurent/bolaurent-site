@@ -20,7 +20,7 @@ who can read the older characters has transcribed them into modern
 standard hiragana), because there is a 現代訳 (translation into modern
 Japanese) and even, perhaps, an English version.
 
-![Caption text](/images/牛屋雑談.png){.float-end width="250px"}
+![牛屋雑談](/images/牛屋雑談.png){.float-end width="250px"}
 
 I've found a book that satisfies all but one of these desiderata (no English).
 牛店雑談・安愚楽鍋 (Gyūten Zōdan: Aguranabe, "Beef-Shop Gossip: The Easygoing Hot-Pot") is a satirical comic fiction (gesaku) by Kanagaki Robun, published in three volumes between 1871 and 1872 — making it one of the earliest works of the Meiji period. Set in a Tokyo beef-hot-pot restaurant, it strings together the overheard conversations of a rotating cast of customers: merchants, former samurai, Buddhist priests, and other social types all awkwardly negotiating the new Westernizing Japan over bowls of gyūnabe.
@@ -29,7 +29,7 @@ The genius of the work is its form: there is almost no plot, just dialogue — v
 
 Written in colloquial Edo-Meiji vernacular with heavy use of phonetic kana, the text is a rich document of the language in transition — and a genuinely entertaining read.
 
-![Caption text](/images/牛屋雑談ーbook.jpg){.float-end width="250px"}
+![牛屋雑談　現代訳](/images/牛屋雑談ーbook.jpg){.float-end width="250px"}
 
 Here are some of the tools that will help me (and my tutor Tomoko Aizawa, 
 of the [Nihongo Picnic](https://www.nihongopicnic.com/) online Japanese school) read it.

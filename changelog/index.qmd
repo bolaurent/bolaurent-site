@@ -1,0 +1,11 @@
+---
+title: "Changelog"
+description: "Updates and changes to bolaurent.com"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  feed: true
+  fields: [date, title, description]
+toc: false
+---

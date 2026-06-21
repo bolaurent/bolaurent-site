@@ -21,6 +21,8 @@ website:
             text: About Bo
           - href: colophon.qmd
             text: Colophon
+          - href: changelog/index.qmd
+            text: ChangeLog
       - href: blog/japanese.qmd
         text: Japanese
       - href: blog/intersex.qmd
