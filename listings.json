@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/blog/posts/edo_wazurai.html",
       "/blog/posts/four_hands_notes.html",
       "/blog/posts/chris_north_wellcome.html",
       "/blog/posts/four_hands.html",
@@ -15,6 +16,7 @@
   {
     "listing": "/blog/japanese.html",
     "items": [
+      "/blog/posts/edo_wazurai.html",
       "/blog/posts/four_hands_notes.html",
       "/blog/posts/four_hands.html",
       "/blog/posts/practicing_writing_terako.html",
