@@ -2,6 +2,7 @@
 title: "摩訶不思議の病気「江戸患い」"
 description: "日本の歴史において白米が多くの人々に病をもたらした"
 date: 2026-06-22
+draft: true
 categories: [japanese, writing]
 ---
 
