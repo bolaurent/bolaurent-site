@@ -1,9 +1,9 @@
 ---
-title: "Accessing Acaedemic Journals"
+title: "Accessing Academic Journals"
 description: "How to access academic journals without academic affiliation"
 author: "Bo Laurent"
-date: 2026-06-18
-categories: []
+date: 2026-06-23
+categories: [writing]
 ---
 
 
