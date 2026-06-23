@@ -7,7 +7,7 @@ categories: [japanese, writing, Idle Chatter at the Beef Shop]
 margin-footnotes: true
 ---
 
-I wrote a meditation on studying the kuzushiji text of 牛屋雑談: [Four Hands: Between us, a whole reader](/blog/posts/four_hands.html). The book is also referred to as Aguranabe. These are the citations that support the historical facts in that essay.
+I wrote a an essay on the pleasures of studying the kuzushiji text of 牛屋雑談: [Four Hands: Between us, a whole reader](/blog/posts/four_hands.html). The book is also referred to as Aguranabe. These are the citations that support the historical facts in that essay.
 
 *Aguranabe* went through numerous editions — from the original 
 woodblock-printed fascicles through moveable type, pocket editions, 

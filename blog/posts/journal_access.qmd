@@ -1,0 +1,101 @@
+---
+title: "Accessing Acaedemic Journals"
+description: "How to access academic journals without academic affiliation"
+author: "Bo Laurent"
+date: 2026-06-18
+categories: []
+---
+
+
+
+# How to Access Journal Articles and Theses Without an Academic Affiliation
+
+You can get much better access without obtaining an academic position. In my own case, the first thing to fix is **MIT alumni access**.
+
+## 1. Activate  MIT alumni journal access
+
+MIT alumni can remotely access selected scholarly resources through an **Infinite Connection** account. MIT currently lists both **JSTOR and EBSCO** among the alumni offerings.
+
+This will not reproduce the full access available to current MIT faculty and students, but it should cover a substantial body of older journal literature and some current publications.
+
+Go through the MIT Alumni Association’s [Library Journal Access page](https://alum.mit.edu/aboutbenefits-and-offerings/library-journal-access) rather than going directly to JSTOR or EBSCO. You must authenticate through Infinite Connection for the subscription to be recognized.
+
+## 2. Install Unpaywall
+
+Install the **Unpaywall** browser extension. When you encounter a publisher paywall, it searches for a lawful open-access copy deposited in:
+
+- an institutional repository;
+- PubMed Central;
+- a subject repository;
+- an author’s university page;
+- or another open archive.
+
+Also try the article title in quotation marks in **Google Scholar**, then click:
+
+- **All versions**
+- any PDF link appearing on the right
+- the author’s name or university repository result
+
+Searching the exact title is often more effective than searching by DOI alone.
+
+## 3. Treat theses differently from journal articles
+
+For a thesis or dissertation, search in this order:
+
+1. Exact title in Google Scholar or Google.
+2. The degree-granting university’s institutional repository.
+3. The author’s name plus `dissertation PDF`.
+4. ProQuest Dissertations & Theses.
+5. The university library catalogue or interlibrary loan.
+
+ProQuest contains millions of dissertation and thesis records, including several million full-text works, but access varies by institution. Open-access documents on ProQuest are available without authentication.
+
+See [ProQuest Dissertations & Theses](https://about.proquest.com/en/dissertations/include-dissertations-and-theses/).
+
+Older dissertations may exist only on microfilm or as a library-held paper copy. A library can sometimes obtain or scan them even when ProQuest tries to sell you an expensive individual copy.
+
+Often, if a faculty member requests a thesis from another institution, a digital copy will be emailed, often overnight (even if the librarian has to scan it that day). Develop a faculty friend who will do this for you.
+
+## 4. Use a public library’s interlibrary-loan service
+
+For a particular inaccessible article, ask your public library for a **document-delivery or interlibrary-loan request**. Do not limit the request to physical books; explicitly ask whether it can obtain a PDF scan of a journal article.
+
+The California State Library states that members of the public can obtain its materials through interlibrary loan initiated by a local public, academic, or workplace library.
+
+See [California State Library borrowing services](https://www.library.ca.gov/services/borrowing/).
+
+Sonoma County Library’s prominent LINK+ service is primarily for books and other circulating materials, drawing from more than 70 California libraries. For articles, you may need to contact a librarian directly rather than merely search LINK+.
+
+See [Sonoma County Library LINK+](https://sonomalibrary.org/browse/explore/linkplus).
+
+A useful request would be:
+
+> I am an independent researcher. Can the library obtain journal articles through interlibrary loan or document delivery? I need PDFs rather than physical journal volumes.
+
+## 5. Use research-university libraries in person
+
+Many academic database licences permit public access **inside the library**, even though they prohibit remote access.
+
+Two practical options near Northern California are:
+
+- **Sonoma State University:** members of the public may use many licensed digital resources from library workstations while physically present. Bring your own device, visit the reference desk, and get a wifi password for the day. Now you can access jstor and other databases, and save the articles to your own device, or email them to yourself.
+- **UC Davis:** members of the public may use many licensed digital resources from library workstations while physically present. See [UC Davis non-affiliate access](https://library.ucdavis.edu/library-policies/non-affiliate-access/).
+- **UCSF:** public visitors can use workstations providing full-text journals and databases, currently for up to two hours per day. Remote access is not available to public borrowers. This may be especially useful for medical and urological research. See [UCSF services for public visitors](https://www.library.ucsf.edu/use/services-for-public-visitors/).
+
+At an on-site workstation, you can generally download permitted PDFs to a flash drive, cloud storage, or email, subject to the library’s rules. Check the particular database before making the trip because some licences exclude public users.
+
+## 6. Ask the author
+
+Authors are usually allowed to share a personal copy privately even when they cannot post the publisher PDF publicly. A brief request often works:
+
+> I’m an independent researcher working on the long-term outcomes and ethics of intersex medical treatment. I found your article, “[title],” but I do not have institutional access. Would you be willing to send me a copy for personal scholarly use?
+
+ResearchGate’s “request full text” feature essentially automates this, but direct email is often better. For older papers, contact the corresponding author or the first author; for a thesis, contact the author or the university repository librarian.
+
+## 7. Avoid paying publisher prices until everything else has failed
+
+A $40–$60 article purchase is rarely the best first solution. Before paying, run this sequence:
+
+**MIT alumni portal → Unpaywall → Google Scholar “All versions” → institutional repository → author request → public-library ILL → UC Davis or UCSF workstation.**
+
+For your research, I would set up **MIT alumni access and Unpaywall immediately**, then use **UCSF in person for batches of medical articles** and public-library document delivery for isolated items. That combination should eliminate most—not all—of the access problem.
