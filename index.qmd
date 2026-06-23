@@ -134,6 +134,8 @@ page-layout: full
 
     <p>I've spent decades in the intersex rights movement, and I'm also drawn to the quiet work of reading old Japanese documents — 古文書 — that most people will never see. This site is where those threads live alongside each other.</p>
 
+    <p>See more at <a href="/about.html">About Bo</a></p>
+
     <h2>Recent Posts</h2>
 
     <div id="recent-posts"></div>
