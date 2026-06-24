@@ -4,6 +4,8 @@ description: "How to access academic journals without academic affiliation"
 author: "Bo Laurent"
 date: 2026-06-23
 categories: [writing]
+image: /images/journal_access_thumb.png
+image-alt: "A padlock sprung open, pages breaking free"
 ---
 
 
