@@ -637,6 +637,16 @@ gtag('config', 'G-GSLYJ6M3RE', { 'anonymize_ip': true});
   });
   </script>
 </div> <!-- /content -->
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+  const lang = new URLSearchParams(location.search).get('lang');
+  if (!lang) return;
+  const idx = { en: 0, ja: 1 }[lang];
+  if (idx === undefined) return;
+  const tabs = document.querySelectorAll('.panel-tabset .nav-link');
+  if (tabs[idx]) new bootstrap.Tab(tabs[idx]).show();
+});
+</script>
 
 
 

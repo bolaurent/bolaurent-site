@@ -255,7 +255,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="c2l0ZQ==" data-listing-date-sort="1781913600000" data-listing-file-modified-sort="1782443002392" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="quarto-post image-right" data-index="0" data-categories="c2l0ZQ==" data-listing-date-sort="1781913600000" data-listing-file-modified-sort="1782443321248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../changelog/posts/2026-06-21-changelog.html" class="no-external">Launched changelog</a>
@@ -272,7 +272,7 @@ Jun 20, 2026
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="c2l0ZQ==" data-listing-date-sort="1781913600000" data-listing-file-modified-sort="1782443002392" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<div class="quarto-post image-right" data-index="1" data-categories="c2l0ZQ==" data-listing-date-sort="1781913600000" data-listing-file-modified-sort="1782443321248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="../changelog/posts/2026-06-20-changelog.html" class="no-external">Launched changelog</a>
@@ -693,6 +693,16 @@ Jun 20, 2026
   });
   </script>
 </div> <!-- /content -->
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+  const lang = new URLSearchParams(location.search).get('lang');
+  if (!lang) return;
+  const idx = { en: 0, ja: 1 }[lang];
+  if (idx === undefined) return;
+  const tabs = document.querySelectorAll('.panel-tabset .nav-link');
+  if (tabs[idx]) new bootstrap.Tab(tabs[idx]).show();
+});
+</script>
 
 
 
