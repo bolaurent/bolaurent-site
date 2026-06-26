@@ -1,8 +1,11 @@
 ---
 title: "Cutting the Mochi/鏡開き"
-description: ""
+description: "Osaka at New Year, a block of stone-hard mochi, and the task a father left for an American hand to cut."
 author: "Bo Laurent"
 date: 2026-06-25
+image: /images/mochi_biraki.png
+image-alt: "Ukiyo-e-style illustration of 鏡開き: a wooden mallet cracks a large round mochi set on a decorated wooden stand, with a bowl of sweet red-bean soup and mochi beside it."
+
 categories: [writing, japanese]
 ---
 
