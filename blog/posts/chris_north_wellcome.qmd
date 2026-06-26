@@ -3,6 +3,8 @@ title: "Chris North: Coming home to myself"
 description: "Wellcome Trust has published some wonderful graphic stories by Chris North about his life as an intersex man"
 date: 2026-06-18
 categories: [intersex]
+image: /images/born_different.avif
+image-alt: "For Chris North, being born intersex in the 1940s meant his many childhood hospital visits, tests and operations were not explained or discussed. As he reveals, doctors encouraged strict secrecy."
 ---
 
 
