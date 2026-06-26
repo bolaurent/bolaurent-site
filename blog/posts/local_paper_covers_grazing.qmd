@@ -1,7 +1,10 @@
 ---
 title: "Press Democrat features grazing on front page"
 date: 2026-05-06
+date-added: 2026-06-23
 description: "Local paper features coverage of grazing for wildfire risk mitigation"
+image: /images/hooves_article.png
+image-alt: "Press Democrat article"
 categories: [news, grazing]
 ---
 

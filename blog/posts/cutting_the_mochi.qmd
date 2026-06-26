@@ -6,7 +6,6 @@ date: 2026-06-25
 draft: true
 image: /images/mochi_biraki.png
 image-alt: "Ukiyo-e-style illustration of 鏡開き: a wooden mallet cracks a large round mochi set on a decorated wooden stand, with a bowl of sweet red-bean soup and mochi beside it."
-
 categories: [writing, japanese]
 ---
 

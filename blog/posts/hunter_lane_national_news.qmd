@@ -5,6 +5,8 @@ author: "Bo Laurent"
 date: 2026-05-06
 date-added: 2026-06-25
 categories: [grazing]
+image: /images/sheep_power.png
+image-alt: "CBS News sheep power"
 ---
 
 
