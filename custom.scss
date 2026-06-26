@@ -1,0 +1,13 @@
+/*-- scss:rules --*/
+
+// De-emphasize listing category filters so they don't read as buttons
+
+/*-- scss:rules --*/
+
+.quarto-category {
+  font-size: 0.65rem !important;
+  padding: 0 0.3rem !important;
+  border: none !important;
+  background: none !important;
+  opacity: 0.7 !important;
+}
