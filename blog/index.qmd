@@ -1,11 +1,8 @@
 ---
 title: "Writing"
 listing:
-  contents:
-    - news/posts
-    - japanese/posts
-    - komonjo/posts
-    - intersex/posts
+  contents: posts
   sort: "date desc"
   type: default
+  categories: true
 ---
