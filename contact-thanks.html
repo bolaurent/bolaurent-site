@@ -592,12 +592,26 @@ gtag('config', 'G-GSLYJ6M3RE', { 'anonymize_ip': true});
 </div> <!-- /content -->
 <script>
 window.addEventListener('DOMContentLoaded', () => {
-  const lang = new URLSearchParams(location.search).get('lang');
-  if (!lang) return;
-  const idx = { en: 0, ja: 1 }[lang];
-  if (idx === undefined) return;
+  const langByIndex = ['en', 'ja'];
   const tabs = document.querySelectorAll('.panel-tabset .nav-link');
-  if (tabs[idx]) new bootstrap.Tab(tabs[idx]).show();
+
+  // Open the tab named in ?lang= on load
+  const want = new URLSearchParams(location.search).get('lang');
+  const wantIdx = langByIndex.indexOf(want);
+  if (wantIdx >= 0 && tabs[wantIdx]) {
+    new bootstrap.Tab(tabs[wantIdx]).show();
+  }
+
+  // Reflect the active tab back into the URL when clicked
+  tabs.forEach((tab, i) => {
+    tab.addEventListener('shown.bs.tab', () => {
+      const lang = langByIndex[i];
+      if (!lang) return;
+      const url = new URL(location);
+      url.searchParams.set('lang', lang);
+      history.replaceState(null, '', url);
+    });
+  });
 });
 </script>
 
