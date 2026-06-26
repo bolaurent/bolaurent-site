@@ -35,7 +35,19 @@
   },
   {
     "listing": "/blog/index.html",
-    "items": []
+    "items": [
+      "/blog/posts/journal_access.html",
+      "/blog/posts/four_hands_notes.html",
+      "/blog/posts/four_hands.html",
+      "/blog/posts/practicing_writing_terako.html",
+      "/blog/posts/american_airlines_secretofme.html",
+      "/blog/posts/chris_north_wellcome.html",
+      "/blog/posts/learning_kuzushiji.html",
+      "/blog/posts/emi_koyama.html",
+      "/blog/posts/printing-ukiyoe-at-fedex.html",
+      "/blog/posts/local_paper_covers_grazing.html",
+      "/blog/posts/hunter_lane_national_news.html"
+    ]
   },
   {
     "listing": "/changelog/index.html",
