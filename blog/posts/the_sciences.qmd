@@ -1,0 +1,28 @@
+---
+title: "The Sciences/Letters from Readers re: The Five Sexes"
+description: "first public debug of the Intersex Society of North America"
+date: 2026-06-27
+image: /images/the_sciences_letter.png
+image-alt: "page 3 of The Sciences V 33 (1993)"
+categories: [intersex]
+---
+
+
+This issue printed a letter from me, responding to Anne Fausto-Sterling's article The Five Sexes, in which I first announced the Intersex Society
+of North America and invited intersex people (and people close to them) to contact me. No website as yet, I had a PO Box in San Francisco.
+
+The issue also contain letters from Suzanne Kessler and John Money, with a response to Money by Anne Fausto_Sterling.
+
+
+Chase, C. Letters from Readers. The Sciences vol. 33 3 (1993).
+
+
+<a href="/files/the_sciences_letters.pdf">Download pdf</a>
+
+
+
+
+```{=html}
+<iframe src="/files/the_sciences_letters.pdf" width="100%" height="800px" style="border: none;"></iframe>
+```
+

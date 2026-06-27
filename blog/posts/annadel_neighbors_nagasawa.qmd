@@ -1,0 +1,19 @@
+---
+title: "Nagasawa Kanae: A Sonoma Valley Live Shaped by a Global Turning Point"
+description: "Nagasawa Kanae (1852-1934) was born a samurai but spent nearly his entire adult life in Santa Rosa"
+date: 2026-06-27
+image: /images/nagasawa_boy.png
+image-alt: "Kanae Nagasawa as a boy c. 1865"
+categories: [japanese]
+---
+
+<a href="/files/annadel_neighbors_nagasawa.pdf">Download pdf</a>
+
+
+Laurent, B. Nagasawa Kanae: A Sonoma Valley Live Shaped by a Global Turning Point. Annadel Neighbors 9 (2026)
+
+
+```{=html}
+<iframe src="/files/annadel_neighbors_nagasawa.pdf" width="100%" height="800px" style="border: none;"></iframe>
+```
+

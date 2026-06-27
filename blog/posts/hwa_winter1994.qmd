@@ -10,3 +10,13 @@ categories: [intersex]
 Click the title to view the pdf.
 
 Chase, C. [Hermaphrodites with Attitude, Winter 1994](/files/hwa_winter1994.pdf). (1994).
+
+
+<a href="/files/hwa_winter1994.pdf">Download pdf</a>
+
+
+
+
+```{=html}
+<iframe src="/files/hwa_winter1994.pdf" width="100%" height="800px" style="border: none;"></iframe>
+```
