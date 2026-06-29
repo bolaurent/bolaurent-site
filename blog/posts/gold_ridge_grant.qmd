@@ -1,7 +1,7 @@
 ---
 title: "Hunter Lane Grazing Coop awarded Gold Ridge Conservation District mini-grant"
 description: "Gold Ridge RCD awarded us a mini-grant for materials to promote growth and sustainability of our grazing project"
-date: 2026-06-27
+date: 2026-06-29
 categories: [grazing]
 image: /images/sheep_in_pen.png
 ---
