@@ -1,0 +1,14 @@
+---
+title: "Ann Arbor's Vertex Cafe Pride Menu"
+date: 2026-05-06
+date-added: 2026-07-01
+description: "Vertex Pride Menu. Five specialty drinks, each named after an LGBTQ+ historical figure, including Bo Laurent"
+image: /images/vertex_menu.jpg
+image-alt: "Vertex Pride Menu. Five specialty drinks, each named after an LGBTQ+ historical figure, including Bo Laurent."
+categories: [news, intersex]
+---
+
+Spotted at Vertex Coffee Roasters in Ann Arbor (and [posted on their Instagram](https://www.instagram.com/p/DZuFV1YsrGj/))
+
+![](/images/vertex_menu.jpg){fig-alt="Vertex Pride Menu. Five specialty drinks, each named after an LGBTQ+ historical figure, including Bo Laurent." width="540"}
+
