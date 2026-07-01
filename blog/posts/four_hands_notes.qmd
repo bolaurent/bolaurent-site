@@ -5,6 +5,8 @@ author: "Bo Laurent"
 date: 2026-06-20
 categories: [japanese, writing, Idle Chatter at the Beef Shop]
 margin-footnotes: true
+image: /images/fukuorotoji.jpg
+image-alt: "traditional Japanese fukurotoji binding"
 ---
 
 I wrote a an essay on the pleasures of studying the kuzushiji text of 牛屋雑談: [Four Hands: Between us, a whole reader](/blog/posts/four_hands.html). The book is also referred to as Aguranabe. These are the citations that support the historical facts in that essay.
@@ -21,8 +23,8 @@ and eventually electronic text.
 technique is the same for books. Simpler, because there's only one color.
 
 
-::: {style="float:right; width:250px; margin-left:1em;"}
-![](/images/fukuorotoji 1.jpg){width="250px"}
+::: {style="float:right; width:250px; fig-alt="traditional Japanese fukurotoji binding"; margin-left:1em;"}
+![](/images/fukuorotoji.jpg){width="250px"}
 
 <p style="font-size:0.75em">A similarly bound book ([Hagley Museum and Library: Traditional Japanese Bookbindings](https://www.hagley.org/librarynews/pillar-traditional-japanese-fukurotoji-bookbindings))</p>
 :::

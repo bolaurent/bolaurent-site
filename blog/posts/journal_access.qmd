@@ -1,5 +1,5 @@
 ---
-title: "Accessing Academic Journals"
+title: "Access Journal Articles and Theses Without an Academic Affiliation"
 description: "How to access academic journals without academic affiliation"
 author: "Bo Laurent"
 date: 2026-06-23
@@ -8,9 +8,6 @@ image: /images/journal_access_thumb.png
 image-alt: "A padlock sprung open, pages breaking free"
 ---
 
-
-
-# How to Access Journal Articles and Theses Without an Academic Affiliation
 
 You can get much better access without obtaining an academic position. In my own case, the first thing to fix is **MIT alumni access**.
 
