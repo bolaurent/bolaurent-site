@@ -116,7 +116,7 @@ page-layout: full
 <div class="profile-layout">
 
   <div class="profile-sidebar">
-    <img src="images/bo_laurent_aisdsd_burlingame.jpeg" alt="Bo Laurent speaking at a conference" />
+    <img src="images/bo_lecturing.jpg" alt="Bo Laurent speaking at a conference" />
     <p class="profile-name">Bo Laurent</p>
     <div class="profile-links">
       <a href="https://www.linkedin.com/in/bolaurent/" target="_blank">LinkedIn</a>
