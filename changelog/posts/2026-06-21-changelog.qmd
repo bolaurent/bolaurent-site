@@ -5,5 +5,5 @@ description: "Added this changelog page and RSS feed."
 categories: [site]
 ---
 
-Added [historical notes](blog/posts/four_hands_notes.html) to [Four Hands](blog/posts/four_hands.html) essay.
+Added [historical notes](/blog/posts/four_hands_notes.html) to [Four Hands](/blog/posts/four_hands.html) essay.
 
