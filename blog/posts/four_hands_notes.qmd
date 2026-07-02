@@ -5,7 +5,7 @@ author: "Bo Laurent"
 date: 2026-06-20
 categories: [japanese, writing, Idle Chatter at the Beef Shop]
 margin-footnotes: true
-image: /images/fukuorotoji.jpg
+image: /images/fukurotoji.jpg
 image-alt: "traditional Japanese fukurotoji binding"
 ---
 
@@ -23,8 +23,8 @@ and eventually electronic text.
 technique is the same for books. Simpler, because there's only one color.
 
 
-::: {style="float:right; width:250px; fig-alt="traditional Japanese fukurotoji binding"; margin-left:1em;"}
-![](/images/fukuorotoji.jpg){width="250px"}
+::: {style="float:right; width:250px; margin-left:1em;"}
+![](/images/fukurotoji.jpg){width="250px" fig-alt="traditional Japanese fukurotoji binding"}
 
 <p style="font-size:0.75em">A similarly bound book ([Hagley Museum and Library: Traditional Japanese Bookbindings](https://www.hagley.org/librarynews/pillar-traditional-japanese-fukurotoji-bookbindings))</p>
 :::

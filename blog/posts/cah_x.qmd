@@ -1,0 +1,11 @@
+---
+title: "CAH-X Syndrome: Congenital Adrenal Hyperplasia and Ehlers-Danlos syndrome"
+description: "Mutations of CYP21A2 can cause both CAH and Ehlers-Danlos syndrome"
+date: 2026-07-01
+categories: [news, intersex]
+---
+
+
+Miller, W. L. & Merke, D. P. Tenascin-X, Congenital Adrenal Hyperplasia, and the CAH-X Syndrome. Horm Res Paediatr 89, 352–361 (2018).
+
+Abstract: Mutations of the <i>CYP21A2</i> gene encoding adrenal 21-hydroxylase cause congenital adrenal hyperplasia (CAH). The <i>CYP21A2</i> gene is partially overlapped by the <i>TNXB</i> gene, which encodes an extracellular matrix protein called Tenascin-X (TNX). Mutations affecting both alleles of <i>TNXB</i> cause a severe, autosomal recessive form of Ehlers-Danlos syndrome (EDS). Rarely, patients with severe, salt-wasting CAH have deletions of <i>CYP21A2</i> that extend into <i>TNXB</i>, resulting in a “contiguous gene syndrome” consisting of CAH and EDS. Heterozygosity for <i>TNXB</i> mutations causing haploinsufficiency of TNX may be associated with the mild “hypermobility form” of EDS, which principally affects small and large joints. Studies of patients with salt-wasting CAH found that up to 10% had clinical features of EDS, associated joint hypermobility, haploinsufficiency of TNX and heterozygosity for <i>TNXB</i> mutations, now called “CAH-X.” These patients have joint hypermobility and a spectrum of other comorbidities associated with their connective tissue disorder, including chronic arthralgia, joint subluxations, hernias, and cardiac defects. Other disorders are beginning to be associated with TNX deficiency, including familial vesicoureteral reflux and neurologic disorders. Further work is needed to delineate the full spectrum of TNX-deficient disorders, with and without associated CAH.
